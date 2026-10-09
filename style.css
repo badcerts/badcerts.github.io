@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "Audiowide";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("fonts/audiowide-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Syncopate";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("fonts/syncopate-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Syncopate";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url("fonts/syncopate-latin-700-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Share Tech Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("fonts/share-tech-mono-latin-400-normal.woff2") format("woff2");
+}
+
+:root {
+  color-scheme: dark;
+  --bg: #011313;
+  --fg: #02fff2;
+  --muted: #60fdff;
+  --link: #60fdff;
+  --rule: #07383d;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  line-height: 1.5;
+  text-align: center;
+}
+
+main {
+  width: min(38rem, calc(100% - 2rem));
+  margin: 3rem auto 4rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-family: "Audiowide", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-size: clamp(1.2rem, 5.5vw, 1.7rem);
+  overflow-wrap: anywhere;
+}
+
+h2 {
+  font-family: "Syncopate", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.site-mark {
+  display: block;
+  width: min(10rem, 48vw);
+  height: auto;
+  margin: 0 auto 2.5rem;
+  filter:
+    drop-shadow(0 0 0.45rem rgba(2, 255, 242, 0.55))
+    drop-shadow(0 0 1.1rem rgba(2, 255, 242, 0.28));
+}
+
+section {
+  width: min(24rem, 100%);
+  margin: 0 auto 1.5rem;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+}
+
+p {
+  margin: 0.35rem 0;
+}
+
+a {
+  font-family: "Share Tech Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+
+a:visited {
+  color: var(--link);
+}
+
+a:focus,
+a:hover {
+  color: #ffffff;
+  text-decoration-thickness: 2px;
+}
