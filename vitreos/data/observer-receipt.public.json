@@ -1,0 +1,34 @@
+{
+  "schema": "axispl.public-product-observer-receipt.v1",
+  "status": "Public wording of the preserved observer report; not hardware attestation.",
+  "reported_operation": "Second-architecture keyless count and reported-score arithmetic check",
+  "reported_outcome": "Historical returned output exactly matched the expected output supplied with the request.",
+  "counts": {
+    "clean": {
+      "eligible_positions": 252,
+      "distinct_contexts": 249,
+      "distinct_windows": 251
+    },
+    "marked": {
+      "eligible_positions": 252,
+      "distinct_contexts": 93,
+      "distinct_windows": 93
+    }
+  },
+  "historical_score_arithmetic_checks": 6,
+  "models_or_secret_keys_used_by_reported_observer": false,
+  "scientific_array_note": "The disclosed completion arrays are equal to the retained source arrays. Public wrappers and identities are new.",
+  "reproduction_command": "python3 scripts/verify_public_package.py",
+  "expected_output": "data/keyless-check.expected.json",
+  "source_ids": [
+    "S-OBSERVER",
+    "S-RESULTS"
+  ],
+  "limitations": [
+    "The expected output was supplied with the historical request.",
+    "Local replay of this derivative is not a new device run or event authentication.",
+    "Keyless counting does not measure supplied membership hits.",
+    "No model generation, hardware performance or calibrated detector claim follows."
+  ],
+  "derivative_note": "Scientific counts and limits preserved from the design-input derivative; the package-relative reproduction command now addresses the actual output verifier. This is not a new device run."
+}

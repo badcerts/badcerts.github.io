@@ -1,0 +1,19 @@
+{
+  "schema": "axispl.design-keyless-check.v1",
+  "sample_counts": {
+    "clean": {
+      "eligible_positions": 252,
+      "distinct_contexts": 249,
+      "distinct_windows": 251
+    },
+    "marked": {
+      "eligible_positions": 252,
+      "distinct_contexts": 93,
+      "distinct_windows": 93
+    }
+  },
+  "score_arithmetic_rows": 18,
+  "membership_measured": false,
+  "new_generation": false,
+  "historical_device_execution_authenticated": false
+}

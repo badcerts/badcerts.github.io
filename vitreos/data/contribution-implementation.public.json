@@ -1,0 +1,213 @@
+{
+  "schema": "axispl.contribution-implementation.v1",
+  "decisions": [
+    {
+      "id": "LC01",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "Contents and S01 give three routes into the same complete evidence; S03, S06, A01 and A02 retain negative and unresolved material.",
+      "reopening_trigger": null,
+      "reason": "Audience routes must reach the same evidence without changing its claim strength."
+    },
+    {
+      "id": "LC02",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S01-S07 narrative, ten vector evidence figures, M01 methods and complete A01-A07 registers/indexes; all 20 format decisions are recorded separately.",
+      "reopening_trigger": null,
+      "reason": "The seven-page study already balances observation, explanation, custody and open constructions. No new chart engine is needed."
+    },
+    {
+      "id": "LC03",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "A01 prints all 42 substantive entries; A02 all 36 current/history records; A03 all 64 original obligations. R16 has the separate A-05 episode. coverage.json binds actual anchors and rendered pages.",
+      "reopening_trigger": null,
+      "reason": "Exact authoritative bodies now resolve locally; the newer future snapshot adds freeze_updates only. R16 now carries A-05 plus its distinct October episode; map regenerated from the planning source. Final pages remain unbuilt."
+    },
+    {
+      "id": "LC04",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S01-S02 and S05 distinguish proprietary-output questions, local registered-key experiment and evidence tooling; F06 and F05 show separate layers/operations.",
+      "reopening_trigger": null,
+      "reason": "These are related questions, not one mechanism identification result."
+    },
+    {
+      "id": "LC05",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S02-S03, R03 and R09 retain ordinary-separator and single-artifact observability distinctions without excluding all carriers.",
+      "reopening_trigger": null,
+      "reason": "Finite feature checks do not exclude all possible carriers; a supported detector can sometimes score one sufficiently informative artifact."
+    },
+    {
+      "id": "LC06",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "S03, F01, R05/R06 and current question dispositions distinguish recovered six copies/audit outputs from missing 17 audit inputs and unestablished activation.",
+      "reopening_trigger": null,
+      "reason": "Custody updated: six retained copies and ZIP match historical hashes; complete generation state and activation remain unresolved. R05 separately retains missing 17-input custody."
+    },
+    {
+      "id": "LC07",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S05, F07 and the searchable 18-row table preserve raw/context/window units, keyed hit origins, and October 7 computation versus October 8 review.",
+      "reopening_trigger": null,
+      "reason": "Retain all three units and key-holder membership ceiling. Receipt created October 7 at 23:26 UTC; October 8 is return/review, not a second rescore."
+    },
+    {
+      "id": "LC08",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S05 and R18 show the earlier 39-75 feasible bound followed by 60/93 measurement on the same specimen.",
+      "reopening_trigger": null,
+      "reason": "Preserve how uncertainty was reduced, without treating the bound as an alternative measurement or another sample."
+    },
+    {
+      "id": "LC09",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S05-S06, F05, R27 and R31 distinguish historical field inference, local native/keyed work and reported keyless observer.",
+      "reopening_trigger": null,
+      "reason": "Retain historical field inference/runtime, local native pair, local keyed rescore and October keyless field observer as separate operations. Do not assign the keyed result to the keyless field node."
+    },
+    {
+      "id": "LC10",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "S05, M01, R31 and the public observer derivative preserve expected-output supply and peer-reported execution, with no device-event authentication claim.",
+      "reopening_trigger": null,
+      "reason": "Bounded wording already present in the freeze/design. Amend the public receipt draft before use; exact output agreement and a peer receipt do not authenticate execution."
+    },
+    {
+      "id": "LC11",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "Public files are an explicit derivative selection with generic roles and package-relative routes. R39/R40 disclose abstraction. Private originals and integration receipts are separate.",
+      "reopening_trigger": null,
+      "reason": "Fresh public allowlist required. Private originals remain unchanged. Draft observer notes still contain internal names and will be rewritten in the public derivative."
+    },
+    {
+      "id": "LC12",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented_with_scope",
+      "evidence": "Candidate verification covers decoded HTML/JSON/SVG, PDF text/metadata/links, rendered pages and archive members/headers. Results are bound to actual candidate artifacts in the accompanying review record. A scanner pass does not prove complete confidentiality or authorize publication.",
+      "reopening_trigger": null,
+      "reason": "Local parsed-page and TAR inspection confirms the channels. Adopt screening plus explicit decoded-format/container/pixel coverage; the helper alone is insufficient."
+    },
+    {
+      "id": "LC13",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S01, F06, R17 and R35 separate scheme, provider/workflow, person, ownership, intent and truth claims.",
+      "reopening_trigger": null,
+      "reason": "A scheme signal, provider claim, workflow, person, ownership and truth are not interchangeable identification targets."
+    },
+    {
+      "id": "LC14",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "A01 preserves literal independent fields, A02 current/history dimensions, and F01 explicit missingness categories; no flat keyword classifier assigns strength.",
+      "reopening_trigger": null,
+      "reason": "Use measured/receipt-bound/provider-declared as origin tags; excluded/open as claim or task states. Preserve not measured, inspected absence, missing, conflicting and superseded separately."
+    },
+    {
+      "id": "LC15",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "F05 adopts the useful artifact/dependency grammar with named shared inputs, no measured timing, amplitudes, weighted bonds or independent-generation claim.",
+      "reopening_trigger": null,
+      "reason": "Borrow visual syntax only. Existing C06/C07 clearly mark schematic events and dependencies; do not invent telemetry or silently imply independence."
+    },
+    {
+      "id": "LC16",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "F04 uses words/patterns and exact indexed positions. F07 and the full 18-row searchable table expose hits/n/unit and nominal z; figure text remains vector text.",
+      "reopening_trigger": null,
+      "reason": "Raster plots contain the exact score labels but PDF text does not; readers need units, hits, denominators and limits in accessible text."
+    },
+    {
+      "id": "LC17",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "S02/S06, R35, current F-01 and dated bibliography preserve the earlier accepted provider-family correction and historical applicability/access uncertainty.",
+      "reopening_trigger": null,
+      "reason": "Dated provider declarations checked; SynthID-Text correction was already accepted October 8. Preserve historic activation uncertainty and avoid treating discovery by a reviewer as publication date."
+    },
+    {
+      "id": "LC18",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "S06 and R22 retain untested generation-coupled construction separately from R21 identity-only permutation null; novelty remains unestablished.",
+      "reopening_trigger": null,
+      "reason": "Retain the original promising construction. ID-only renaming null is narrower. Use novelty unestablished; no novelty search or working coupling experiment was completed."
+    },
+    {
+      "id": "LC19",
+      "planning_disposition": "deferred",
+      "disposition": "deferred",
+      "evidence": "S06-S07 and A02 retain eight-generation factorial and older maximum-12 formatting option as separate optional protocols. No new generation or execution assignment.",
+      "reopening_trigger": "Owner selects a repetition-causality claim and approves a fixed protocol/budget.",
+      "reason": "Deferred optional protocol. Preserve the older maximum-12 formatting option separately; no generation is assigned by planning."
+    },
+    {
+      "id": "LC20",
+      "planning_disposition": "deferred",
+      "disposition": "deferred",
+      "evidence": "S06-S07, R23-R25/R34 and A02 retain transformation, false-implication, credential and interaction studies as separate unperformed programs requiring controls.",
+      "reopening_trigger": "A separately selected robustness, credential-validation or attribution claim requires that exact experiment.",
+      "reason": "These extend scope and need their own controls. Literature or plausibility is not a completed local test."
+    },
+    {
+      "id": "LC21",
+      "planning_disposition": "amended",
+      "disposition": "implemented_with_scope",
+      "evidence": "The report distinguishes technical evidence from legal/compliance outcomes and makes no fact-specific legal determination or new detailed legal claim.",
+      "reopening_trigger": null,
+      "reason": "Keep technical/legal distinctions as scoped background; detailed legal claims require exact primary-source review if retained. No fact-specific legal determination is made."
+    },
+    {
+      "id": "LC22",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S06, R32 and A02 preserve source_dirty history, producer-manifest defect/receiver binding and unavailable clean exporter; stronger claim L-10 remains excluded.",
+      "reopening_trigger": null,
+      "reason": "Original producer-manifest defect and source_dirty history remain unchanged, with receiver binding and explicit exclusion. No new clean-exporter demand."
+    },
+    {
+      "id": "LC23",
+      "planning_disposition": "excluded",
+      "disposition": "excluded",
+      "evidence": "No default restart of P0, key or field work. S07 and current statuses allow only a concrete contradictory receipt/method defect or a deliberately selected stronger claim.",
+      "reopening_trigger": null,
+      "reason": "Exclude a default restart: current source and October 8 final disposition resolve the previously unseen merge/test-layout state. Reopen only an affected claim on a concrete contradiction."
+    },
+    {
+      "id": "LC24",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "M01 provides units, formulas and bounded command; F10 source-to-claim examples, F05 dependencies and per-record next discriminators support challenge and extension.",
+      "reopening_trigger": null,
+      "reason": "New collaborators should be able to challenge or extend an item without reconstructing hidden history."
+    },
+    {
+      "id": "LC25",
+      "planning_disposition": "amended",
+      "disposition": "implemented",
+      "evidence": "S02/S05, M01, F05 and A06 distinguish local implementation/key-holder, alternate arithmetic, reported execution and editorial review without fabricated organizational independence.",
+      "reopening_trigger": null,
+      "reason": "Generic names must preserve shared-source/operator relationships. Separate alternate implementation, separate execution and institutional independence."
+    },
+    {
+      "id": "LC26",
+      "planning_disposition": "incorporated",
+      "disposition": "implemented",
+      "evidence": "S03/S06/S07, F01/F09, full R01-R42 and U-01-U-06 preserve weak/absent/unavailable/unmeasured states, overlooked knowledge and observable discovery triggers.",
+      "reopening_trigger": null,
+      "reason": "Retain the six discovery probes, anomaly capture and specific discriminators; do not manufacture a list of all unimagined risks or collapse missing evidence into a negative result."
+    }
+  ]
+}

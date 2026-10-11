@@ -1,0 +1,517 @@
+{
+  "schema": "axispl.public-artifact-catalog.v1",
+  "groups": [
+    {
+      "id": "E01",
+      "title": "Owned native specimens and methods",
+      "source_family": "S-RESULTS",
+      "availability": "public_exact_specimens_and_method_projection",
+      "reader_check": "Inspect the exact owned prompt and output quality, match text hashes and inspect scientific conditions.",
+      "original_and_limit": "Original generation receipts are retained privately; scientific settings and text are public. Native keys, model assets and private runtime are not included.",
+      "files": [
+        {
+          "path": "data/native-methods.public.json",
+          "bytes": 3896,
+          "sha256": "78316ec089485ebffb91db31fee4156b15f11e5e432b06e482d856e3e3b8ebff"
+        },
+        {
+          "path": "fixtures/native-prompt.public.txt",
+          "bytes": 175,
+          "sha256": "f2bc1d97b2062b6176aca5554436ed6ff845e79b66fbdb46598453c8d772f613"
+        },
+        {
+          "path": "fixtures/native-clean.public.txt",
+          "bytes": 1204,
+          "sha256": "a6c31343ee0d472428a70c28510a7342919c9cb10b6070486070647a38f9f1a6"
+        },
+        {
+          "path": "fixtures/native-marked.public.txt",
+          "bytes": 1185,
+          "sha256": "c413778e6517b670fada26777c701342cb83ceb996da153edc13640812f404a4"
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "title": "Native counts and supplied-hit results",
+      "source_family": "S-RESULTS",
+      "availability": "public_data_and_reproducible_arithmetic",
+      "reader_check": "Recompute exact contexts/windows and all 18 nominal scores from supplied hit counts.",
+      "original_and_limit": "Public wrappers preserve the completion arrays. Aggregate membership hits remain key-holder reported; no public native membership labels are supplied.",
+      "files": [
+        {
+          "path": "fixtures/profile.public.json",
+          "bytes": 528,
+          "sha256": "005c939977c5d99c0afe7cf5a7ea059438b6cd8e211389c3a8903741e4cd53a0"
+        },
+        {
+          "path": "fixtures/clean-completion.public.json",
+          "bytes": 2587,
+          "sha256": "49b58e0c0b56c5c39dd80b4924c85014806a3e74a32c684bd344fd91af0b51ec"
+        },
+        {
+          "path": "fixtures/marked-completion.public.json",
+          "bytes": 2560,
+          "sha256": "1d4a794bf74e3129a965a969a9bbb84f9250c4f4a362ffc482ae2d8576ce043a"
+        },
+        {
+          "path": "data/results.public.json",
+          "bytes": 6631,
+          "sha256": "11afdaebf484d66df019ff15a01103dcb2f656df94bb6fbd2a00098eb6da7d55"
+        },
+        {
+          "path": "data/results.public.csv",
+          "bytes": 2709,
+          "sha256": "640c699ee6911e399ec6c01075ceb2e136c4e64d009087e7e8288452049ef24c"
+        },
+        {
+          "path": "data/observation-tracks.public.json",
+          "bytes": 77533,
+          "sha256": "ba6e4d6fe78fdfbb9ad110f16b1db11071f5442108b7dd9e0af756d397183475"
+        },
+        {
+          "path": "data/keyless-check.expected.json",
+          "bytes": 451,
+          "sha256": "3ee683462ddf9f3946e5a5b17c055fe9b9dd623e510f1978a35a2c1965413a95"
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "title": "Seven historical field observations",
+      "source_family": "S-FIELD-HISTORY",
+      "availability": "public_projection_of_historical_reported_results",
+      "reader_check": "Recompute means/ranges; inspect missing utility, log availability and thermal/device observations.",
+      "original_and_limit": "Numerical original report fields are projected publicly with neutral row IDs. Complete clean historical exporter source is unavailable; raw operational logs remain private.",
+      "files": [
+        {
+          "path": "data/field-observations.public.json",
+          "bytes": 14901,
+          "sha256": "5b8dbf6c1acf01e81e42d5ff18fcbfcc6bacd3ecd68f6208fa815eb7c65a28b3"
+        },
+        {
+          "path": "data/field-observations.public.csv",
+          "bytes": 2594,
+          "sha256": "6414a7cb81d0fc6daee0bc2fa521696d99f062ae050c8d221bd4c2c3f0c3f47c"
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "title": "AgentHRIM and Corax contribution chronology",
+      "source_family": "S-FIELD-HISTORY",
+      "availability": "public_projection_of_dated_receipts",
+      "reader_check": "Distinguish implementation failures/repairs, installed-package qualification, executor preparation and the later observer.",
+      "original_and_limit": "Original handoffs are retained privately and identified by document hashes. No event authentication or new sample independence follows from receipt agreement.",
+      "files": [
+        {
+          "path": "data/field-contributions.public.json",
+          "bytes": 5122,
+          "sha256": "76d24edf4aa01bfddfe712fac376044c6bf339d1157b76cda77ba3ee0bb69485"
+        },
+        {
+          "path": "data/observer-receipt.public.json",
+          "bytes": 1588,
+          "sha256": "6ea7ec3b9965ae2a79a4527387167087537ff26094220465bead68bf8103fd08"
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "title": "Early negative audit and six summaries",
+      "source_family": "S-EARLY-AUDITS",
+      "availability": "public_measurement_projection_originals_partly_unavailable",
+      "reader_check": "Inspect 17 audit rows, six summary records and all 15 summary pairs; recompute retained aggregate counts.",
+      "original_and_limit": "The 17 original audit inputs are unavailable. Six summary copies were recovered privately. Their measured fields are public; raw personal context is not redistributed.",
+      "files": [
+        {
+          "path": "data/historical-audits.public.json",
+          "bytes": 73589,
+          "sha256": "e9fdf35db8e7fc625b6726a71c28dead82595325845429e04d9b87fdfe938d7b"
+        }
+      ]
+    },
+    {
+      "id": "E06",
+      "title": "Corpus, null, format and image observations",
+      "source_family": "S-COMPARATIVE",
+      "availability": "public_projection_of_historical_reported_results",
+      "reader_check": "Inspect nine prose pairs, 32 constrained continuations, arbitrary-key nulls and parser/format findings.",
+      "original_and_limit": "Original corpora and converted assets are retained privately. The selected aggregates are reproducible from rows; raw-corpus and pooled-ngram recomputation remain unavailable here.",
+      "files": [
+        {
+          "path": "data/comparative-observations.public.json",
+          "bytes": 43435,
+          "sha256": "9792452a0cab4d46615ef8b39221ce8e539bc0377fc7819d322f234492469f02"
+        },
+        {
+          "path": "data/comparative-observations.public.csv",
+          "bytes": 7422,
+          "sha256": "d69f9d7208b464b086985b5031838d3a19f4d34691472380236640b7378482ba"
+        }
+      ]
+    },
+    {
+      "id": "E07",
+      "title": "Frozen toy controls",
+      "source_family": "S-ENGINEERING",
+      "availability": "public_fixtures_source_and_reproducible_calculation",
+      "reader_check": "Repeat all frozen public-key motif trials, all 24 relabelings and finite-sample calculations.",
+      "original_and_limit": "Exact fixtures, public key derivation, focused source and full expected receipt are included. This is a toy replay, not native membership verification or field calibration.",
+      "files": [
+        {
+          "path": "fixtures/synthetic-controls.public.json",
+          "bytes": 26481,
+          "sha256": "30208f4766636e7e86973cc45bf2140180fc559b18da895aad68a5345ed0b321"
+        },
+        {
+          "path": "data/synthetic-controls.expected.json",
+          "bytes": 5788,
+          "sha256": "f10515c2aa5dea0253cff3c5c38d30214f8da8d5fb626e229f34277b2669665b"
+        },
+        {
+          "path": "scripts/reproduce_controls.py",
+          "bytes": 2257,
+          "sha256": "a8a4fcae214c66217325b7ac5e901948b212632020d8d919883e4228fb69d27e"
+        },
+        {
+          "path": "sources/controls/membership.py",
+          "bytes": 1658,
+          "sha256": "f7dbfc10f9a20aef8a980de009fd5af91a512aa6be89728bdefea75a63a9671d"
+        },
+        {
+          "path": "sources/controls/diagnostics.py",
+          "bytes": 1734,
+          "sha256": "be88dcd024f714d3ead237b6de290f2e5f83e1a14ebdc9cb4f49cce48ea965df"
+        },
+        {
+          "path": "sources/controls/experiments.py",
+          "bytes": 3677,
+          "sha256": "bb6e20f5ab1e203bf01e5f04f6820032aa71b519a653276720d29404a8549a2d"
+        },
+        {
+          "path": "sources/controls/README.md",
+          "bytes": 1250,
+          "sha256": "1dff3a819e92b26f341de9fd84d6f6fb94b3d8aa7c07f219e25aa3bc0d6b8ba3"
+        },
+        {
+          "path": "sources/controls/LICENSE.axispl.txt",
+          "bytes": 708,
+          "sha256": "a2732a022923e29d9a08e096ca5cbff8a11736d56d53ca5da53e608742a06336"
+        }
+      ]
+    },
+    {
+      "id": "E08",
+      "title": "Full research register",
+      "source_family": "S-HISTORY",
+      "availability": "public_research_record",
+      "reader_check": "Inspect all 42 records, weak/absent signals, assumptions, corrections and open discovery probes.",
+      "original_and_limit": "The original conversation is retained privately. Scientific record fields and publication corrections are public; private locators/personal context are abstracted.",
+      "files": [
+        {
+          "path": "data/research-register.public.json",
+          "bytes": 82515,
+          "sha256": "7fe18814596ea9ba2399818311c2e5d3f48bb7c2e0e320101429566be4332e20"
+        },
+        {
+          "path": "data/glossary.public.json",
+          "bytes": 10068,
+          "sha256": "642194fe3ec41aea49d2167dd91a3078229cd8d6edb98aef2a4fd6dcf1de4948"
+        },
+        {
+          "path": "data/publication-changes.public.json",
+          "bytes": 31875,
+          "sha256": "0dd56676b9d49571ffd5041800fb219f0151528fe23e287a88712d9c1b3a8c84"
+        }
+      ]
+    },
+    {
+      "id": "E09",
+      "title": "Questions and original gates",
+      "source_family": "S-QUESTIONS",
+      "availability": "public_research_history",
+      "reader_check": "Inspect 36 questions/probes and their histories, plus all 64 original gate obligations.",
+      "original_and_limit": "Historical pending wording is preserved alongside later dispositions. Printing a gate does not recertify it.",
+      "files": [
+        {
+          "path": "data/future-work.public.json",
+          "bytes": 102042,
+          "sha256": "0020926a22f085132d98b4b99bc1336c38b1c4a42879a40ba94ce43d59c9709e"
+        },
+        {
+          "path": "data/original-gates.public.json",
+          "bytes": 51811,
+          "sha256": "e5d3e4fcf38041103fd93bf8824c0ed8d5eae09f9ba233346a5d99749b00d773"
+        },
+        {
+          "path": "data/content-map.public.json",
+          "bytes": 20191,
+          "sha256": "144fbe589af1f9bb38439c151eef4e89dcfc8b68270eabaa4972372fc1245848"
+        }
+      ]
+    },
+    {
+      "id": "E10",
+      "title": "Claims and contribution decisions",
+      "source_family": "S-HISTORY",
+      "availability": "public_editorial_and_claim_record",
+      "reader_check": "Inspect 14 bounded/excluded claims, 26 contribution dispositions and 20 format decisions.",
+      "original_and_limit": "Shared inputs are explicit. Multiple reviews are not independent generations or replicated scientific experiments.",
+      "files": [
+        {
+          "path": "data/claim-ledger.public.json",
+          "bytes": 12404,
+          "sha256": "ae3a83810fda0106afe004ac9a0dd7a20dd0694f60db72bcf24bf3349da81ae1"
+        },
+        {
+          "path": "data/contribution-decisions.public.json",
+          "bytes": 15154,
+          "sha256": "d51827d04fd9049e04f763c9aa618eddf916d84afadf8024e9f1dd00f29cd1cc"
+        },
+        {
+          "path": "data/contribution-implementation.public.json",
+          "bytes": 13114,
+          "sha256": "6f3e790cadd69b60be4fb306c29074b7a3f63556050abe5c03ed2d585815f8fa"
+        },
+        {
+          "path": "data/format-implementation.public.json",
+          "bytes": 10174,
+          "sha256": "8f09a187bf802a4cbf6f60801ecc9bd231eb93d6f573ab13213062cfe9074fa0"
+        },
+        {
+          "path": "design/format-candidates.public.json",
+          "bytes": 18470,
+          "sha256": "b1151a7541b1033677869664b780caf2b3f5d47eaf34b24f3447494569db0f83"
+        },
+        {
+          "path": "design/VISUAL_GRAMMAR.md",
+          "bytes": 5821,
+          "sha256": "b66da1e28248ccc486d9f51e3eed314f9fc340b3ccdc08c40d3f3bed6251e6f3"
+        }
+      ]
+    },
+    {
+      "id": "E11",
+      "title": "Ten analytical figures",
+      "source_family": "S-HISTORY",
+      "availability": "public_visual_derivatives_and_editable_source",
+      "reader_check": "Download SVG/PNG plates with captions, units, links and limits. The original F01\u2013F10 identities are retained.",
+      "original_and_limit": "Figures organize the same evidence. Hypothesis lanes, Toulmin maps, the shared-input network and provenance cutaway are explanatory structures, not new measurements.",
+      "files": [
+        {
+          "path": "figures/figures.json",
+          "bytes": 14387,
+          "sha256": "0d619828c186a2a8af470a7a8a22c01120f077ca9f4600bbca8c657b0cd78203"
+        },
+        {
+          "path": "figures/f01-availability,-observation-and-sensitivity.svg",
+          "bytes": 12249,
+          "sha256": "1d5d33483df0cab19b217f6a548d606dfb7ba6dfb7e0ce320e3a60de1daf5768"
+        },
+        {
+          "path": "figures/f02-hypothesis-episodes-and-revisions.svg",
+          "bytes": 19502,
+          "sha256": "569a72481d55d6207c30bb5a6e267a22658ba77c6edbf06e384e013d49bc6f3e"
+        },
+        {
+          "path": "figures/f03-two-arguments-with-visible-limits.svg",
+          "bytes": 17000,
+          "sha256": "7fcda9592996e3eb1736067b65cefc120bd22a004e1f92e065e4f73f54badd4a"
+        },
+        {
+          "path": "figures/f04-recurrence-at-every-completion-position.svg",
+          "bytes": 241922,
+          "sha256": "134ce9577e02f2386fa58a09f699838762e40de770437f6496051d1ad9336beb"
+        },
+        {
+          "path": "figures/f05-shared-inputs,-different-operations.svg",
+          "bytes": 17082,
+          "sha256": "d5b40ecc25198468167468c97fb24eda733136078f4156a59bade9f6b56e2ef3"
+        },
+        {
+          "path": "figures/f06-provenance-layers-and-the-claim-boundary.svg",
+          "bytes": 11209,
+          "sha256": "df19565febfa69294a6ef96435762e427be0d1c60a4671388dc200c18b6ad723"
+        },
+        {
+          "path": "figures/f07-primary-key-numerical-comparisons.svg",
+          "bytes": 12772,
+          "sha256": "5becce1326ce78864ff5cb1dff659d0156700b51ef1d90a269b43b5ae42ac484"
+        },
+        {
+          "path": "figures/f08-claim-conditions-and-explicit-exclusions.svg",
+          "bytes": 9849,
+          "sha256": "c84249f9c63d7b51c0727aed4b1cff68cd96c2e31b1c8f435936c7ea5e3ddfa7"
+        },
+        {
+          "path": "figures/f09-continuation-states-and-finite-stopping.svg",
+          "bytes": 7813,
+          "sha256": "1996173dff9326ceb6045ab39d1bd2b2611c9bbfa3c5dbda44f97c11736dbfad"
+        },
+        {
+          "path": "figures/f10-from-source-field-to-bounded-interpretation.svg",
+          "bytes": 7823,
+          "sha256": "6c39f8b9cf070987b677c98aa1893ead7e8550bb295754dd434d703c97006c0f"
+        },
+        {
+          "path": "figures/f01-availability,-observation-and-sensitivity.png",
+          "bytes": 214653,
+          "sha256": "e08195274f2d0b4cf0c495a508408173ae39ba6ecf3c36669929de7ed2dbdcd8"
+        },
+        {
+          "path": "figures/f02-hypothesis-episodes-and-revisions.png",
+          "bytes": 201337,
+          "sha256": "92345cb2aa860ad02477a470ee9dbc14a6275e279355b6eacb3e857195f42ba2"
+        },
+        {
+          "path": "figures/f03-two-arguments-with-visible-limits.png",
+          "bytes": 224786,
+          "sha256": "6597642cca49b4b326fb86d4e4c28fce2a6db909d5d5b41f7986acf46578135e"
+        },
+        {
+          "path": "figures/f04-recurrence-at-every-completion-position.png",
+          "bytes": 106110,
+          "sha256": "04ae575da25cc00832bc8d7c6e1d62d85b8695fffb751d91f29eb041f226c7e4"
+        },
+        {
+          "path": "figures/f05-shared-inputs,-different-operations.png",
+          "bytes": 206440,
+          "sha256": "0adabe16f9785eaa135ed92d4f6ab2e8facae4524f1a52b6246c6a432efbb84d"
+        },
+        {
+          "path": "figures/f06-provenance-layers-and-the-claim-boundary.png",
+          "bytes": 228503,
+          "sha256": "985aeb33f8a9e2256f4b695f1c42f7d6897a1c805dda10b84c84dde4796a1631"
+        },
+        {
+          "path": "figures/f07-primary-key-numerical-comparisons.png",
+          "bytes": 116826,
+          "sha256": "335beda69d8479942863d15ef63992773339d6cf97f387c020e6c9a80778e97c"
+        },
+        {
+          "path": "figures/f08-claim-conditions-and-explicit-exclusions.png",
+          "bytes": 205392,
+          "sha256": "60b107d75e301516e1d29a8f49d3c7b9326fa48982456f7d8df422ad9187b599"
+        },
+        {
+          "path": "figures/f09-continuation-states-and-finite-stopping.png",
+          "bytes": 201037,
+          "sha256": "54c1abb265e93c61f49bfaef567cba108214b294863ab20a8fca79fa76692027"
+        },
+        {
+          "path": "figures/f10-from-source-field-to-bounded-interpretation.png",
+          "bytes": 192344,
+          "sha256": "7f58802aa9477386c276219adeefea3571f017c322b443fa9982cd13c14aeee3"
+        }
+      ]
+    },
+    {
+      "id": "E12",
+      "title": "Methods, manuscripts and build sources",
+      "source_family": "S-ENGINEERING",
+      "availability": "public_editable_sources_and_verifiers",
+      "reader_check": "Read method definitions, check payload integrity and rebuild the static reader/report locally.",
+      "original_and_limit": "Build sources are delivered as source files. They are not a deployed backend; rebuilding changes output identities and requires fresh visual review.",
+      "files": [
+        {
+          "path": "manuscript/narrative.md",
+          "bytes": 62483,
+          "sha256": "b32839bdee193cd72df165047931079adc4bc4a027746f0653ed2582a098d37e"
+        },
+        {
+          "path": "manuscript/methods.md",
+          "bytes": 10919,
+          "sha256": "c04a1860afcad102a51a5047ea403f8406f9be182e1346605b39a57c1b495de3"
+        },
+        {
+          "path": "manuscript/background-sources.md",
+          "bytes": 4255,
+          "sha256": "967d278e36bf728afba3c21a9c1ede5e7f3f29557f3328e95181ed9664499581"
+        },
+        {
+          "path": "docs/REPRODUCE.md",
+          "bytes": 6058,
+          "sha256": "70d1b8d3b341682ed31c6ffedecdbfc6ed9abb5a11a87ea6b8a8b7cd812a3d67"
+        },
+        {
+          "path": "docs/DATA_DICTIONARY.md",
+          "bytes": 8729,
+          "sha256": "f9b8f9b331be8e4f66d5a1b42e4ecab342630fe63da705bc2903b95079008c53"
+        },
+        {
+          "path": "data/source-map.public.json",
+          "bytes": 7802,
+          "sha256": "47112362c380c44d12ecf655ddbbf1de6b0c3d7eb4aceebf72bdc50c0556af28"
+        },
+        {
+          "path": "sources/build_atlas.py",
+          "bytes": 30592,
+          "sha256": "d739ad6781a2937f69aef4707acbc860b7f4aed58783237c3802f8fd153668b2"
+        },
+        {
+          "path": "sources/build_supplement.py",
+          "bytes": 21238,
+          "sha256": "614b9eca9adaf1d29bf163fbadb5a1c672257e803a5c7531cbb3f631aa843c62"
+        },
+        {
+          "path": "sources/build_figures.py",
+          "bytes": 17316,
+          "sha256": "cf7873ff5f57b7faec86280b246e6dbdd4fa7e5276c44eccf29d57966a59b4f5"
+        },
+        {
+          "path": "sources/format_cards_history.py",
+          "bytes": 7632,
+          "sha256": "d5885d06712b8bf9a7f4c0e32c9f45eea74c2fa3fde23059fb68bf21c5ba805c"
+        },
+        {
+          "path": "sources/format_cards_network.py",
+          "bytes": 6722,
+          "sha256": "00d22cecf0020a7432778689e26da3121bc1838bcec2fc6a6bb7d85dfa163ef8"
+        },
+        {
+          "path": "sources/format_cards_cutaway.py",
+          "bytes": 4356,
+          "sha256": "5b85a25d2bf88634997f83ca171d89d7cbe82c8230a81bf0203f0d70680c033e"
+        },
+        {
+          "path": "sources/finalize_package.py",
+          "bytes": 2090,
+          "sha256": "e4f2018b5902b0ed6ff416af488528bd67cc9e410beda577f733573a887522cd"
+        },
+        {
+          "path": "sources/requirements.txt",
+          "bytes": 68,
+          "sha256": "bbccecb19ad149955f452b4ac89865c3a9f75bd5ca9d946f38fd8ab22b322c7a"
+        },
+        {
+          "path": "scripts/verify_public_package.py",
+          "bytes": 32361,
+          "sha256": "e0643223f73d280630015574a34dbdac94253c2b77641db8b8c5a3d539a1bfb9"
+        },
+        {
+          "path": "scripts/verify_supplement.py",
+          "bytes": 6059,
+          "sha256": "8f5b4e838c93e4eae486b05eaa2e2c51c6406e4824710da55893c37e649c4706"
+        },
+        {
+          "path": "scripts/VERIFICATION_SCOPE.md",
+          "bytes": 4337,
+          "sha256": "796cf40ef84f4ef91f0bbf99eb9736a6cb4d7acdfa454e106d9780482e74acbb"
+        },
+        {
+          "path": "scripts/expected-content.public.json",
+          "bytes": 100238,
+          "sha256": "bc8e21db29647c895cb8ced9095697ce07aa524d45b045dadf913a4ee9e65374"
+        },
+        {
+          "path": "sources/make_archive.py",
+          "bytes": 1516,
+          "sha256": "cd2698ba9b99f0e14e2e51e269d58abfcfc582ae39e9106e784da0873e0b5705"
+        }
+      ]
+    }
+  ],
+  "rule": "Hashes below identify the included artifact bytes. Original receipt hashes within evidence files identify separate source artifacts. Neither is a signature or independent authentication.",
+  "rendered_outputs": "PUBLIC_MANIFEST.json and coverage.json bind the generated HTML/PDF and destinations; they are produced after this catalog to avoid circular hashes."
+}

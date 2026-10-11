@@ -1,0 +1,1184 @@
+{
+  "schema": "axispl.public-design-research-register.v1",
+  "as_of": "2026-10-11",
+  "status": "complete_local_publication_candidate_pending_final_review",
+  "interpretation_rules": [
+    "Observation, explanation, custody, independence, calibration, attribution and novelty are separate dimensions.",
+    "Absence is conditional on inspected material, method and sensitivity; missing is not zero.",
+    "Unknown knowns means overlooked available context. Unknown unknowns are addressed with discovery probes, not asserted hidden facts.",
+    "Historical results remain labeled historical; optional discriminators do not start experiments.",
+    "These 42 substantive public abstractions preserve the full semantic fields, with private originals retained separately."
+  ],
+  "records": [
+    {
+      "id": "R01",
+      "title": "Absence and the noise-floor doctrine",
+      "epistemic_status": "operator-stated methodological intent",
+      "signal_state": "scope_definition",
+      "observation": "Weak observations and informative absences were requested before the tool existed; the operator explicitly allowed both nonexistence and limited observability and later qualified the literal sub-noise phrase.",
+      "assumptions": "A physical noise-floor claim requires a defined channel, statistic, background and sensitivity; none was estimated universally here.",
+      "alternative_explanations": "Attention/retrieval loss can explain missed information without a physically hidden signal.",
+      "claim_ceiling": "Absence has weight conditional on expected observability; it proves neither human origin nor concealed marking.",
+      "next_discriminator": "For any retained negative, state the expected detectable feature and test its positive control.",
+      "novelty_status": "Project framing, not a new statistical theorem.",
+      "related_existing_ids": [
+        "F-02",
+        "F-06",
+        "F-21",
+        "F-24"
+      ],
+      "retention_requirement": "Keep expected channel, inspected material, observation opportunity and what missingness means. No discovery probe is a measured unknown unknown.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S01",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "For any retained negative, state the expected detectable feature and test its positive control.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R02",
+      "title": "Model agreement and mechanism guesses",
+      "epistemic_status": "historical statements; mechanism inference unverified",
+      "signal_state": "hypothesis",
+      "observation": "An early dialogue suggested token reweighting and confidently described known method families. Later review increased the specificity without access to the implementation.",
+      "assumptions": "Knowing a public method class does not imply privileged knowledge of a deployed provider scheme.",
+      "alternative_explanations": "General learned descriptions, agreeable dialogue and shared prompts explain the apparent self-disclosure.",
+      "claim_ceiling": "The apparent self-disclosure was unverified. Greenlist and Gumbel-family descriptions must not be conflated.",
+      "next_discriminator": "Use the dated provider-family evidence already reconciled in the frozen paper; specimen-specific claims need authenticated activation/profile evidence.",
+      "novelty_status": "Early project hypothesis; known method families, no global novelty claim.",
+      "related_existing_ids": [
+        "F-01",
+        "F-12"
+      ],
+      "retention_requirement": "Model agreement or a chatbot account of itself is not disclosure or independent corroboration. Preserve the early guesses and later corrections.",
+      "source_ids": [
+        "S-EARLY-DIALOGUE",
+        "S-HISTORY"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Use the dated provider-family evidence already reconciled in the frozen paper; specimen-specific claims need authenticated activation/profile evidence.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R03",
+      "title": "Ordinary separator positions remain a distinct question",
+      "epistemic_status": "historical lead; untested carrier construction",
+      "signal_state": "unmeasured",
+      "observation": "The informal source proposed ordinary whitespace at chosen offsets, possibly produced through token bias. That mechanism does not require unusual Unicode or extra trailing spaces.",
+      "assumptions": "A reproducible offset/code rule, preservation model and appropriate null would be needed to test the proposal.",
+      "alternative_explanations": "Ordinary language lengths, layout conventions and tokenizer segmentation also create separator patterns.",
+      "claim_ceiling": "The existing anomalous-byte negatives do not exhaust ordinary-space distributions; no such mark was demonstrated.",
+      "next_discriminator": "If selected later, construct an owned positive control with a predeclared code and compare matched unmarked text without fitting offsets after inspection.",
+      "novelty_status": "Recovered project hypothesis; broader prior art not assessed.",
+      "related_existing_ids": [
+        "F-02",
+        "F-03"
+      ],
+      "retention_requirement": "Zero exotic characters does not test every ordinary space, separator, punctuation or position-coded construction.",
+      "source_ids": [
+        "S-INFORMAL-LEADS",
+        "S-HISTORY"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "If selected later, construct an owned positive control with a predeclared code and compare matched unmarked text without fitting offsets after inspection.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R04",
+      "title": "Inherited source marks and quotation-policy story",
+      "epistemic_status": "third-party historical assertions, not verified facts",
+      "signal_state": "hypothesis",
+      "observation": "The informal discussion separately asserted inherited training-source marks, dedicated whitespace tokenizers and a quotation-length limit caused by watermark leakage.",
+      "assumptions": "All three causal/implementation premises lack supporting receipts in this packet.",
+      "alternative_explanations": "Copyright policy, training behavior, active generation marking and ordinary style can exist independently.",
+      "claim_ceiling": "A quote cap or a participant claim is not proof of the alleged causal mechanism or provider intent.",
+      "next_discriminator": "Recover verifiable primary technical evidence before testing a specifically defined inheritance mechanism; do not treat conversation confidence as evidence.",
+      "novelty_status": "Historical research lead, not a project finding.",
+      "related_existing_ids": [
+        "F-01",
+        "F-02",
+        "F-03",
+        "F-24"
+      ],
+      "retention_requirement": "Preserve inherited-source watermark and quotation-policy explanations as hypotheses, not as established explanations. Original detailed record must come from the companion.",
+      "source_ids": [
+        "S-INFORMAL-LEADS"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Recover verifiable primary technical evidence before testing a specifically defined inheritance mechanism; do not treat conversation confidence as evidence.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R05",
+      "title": "17-file negative byte audit",
+      "epistemic_status": "historical audit outputs/script/manifest recovered; 17 original inputs unavailable in inspected set",
+      "signal_state": "tested_absence_reported",
+      "observation": "17 Markdown files: 237506 bytes, 234326 Unicode characters, 2644 lines; scanned hidden/format/whitespace classes absent. Two trailing-space lines held 35 ordinary spaces, including diagram alignment.",
+      "assumptions": "The recovered report, JSON, script and manifest bind historical audit material; the 17 exact source Markdown files were not recovered in the inspected set. Uploaded-copy xattrs can differ from originals.",
+      "alternative_explanations": "No mark, another carrier, acquisition normalization or a private statistical mechanism all remain possible.",
+      "claim_ceiling": "Describes specified classes in uploaded copies; not all whitespace capacity, original filesystem metadata or absence of every watermark.",
+      "next_discriminator": "Only if a stronger claim needs it: recover the 17 original bytes against their manifest, then run named feature checks with positive controls. Existing audit outputs are already recovered.",
+      "novelty_status": "Historical local negative result; not independently reproduced in this pass.",
+      "related_existing_ids": [
+        "F-02",
+        "F-05",
+        "F-24"
+      ],
+      "retention_requirement": "Retain the 17-file negative report and narrow its conclusion to tested copies/features. Do not convert report presence into a fresh raw-byte audit.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-EARLY-AUDITS"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Only if a stronger claim needs it: recover the 17 original bytes against their manifest, then run named feature checks with positive controls. Existing audit outputs are already recovered.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R06",
+      "title": "Six-summary comparison and collection mistake",
+      "epistemic_status": "six retained summary copies and ZIP recovered and hash-matched; historical reported metrics retained",
+      "signal_state": "weak_difference_and_tested_absence_reported",
+      "observation": "One Max and two High long/short pairs; initial effort mistake retained. High A/B long/short sequence similarity 0.638/0.735, cosine 0.912/0.869, longest exact spans 13/11 words. Scanned anomalous byte features absent.",
+      "assumptions": "The six retained byte streams match their historical manifest. Same blog and sequential requests are documented; complete generation state, person-to-A/B mapping and historical marking activation remain unresolved.",
+      "alternative_explanations": "Common source, constrained task, effort/style and stochastic/context differences can produce this mix of similarity and divergence.",
+      "claim_ceiling": "Neither independent randomized replication nor a calibrated watermark test; values remain historical reported observations.",
+      "next_discriminator": "Recovery is complete for the six retained copies and audit material. A future controlled comparison must freeze full generation state and retain all attempts; it is not required for the report.",
+      "novelty_status": "Project-specific exploratory result.",
+      "related_existing_ids": [
+        "F-01",
+        "F-02",
+        "F-06",
+        "F-24"
+      ],
+      "retention_requirement": "Keep the six files as three long/short pairs; one max run, two high runs on two operators. Do not invent account labels for the two high pairs.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-EARLY-AUDITS"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Recovery is complete for the six retained copies and audit material. A future controlled comparison must freeze full generation state and retain all attempts; it is not required for the report.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R07",
+      "title": "Effort-associated source/heading formatting",
+      "epistemic_status": "transcript-reported visible observation",
+      "signal_state": "weak_difference",
+      "observation": "Max summaries put domain/date in prose plus a source line; High pairs used heading placement.",
+      "assumptions": "Few samples and uncontrolled account/context effects prevent causal assignment to effort.",
+      "alternative_explanations": "Surface defaults, local context, random style and source conventions can explain the pattern.",
+      "claim_ceiling": "A useful formatting observation; not watermark detection, provider identity or stable effort fingerprint.",
+      "next_discriminator": "If useful, test matched prompts with effort as the sole changed factor and predeclare the formatting feature.",
+      "novelty_status": "Local exploratory observation; generality untested.",
+      "related_existing_ids": [
+        "F-11",
+        "F-12"
+      ],
+      "retention_requirement": "Effort-associated headings/Source lines are visible variation; no demonstrated watermark encoding or effort causality.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "If useful, test matched prompts with effort as the sole changed factor and predeclare the formatting feature.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R08",
+      "title": "Conditional deterministic-sampling inference",
+      "epistemic_status": "conditional reasoning with unverified premises",
+      "signal_state": "weak_conditional_inference",
+      "observation": "Output divergence was described as weak evidence against a vanilla fixed-key deterministic Gumbel-Max setup.",
+      "assumptions": "This only discriminates if full prompt/context/model/tokenizer/key/nonce/generation state is fixed; that was not established across accounts.",
+      "alternative_explanations": "Different hidden state, seed/key scope, sampling or deployment can yield variation under a related family.",
+      "claim_ceiling": "No likelihood weight, family exclusion or vendor-mechanism identification follows from the observed variation.",
+      "next_discriminator": "Test an owned fully specified deterministic implementation before making a class-level comparison.",
+      "novelty_status": "Conditional method reasoning; not a discovered provider fact.",
+      "related_existing_ids": [
+        "F-01",
+        "F-04"
+      ],
+      "retention_requirement": "Different outputs only conditionally challenge a deterministic prompt/key construction; hidden context, key scope and nonce may differ.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Test an owned fully specified deterministic implementation before making a class-level comparison.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R09",
+      "title": "Single-file observability and activation uncertainty",
+      "epistemic_status": "identified missing variables",
+      "signal_state": "underpowered_or_unqualified_detection",
+      "observation": "Early files were short and historical marking activation, correct tokenizer, key and detector profile were unavailable.",
+      "assumptions": "A single sufficiently informative file can be detectable under a validated known profile; file count alone is not the criterion.",
+      "alternative_explanations": "Inactive marking, undetectable marking under this procedure, acquisition loss and profile mismatch remain distinct.",
+      "claim_ceiling": "The early categorical one-file impossibility claim was too broad; surviving alternatives are not assigned equal probabilities.",
+      "next_discriminator": "Specify scored unit count, profile, controls and sensitivity before deciding whether a sample is adequate.",
+      "novelty_status": "Observability clarification.",
+      "related_existing_ids": [
+        "F-01",
+        "F-04",
+        "F-06",
+        "F-09"
+      ],
+      "retention_requirement": "Correct the earlier blanket claim that one Markdown file cannot be detected. What is unresolved is the applicable detector/profile and calibration for that file.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Specify scored unit count, profile, controls and sensitivity before deciding whether a sample is adequate.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R10",
+      "title": "Matching-prompt A/B corpora and overlap",
+      "epistemic_status": "archived analysis; input archive hashes matched",
+      "signal_state": "weak_difference",
+      "observation": "Nine prose pairs and 32 constrained completions had no exact pair matches. Mean prose sequence similarity 0.191 and TF-IDF cosine 0.564; 20/32 shared a first word and 8/32 first four words.",
+      "assumptions": "Exact successful CLI model ID was missing; current hash binding verifies custody, not all historical execution or scoring.",
+      "alternative_explanations": "Shared prompts, common factual phrases and output constraints explain overlap without a watermark.",
+      "claim_ceiling": "Historical comparative results with a missing model identity; not a provider attribution model.",
+      "next_discriminator": "Recover generation-event/model receipts and repeat only if a specific generalization claim is selected.",
+      "novelty_status": "Project-specific exploratory result.",
+      "related_existing_ids": [
+        "F-01",
+        "F-11",
+        "F-20",
+        "F-24"
+      ],
+      "retention_requirement": "Retain paired-source corpora separately from controlled native tests; detailed measurements require their original source, not the title in this map.",
+      "source_ids": [
+        "S-COMPARATIVE"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Recover generation-event/model receipts and repeat only if a specific generalization claim is selected.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R11",
+      "title": "64 arbitrary-key null scan",
+      "epistemic_status": "archived JSON and report retained; not rerun",
+      "signal_state": "profile_specific_non_detection",
+      "observation": "With surrogate word/punctuation tokenization and 64 deterministic arbitrary keys, neither A nor B crossed nominal z=4; mean z about 0.128 and 0.008.",
+      "assumptions": "The lab scheme, keys and tokenizer do not match a known provider profile.",
+      "alternative_explanations": "A private mark could be invisible under this mismatched profile; ordinary text can produce these null-like scores.",
+      "claim_ceiling": "Engine/control result only, not absence of provider marking or a general false-positive estimate.",
+      "next_discriminator": "Use owned known-positive and negative controls under an exact registered profile.",
+      "novelty_status": "Local negative control; standard calibration principle.",
+      "related_existing_ids": [
+        "F-03",
+        "F-04",
+        "F-09"
+      ],
+      "retention_requirement": "Arbitrary-key null scans do not test an undisclosed provider key; retain the 64-key historical study separately from the 4096 public-key synthetic fixture.",
+      "source_ids": [
+        "S-COMPARATIVE"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Use owned known-positive and negative controls under an exact registered profile.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R12",
+      "title": "Image/container provenance negatives",
+      "epistemic_status": "archived report; current input hash matched",
+      "signal_state": "tested_absence_reported",
+      "observation": "Five image/export fixtures lacked the inspected embedded C2PA/JUMBF and related metadata structures; visible structures matched ordinary SVG/PNG/JPEG tool paths.",
+      "assumptions": "Detection is limited to the inspected file path, structure and parser coverage; an external manifest or other route can differ.",
+      "alternative_explanations": "No credential on this path, stripping by conversion or signing on a separate download route are alternatives.",
+      "claim_ceiling": "No universal provider absence or native trusted-credential qualification.",
+      "next_discriminator": "Pair a route-specific negative with trusted/untrusted positives and preserve pre/post-export bytes if that branch is resumed.",
+      "novelty_status": "Local negative observation; not a new credential scheme.",
+      "related_existing_ids": [
+        "F-05",
+        "F-13"
+      ],
+      "retention_requirement": "Container/image negatives apply to the inspected artifacts and exact acquisition path, not all provider media.",
+      "source_ids": [
+        "S-COMPARATIVE"
+      ],
+      "main_section_id": "S03",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Pair a route-specific negative with trusted/untrusted positives and preserve pre/post-export bytes if that branch is resumed.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R13",
+      "title": "Conversions do not multiply linguistic evidence",
+      "epistemic_status": "archived validation and hash-bound inputs",
+      "signal_state": "observed_equivalence",
+      "observation": "5/5 HTML source segments and 9/9 PDF segments preserve source word sequence; both code segments preserve non-whitespace content.",
+      "assumptions": "These are deterministic transport copies of source text, not separate model draws.",
+      "alternative_explanations": "Container metadata can change while the linguistic event remains identical.",
+      "claim_ceiling": "Counts of files/exports must not inflate sample independence.",
+      "next_discriminator": "Count generation events and mapped source spans; retain copies as transport controls.",
+      "novelty_status": "Project-specific verification of a standard sampling distinction.",
+      "related_existing_ids": [
+        "F-05",
+        "F-08",
+        "F-20"
+      ],
+      "retention_requirement": "PDF/Markdown/HTML copies of one generation are transformations of one linguistic specimen, not independent samples.",
+      "source_ids": [
+        "S-CONTRACTS"
+      ],
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Count generation events and mapped source spans; retain copies as transport controls.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R14",
+      "title": "Provenance unit and generation-path confounds",
+      "epistemic_status": "archived analysis and methodological inference",
+      "signal_state": "unmeasured_confound",
+      "observation": "Bundles mix model prose/code, programmatic data, deterministic conversion and model-produced rewrites. Condensed/alternate versions may be new marking events.",
+      "assumptions": "Authorship/marking inference depends on generation event and span, not just container filename.",
+      "alternative_explanations": "A conversion may preserve a signal while a rewrite both edits and generates/marks anew.",
+      "claim_ceiling": "Do not interpret model rewriting as isolated post-hoc watermark removal or processing as authorship.",
+      "next_discriminator": "Annotate source spans and generation event IDs; use local non-model edits for a transformation-only study.",
+      "novelty_status": "Project workflow insight; general principle not claimed new.",
+      "related_existing_ids": [
+        "F-10",
+        "F-12",
+        "F-20"
+      ],
+      "retention_requirement": "Generation, tool construction, API download, copying and re-encoding are distinct provenance stages.",
+      "source_ids": [
+        "S-CONTRACTS",
+        "S-EARLY-DIALOGUE"
+      ],
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Annotate source spans and generation event IDs; use local non-model edits for a transformation-only study.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R15",
+      "title": "Instrument-generated weak signals",
+      "epistemic_status": "historical regression report retained",
+      "signal_state": "false_alarm_explained",
+      "observation": "Raw /AA bytes inside compressed PDF data falsely suggested actions; ten bullets became U+007F under one extractor. Binary CR/LF and whole-bundle comparisons also misled interpretation.",
+      "assumptions": "The preserved report records parsed-object, second-extractor and rendered checks; those checks were not freshly rerun here.",
+      "alternative_explanations": "Parser mapping and representation mismatch explain the apparent anomaly without hidden content.",
+      "claim_ceiling": "These are versioned early-instrument findings; do not assert the current code still has them without inspection.",
+      "next_discriminator": "For new anomalies, check structure, extractor parity and rendered appearance before promoting a carrier finding.",
+      "novelty_status": "Concrete local findings and regression lessons.",
+      "related_existing_ids": [
+        "F-05",
+        "F-21",
+        "F-22"
+      ],
+      "retention_requirement": "Instrument/parser/extractor errors can create weak signals. Preserve review-tool failures separately from producer defects.",
+      "source_ids": [
+        "S-CONTRACTS"
+      ],
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "For new anomalies, check structure, extractor parity and rendered appearance before promoting a carrier finding.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R16",
+      "title": "Passing tests versus contract equivalence",
+      "epistemic_status": "archived analysis, historical implementation findings",
+      "signal_state": "observed_contract_gap",
+      "observation": "Go/Python agreed on 288 accepted of 300 records and passed reported normal tests, yet differed from schema/each other on extra fields, whitespace, dates and oversized lines.",
+      "assumptions": "Normal-fixture agreement only samples part of the accepted language.",
+      "alternative_explanations": "Different parser permissiveness and limits explain disagreement without malicious behavior.",
+      "claim_ceiling": "Historical generated-fixture contract findings; not a current full implementation audit.",
+      "next_discriminator": "Preserve accepted/rejected language tests at interface boundaries and bind them to the exact version.",
+      "novelty_status": "Local engineering finding.",
+      "related_existing_ids": [
+        "F-14",
+        "F-22",
+        "A-05"
+      ],
+      "retention_requirement": "Tests passing do not establish agreement with the intended contract. Preserve historical malformed-input acceptance and bounded fixes.",
+      "source_ids": [
+        "S-CONTRACTS"
+      ],
+      "later_related_episode": {
+        "question_id": "A-05",
+        "parent": "F-22",
+        "topic": "October invalid scalar inputs and caller/contract boundary",
+        "relationship": "Another instance of tests versus intended accepted-input contract; not the same historical Go/Python experiment.",
+        "current_state": "Strict scalar validation implemented and tested on the declared local branch; public-ingress reachability and deployment remain outside scope.",
+        "claim_ceiling": "No claim of a currently exploitable public endpoint and no new code task assigned.",
+        "source_ids": [
+          "S-QUESTIONS",
+          "S-ENGINEERING"
+        ]
+      },
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Preserve accepted/rejected language tests at interface boundaries and bind them to the exact version.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R17",
+      "title": "Local known-key observer as a change of question",
+      "epistemic_status": "historical tool transition",
+      "signal_state": "scope_change",
+      "observation": "A read-only observer and educational known-key demo replaced an unanswerable private-mechanism claim with owned, inspectable control experiments.",
+      "assumptions": "Lab key/tokenizer assumptions must remain explicit when using outside samples.",
+      "alternative_explanations": "Success in an owned construction need not generalize to a commercial detector.",
+      "claim_ceiling": "Tool competence is not private provider discovery.",
+      "next_discriminator": "Use registered profiles and maintain separate artifact, statistical, credential and passive evidence families.",
+      "novelty_status": "Project design contribution; underlying watermark family has prior art.",
+      "related_existing_ids": [
+        "F-01",
+        "F-04",
+        "F-21"
+      ],
+      "retention_requirement": "Owned known-key construction changed the research question; success in that lab does not solve attribution of vendor outputs.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S01",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Use registered profiles and maintain separate artifact, statistical, credential and passive evidence families.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R18",
+      "title": "Native keyed excess after deduplication",
+      "epistemic_status": "frozen measured result with original-key cross-check",
+      "signal_state": "positive_bounded",
+      "observation": "Marked primary raw 168/252, nominal z15.2753; distinct windows 60/93, nominal z8.8007. Clean distinct 53/251, nominal z-1.4212. Earlier 39-75 bound is preserved as the prior knowledge state.",
+      "assumptions": "One retained pair; shared construction/keys/sample in the scalar cross-check; no qualified empirical null or inferred independence from deduplication.",
+      "alternative_explanations": "Repetition explains part of raw growth, while positive primary-key excess remains in this specimen.",
+      "claim_ceiling": "Bounded registered-scheme observation, not authorship, ownership, identity or a population detector-performance estimate.",
+      "next_discriminator": "No rerun needed for this closure. Any broader inference needs prospective held-out calibration and a defined sampling population.",
+      "novelty_status": "New local result, not a new generic detection theorem.",
+      "related_existing_ids": [
+        "F-08",
+        "F-09",
+        "A-01"
+      ],
+      "retention_requirement": "Preserve raw 168/252 and key-holder distinct-window 60/93, clean 53/251, nominal scores and the same-specimen dependence.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING",
+        "S-RESULTS"
+      ],
+      "main_section_id": "S05",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "No rerun needed for this closure. Any broader inference needs prospective held-out calibration and a defined sampling population.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R19",
+      "title": "Native output suitability and repetition cause",
+      "epistemic_status": "direct artifact observation; cause unresolved",
+      "signal_state": "weak_quality_signal",
+      "observation": "Marked output repeats a paragraph; clean output also continues in unsuitable prompt-like form. Both reached the token cap.",
+      "assumptions": "One matched-seed pair cannot isolate watermark, format, sampling and model effects.",
+      "alternative_explanations": "Prompt format, decoding, model limitations and marking may interact.",
+      "claim_ceiling": "Neither proven watermark-induced damage nor proof that marking has no quality cost.",
+      "next_discriminator": "Optional future single-factor formatting diagnostic, at most 12 predeclared attempts with every outcome retained.",
+      "novelty_status": "Local quality observation and open causal question.",
+      "related_existing_ids": [
+        "F-07",
+        "A-04"
+      ],
+      "retention_requirement": "Repetition/suitability observed; causal contributions of prompt, model, sampler and watermark unseparated. No new run automatically required.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Optional future single-factor formatting diagnostic, at most 12 predeclared attempts with every outcome retained.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R20",
+      "title": "Synthetic dependence counterexample",
+      "epistemic_status": "fixed-fixture analysis reproduced in engineering freeze",
+      "signal_state": "positive_control",
+      "observation": "Across 4096 predetermined public test keys, raw z >= 4 crossings rise to 1502 for a 16-window motif repeated 64 times, versus zero for 1024 distinct windows.",
+      "assumptions": "A key ensemble on a deliberately repetitive fixed fixture is not a natural-text sampling distribution.",
+      "alternative_explanations": "Repeated reuse of a favorable motif explains inflation without improved independent evidence.",
+      "claim_ceiling": "Fixture-specific diagnostic, not 36.67% field false-positive rate.",
+      "next_discriminator": "Carry raw and distinct units separately; calibrate any future decision rule under its actual dependence structure.",
+      "novelty_status": "Concrete local counterexample using established statistical concerns.",
+      "related_existing_ids": [
+        "F-08",
+        "F-09"
+      ],
+      "retention_requirement": "1502/4096 synthetic raw threshold crossings are fixture/key-ensemble behavior, not a natural-language FPR.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S05",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Carry raw and distinct units separately; calibrate any future decision rule under its actual dependence structure.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R21",
+      "title": "Identity-only tokenizer permutation null",
+      "epistemic_status": "toy control reproduced in engineering freeze",
+      "signal_state": "negative_control",
+      "observation": "All 24 permutations of a four-token vocabulary preserve visible-text distributions when probabilities and decoding are relabeled consistently.",
+      "assumptions": "The tested intervention is identity-only; it does not change semantic generation behavior.",
+      "alternative_explanations": "An output-changing coupling could behave differently and was not tested by this null.",
+      "claim_ceiling": "Rejects this simple proposed construction, not every tokenizer-key mechanism.",
+      "next_discriminator": "Use this as the negative control for any owned output-changing construction.",
+      "novelty_status": "Local test of an invariance; no new broad impossibility theorem.",
+      "related_existing_ids": [
+        "F-03",
+        "A-02"
+      ],
+      "retention_requirement": "All 24 toy consistent token-ID relabelings are a bounded null control, not disproof of tokenizer-based generation coupling.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S05",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Use this as the negative control for any owned output-changing construction.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R22",
+      "title": "Keyed tokenizer and generation coupling",
+      "epistemic_status": "operator proposal; constructive mechanism not tested",
+      "signal_state": "hypothesis",
+      "observation": "Custom tokenizer plus key/algorithm might shape a detectable output distribution. The broad proposal persists after the identity-only null.",
+      "assumptions": "Requires a specified output-changing rule, correct/wrong-key controls, decoding parity, quality measurement and a qualified null.",
+      "alternative_explanations": "Ordinary keyed token selection or segmentation effects may account for any result without a distinct new mechanism.",
+      "claim_ceiling": "Original idea within the record; neither a working construction, provider implementation nor established global novelty.",
+      "next_discriminator": "Optional tiny owned model with frozen identity-only negative and explicitly output-changing positive; stop on the declared result, including failure.",
+      "novelty_status": "Project-original proposal; global novelty unassessed.",
+      "related_existing_ids": [
+        "F-03",
+        "A-02"
+      ],
+      "retention_requirement": "Retain output-changing keyed tokenizer/segmentation coupling; detector specification, controls and novelty review are still future work.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Optional tiny owned model with frozen identity-only negative and explicitly output-changing positive; stop on the declared result, including failure.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R23",
+      "title": "Passive same-model interaction fingerprint",
+      "epistemic_status": "operator hypothesis; no controlled experiment",
+      "signal_state": "weak_interaction_hypothesis",
+      "observation": "Apparent same-model agreement/mirroring might reveal shared learned patterns or interaction behavior.",
+      "assumptions": "Independence, context separation, blinding and selection controls were absent in the conversation.",
+      "alternative_explanations": "Shared prompts, priors, style, incentives, task constraints and cooperative agreement can explain convergence.",
+      "claim_ceiling": "No demonstrated hidden communication, subconscious recognition, intentional watermark or independent confirmation.",
+      "next_discriminator": "Optional blind same/different-model crossed with shared/separate-context comparison, with prespecified features and null.",
+      "novelty_status": "Project research hypothesis; prior art and effect size unassessed.",
+      "related_existing_ids": [
+        "F-11",
+        "F-12",
+        "A-03",
+        "U-03"
+      ],
+      "retention_requirement": "Retain passive shared-prior/interaction fingerprints with no-communication, cross-model and shared-context controls; no anthropomorphic recognition claim.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Optional blind same/different-model crossed with shared/separate-context comparison, with prespecified features and null.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R24",
+      "title": "Passive code/style triage and quality association",
+      "epistemic_status": "proposal, not validated classifier",
+      "signal_state": "hypothesis",
+      "observation": "A probable-generation scanner could prioritize code inspection; the suggested relation between generated style and code defects is a separate question.",
+      "assumptions": "Independent origin labels and defect labels, matched tasks and a held-out population would be required.",
+      "alternative_explanations": "Common templates, formatting, programmer convention and problem difficulty can mimic source/style effects.",
+      "claim_ceiling": "Style is not identity; likely origin is not code quality.",
+      "next_discriminator": "Evaluate inspection utility and error costs separately from source classification if the product scope later selects this use.",
+      "novelty_status": "Application proposal; no established local detector performance.",
+      "related_existing_ids": [
+        "F-11",
+        "F-12",
+        "F-21"
+      ],
+      "retention_requirement": "AI-like style is not a defect label; code quality must be measured separately from passive origin association.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Evaluate inspection utility and error costs separately from source classification if the product scope later selects this use.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R25",
+      "title": "False marking, transplantation and false implication",
+      "epistemic_status": "hypotheses raised in original Claude exchange",
+      "signal_state": "unmeasured_robustness_question",
+      "observation": "The early exchange considered forged/transferred marks and false attribution as well as removal.",
+      "assumptions": "No concrete successful attack is demonstrated in the retained project record.",
+      "alternative_explanations": "A positive result could refer to processing or a fragment rather than authorship of the whole artifact.",
+      "claim_ceiling": "Do not infer identity, ownership, intent or truth from a registered mark.",
+      "next_discriminator": "If a bounded owned robustness study is selected, include signal creation/transfer and mixed-source localization alongside signal removal.",
+      "novelty_status": "Preserved threat-model ideas; novelty unassessed.",
+      "related_existing_ids": [
+        "F-10",
+        "F-12"
+      ],
+      "retention_requirement": "False implication, transplantation and false marking deserve a future threat model; no attack experiment was established here.",
+      "source_ids": [
+        "S-EARLY-DIALOGUE",
+        "S-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "If a bounded owned robustness study is selected, include signal creation/transfer and mixed-source localization alongside signal removal.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R26",
+      "title": "Current-policy formal assurance remains separate",
+      "epistemic_status": "documented source discrepancy; no current compiled certificate",
+      "signal_state": "unqualified_assurance",
+      "observation": "The frozen review retains Python/Lean policy disagreement and excludes an incomplete historical seven-case inventory from certification.",
+      "assumptions": "A theorem/certificate must bind to the actual policy and executable implementation/version.",
+      "alternative_explanations": "Artifact drift or different policy assumptions can explain mismatch despite individually valid local checks.",
+      "claim_ceiling": "No current end-to-end formal conformance claim.",
+      "next_discriminator": "A future formal-work scope must bind policy, implementation, case inventory and checked proof artifact.",
+      "novelty_status": "Project assurance finding; not a new proof system.",
+      "related_existing_ids": [
+        "F-14",
+        "F-15"
+      ],
+      "retention_requirement": "Keep current Python vs archived Lean semantics and absent compiled certificate explicit. Formal tooling does not certify empirical facts by itself.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING",
+        "S-QUESTIONS"
+      ],
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "A future formal-work scope must bind policy, implementation, case inventory and checked proof artifact.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R27",
+      "title": "Historical field context-cost observation",
+      "epistemic_status": "Archived producer rows; descriptive arithmetic previously recomputed during preservation review",
+      "signal_state": "descriptive_field_difference",
+      "observation": "Four compact-context rows versus three broad-context rows: 437 versus 1749 prompt tokens; mean time to first token 12.452 versus 63.001 seconds; throughput 8.349 versus 3.871 tokens/second; resident memory 647049 versus 1482581.33 KiB; wall time 49.847 versus 109.218 seconds. All rows report 64 generated tokens.",
+      "assumptions": "Small nonrandom historical batches; full controlled run equivalence and clean exporter-source provenance are not established.",
+      "alternative_explanations": "Context size, scheduling, thermals, configuration and other run conditions may contribute.",
+      "claim_ceiling": "Useful resource-budget hypothesis, excluded from qualified causal performance/reproducibility claims.",
+      "next_discriminator": "Only for a chosen field-performance claim: clean source-bound exporter, matched runs and a usefulness measure.",
+      "novelty_status": "Project-specific descriptive observation.",
+      "related_existing_ids": [
+        "F-16",
+        "F-19"
+      ],
+      "retention_requirement": "Do not erase older direct-ORT/compact inference and context-budget observations when describing October observer-only scope.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-FIELD-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Only for a chosen field-performance claim: clean source-bound exporter, matched runs and a usefulness measure.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R28",
+      "title": "Utility, log and acceleration missingness",
+      "epistemic_status": "archived producer rows inspected",
+      "signal_state": "multiple_absence_states",
+      "observation": "Usefulness is null in both groups; compact rows have a log delta reporting periodic Wi-Fi only; broad rows lack the delta. Accelerator device nodes are reported present.",
+      "assumptions": "A present node and absence of a logged error do not establish use of that device by inference.",
+      "alternative_explanations": "Unmeasured utility, uncaptured logs and hardware nonuse are different possible explanations.",
+      "claim_ceiling": "No proof of useful field output, acceleration, or all-clear behavior from these omissions.",
+      "next_discriminator": "Capture application-level acceleration evidence and score task utility if that claim becomes necessary; keep unavailable distinct from zero.",
+      "novelty_status": "Recovered missing-data findings.",
+      "related_existing_ids": [
+        "F-16",
+        "F-19",
+        "F-24"
+      ],
+      "retention_requirement": "Log/accelerator/utility absence differs from zero use; do not infer an NPU path from device presence.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-FIELD-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Capture application-level acceleration evidence and score task utility if that claim becomes necessary; keep unavailable distinct from zero.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R29",
+      "title": "Radio repeatability without semantics",
+      "epistemic_status": "historical bounded observations; semantics unqualified",
+      "signal_state": "repeatability_and_semantic_absence",
+      "observation": "Historical review reports 513 events (511 read-only and 2 passive), 16 candidate channels, and matching image evidence across captures/devices; semantic promotion remains blocked.",
+      "assumptions": "Matching data can reflect stable capture/representation without validating candidate field meanings.",
+      "alternative_explanations": "A repeated common image or decoder assumption can reproduce identically while its interpretation is wrong.",
+      "claim_ceiling": "No validated radio protocol semantics or autonomous promotion.",
+      "next_discriminator": "If resumed, controlled known differences plus operator labels are more discriminating than another identical dump.",
+      "novelty_status": "Local bounded repeatability observation.",
+      "related_existing_ids": [
+        "F-18"
+      ],
+      "retention_requirement": "Radio acquisition repeatability is not validated channel/protocol semantics. Keep as adjacent historical evidence, not a watermark acceptance requirement.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-FIELD-HISTORY"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "If resumed, controlled known differences plus operator labels are more discriminating than another identical dump.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R30",
+      "title": "Historical importer repair and concurrency findings",
+      "epistemic_status": "dated failures followed by accepted repair",
+      "signal_state": "historical_failure_and_closure",
+      "observation": "Benign mutations exposed raw-field, contradictory-promotion, boolean/type, infinity/count problems; P0.1 added date/exception/concurrency/accounting/source-dirty checks.",
+      "assumptions": "Version and acceptance state must accompany every finding.",
+      "alternative_explanations": "Stale reports can make a closed defect appear currently unresolved.",
+      "claim_ceiling": "Do not reopen original P0/P0.1 gates merely because the transcript contains their discovery; 0.1.4 closure is preserved.",
+      "next_discriminator": "Consult current source/receipt only if a new regression or expanded contract is identified.",
+      "novelty_status": "Project engineering findings and fixes.",
+      "related_existing_ids": [
+        "F-17",
+        "F-21",
+        "F-22"
+      ],
+      "retention_requirement": "P0.1 canonical status supersedes old pending summaries; later optional/direct-API work remains version- and scope-specific.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S04",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Consult current source/receipt only if a new regression or expanded contract is identified.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R31",
+      "title": "October keyless observer and its limit",
+      "epistemic_status": "accepted peer-reported execution and exact returned output",
+      "signal_state": "bounded_cross_architecture_check",
+      "observation": "The accepted return matches the supplied nonsecret observer output: clean 251 and marked 93 distinct windows, plus six reported-score arithmetic checks. The reported run used no model or secret keys. The expected output was supplied with the request.",
+      "assumptions": "Execution/platform identification relies on the peer receipt; output equality is not independent event authentication.",
+      "alternative_explanations": "Reusing the same trace and algorithm can reproduce output without adding an independent generated sample or membership measurement.",
+      "claim_ceiling": "Scoped request closed; not native-model equivalence, independent measurement of 60 key-membership hits, or a field benchmark.",
+      "next_discriminator": "No further field node work required for this scope. Stronger claims require a newly selected and qualified experiment.",
+      "novelty_status": "Bounded project portability result.",
+      "related_existing_ids": [
+        "F-16",
+        "F-19",
+        "A-01"
+      ],
+      "retention_requirement": "October portable observer reuse is not new inference or independent keyed verification; device execution is peer-reported.",
+      "source_ids": [
+        "S-ENGINEERING",
+        "S-QUESTIONS",
+        "S-OBSERVER"
+      ],
+      "main_section_id": "S05",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "No further field node work required for this scope. Stronger claims require a newly selected and qualified experiment.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R32",
+      "title": "Unavailable clean exporter source",
+      "epistemic_status": "explicit unavailable disposition, preserved in frozen evidence",
+      "signal_state": "missing_provenance",
+      "observation": "Historical strict model/radio records retain dirty-source lineage; no complete exporter source snapshot or fresh qualified export returned. October return also has a documented self-manifest hash defect.",
+      "assumptions": "Hashes bind available files, not missing source or source authentication. A separate August ledger had 24 matching entries in the preservation review.",
+      "alternative_explanations": "Incomplete preservation explains absent reproducibility without proving the reported measurements false.",
+      "claim_ceiling": "Stronger clean-producer/performance claims excluded; historical observations retained.",
+      "next_discriminator": "Recover complete source and matching fresh export only if a future claim needs qualified field reproduction.",
+      "novelty_status": "Project provenance limitation and honest stop disposition.",
+      "related_existing_ids": [
+        "F-16",
+        "F-24"
+      ],
+      "retention_requirement": "Unavailable clean exporter snapshot closes the selected response by exclusion; it does not satisfy reproducible-producer claims.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Recover complete source and matching fresh export only if a future claim needs qualified field reproduction.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R33",
+      "title": "Calibration and finite stopping",
+      "epistemic_status": "identified inferential limit",
+      "signal_state": "unqualified_population_inference",
+      "observation": "Even zero errors among 30 independent held-out negatives would give a one-sided 95% upper bound near 9.50% for a fixed rule; the 30/30 study draft is unfrozen.",
+      "assumptions": "Independence, fixed threshold, population and held-out status are assumptions, not granted by a sample count.",
+      "alternative_explanations": "Selection, dependence and drift can invalidate naive precision claims.",
+      "claim_ceiling": "No calibrated rare-error guarantee. This limitation is not an instruction to run hundreds of cases to close the paper.",
+      "next_discriminator": "Select the desired claim and uncertainty target before designing a new calibration study; keep current milestone finite.",
+      "novelty_status": "Established inference applied to project planning.",
+      "related_existing_ids": [
+        "F-06",
+        "F-09",
+        "F-20"
+      ],
+      "retention_requirement": "Keep descriptive utility, failed attempts, eligibility and fixed stopping; do not scale sample size merely to obtain a stronger marketing claim.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S07",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Select the desired claim and uncertainty target before designing a new calibration study; keep current milestone finite.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R34",
+      "title": "Transformation and disclosure studies",
+      "epistemic_status": "open research plan, not executed coverage",
+      "signal_state": "unmeasured_robustness",
+      "observation": "Owned whitespace/rewrap/edit/mixed-source tests and selective disclosure remain useful; sweeping early claims that formatting always breaks marking were unsupported.",
+      "assumptions": "Transformations must hold generation/profile identity fixed; detector access and jurisdictional questions are separate.",
+      "alternative_explanations": "A new model rewrite may regenerate/re-mark; a failed detector may reflect changed tokenization rather than universal removal.",
+      "claim_ceiling": "No robust-transformation, legal-clearance or private-detector-evasion result here.",
+      "next_discriminator": "If selected, predeclare a small owned transformation matrix with correct/wrong controls; undertake legal analysis only for an actual scoped use.",
+      "novelty_status": "Research agenda, global novelty not asserted.",
+      "related_existing_ids": [
+        "F-10",
+        "F-12",
+        "A-06"
+      ],
+      "retention_requirement": "Owned-sample transformation/counter-watermark tests and fact-specific legal review remain distinct future tasks, not blanket clearance.",
+      "source_ids": [
+        "S-EARLY-DIALOGUE",
+        "S-HISTORY",
+        "S-QUESTIONS"
+      ],
+      "main_section_id": "S06",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "If selected, predeclare a small owned transformation matrix with correct/wrong controls; undertake legal analysis only for an actual scoped use.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R35",
+      "title": "Provider and credential knowledge changed over time",
+      "epistemic_status": "dated source review already reconciled in engineering freeze",
+      "signal_state": "historical_to_current_update",
+      "observation": "Early guesses preceded later public family descriptions. The frozen October8 primary-source review supplies current family background; old specimen activation remains unresolved. Credential attachment can depend on export/download path.",
+      "assumptions": "A later publication cannot establish that an earlier specimen was marked or that its exact private profile is known.",
+      "alternative_explanations": "Surface, version and route changes can explain apparently conflicting reports.",
+      "claim_ceiling": "Use dated source knowledge; this companion does not independently reverify every historical current-event assertion.",
+      "next_discriminator": "Recheck primary sources only when a new time-sensitive claim is needed; retain old hypotheses as history.",
+      "novelty_status": "Knowledge-state evolution, not provider discovery.",
+      "related_existing_ids": [
+        "F-01",
+        "F-04",
+        "F-05",
+        "F-13"
+      ],
+      "retention_requirement": "Keep dated provider statements, conflicting research summaries, surface coverage and historical activation distinct; this extraction refreshes no external claim.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-ENGINEERING"
+      ],
+      "main_section_id": "S01",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Recheck primary sources only when a new time-sensitive claim is needed; retain old hypotheses as history.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R36",
+      "title": "Unknown knowns: retrieval and integration loss",
+      "epistemic_status": "concrete historical examples",
+      "signal_state": "overlooked_available_context",
+      "observation": "The original Claude file was initially mistaken for a derived artifact; ordinary-space offsets, transport duplication, missing model ID and prior weak-signal preservation requests were easy to omit.",
+      "assumptions": "This category means recorded knowledge not loaded/integrated, not unconscious access to verified external facts.",
+      "alternative_explanations": "Export loss, partial lane context, naming confusion and narrow summary goals can create the same omission.",
+      "claim_ceiling": "A source may exist without being considered; conversation summaries are not exhaustive evidence.",
+      "next_discriminator": "Maintain source hashes, coverage ranges, explicit exclusions and a crosswalk from research threads to final deliverables.",
+      "novelty_status": "Project workflow finding and preservation method.",
+      "related_existing_ids": [
+        "F-05",
+        "F-20",
+        "F-24"
+      ],
+      "retention_requirement": "Known work can be lost between summaries. Source-to-record conservation is the immediate purpose of this handoff.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-INFORMAL-LEADS",
+        "S-CONTRACTS"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Maintain source hashes, coverage ranges, explicit exclusions and a crosswalk from research threads to final deliverables.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R37",
+      "title": "Unknown unknowns: preserve discovery capacity",
+      "epistemic_status": "discovery protocol, not enumerated hidden facts",
+      "signal_state": "open_discovery",
+      "observation": "U-01..U-06 ask about missing profile variables, failed controls, shared selection failures, route/version changes, downstream misreading and concrete unexplained residuals.",
+      "assumptions": "No list can exhaust unimagined causes; each proposed probe needs an observable trigger.",
+      "alternative_explanations": "An anomaly can be an instrument, custody, selection or ordinary variation issue before a new mechanism is needed.",
+      "claim_ceiling": "These are probes, not six demonstrated unknown causes or a promise of exhaustive completeness.",
+      "next_discriminator": "Retain anomalies/all attempts and denominators; open a new bounded item when a retained observation defeats current explanations.",
+      "novelty_status": "Project discovery discipline.",
+      "related_existing_ids": [
+        "U-01",
+        "U-02",
+        "U-03",
+        "U-04",
+        "U-05",
+        "U-06",
+        "F-24"
+      ],
+      "retention_requirement": "Discovery probes provide opportunities to find surprises; no invented list exhausts unknown unknowns.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-QUESTIONS"
+      ],
+      "main_section_id": "S07",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Retain anomalies/all attempts and denominators; open a new bounded item when a retained observation defeats current explanations.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R38",
+      "title": "Agreement quality and the human acceptance firewall",
+      "epistemic_status": "operator-stated method and recorded assistant behavior",
+      "signal_state": "correlated_confirmation_risk",
+      "observation": "The user asks for conflict reporting and human scrutiny of agreeable outputs; partial cross-lane visibility and assistant confidence inflation recur.",
+      "assumptions": "Multiple agents sharing context/models/fixtures are not independent samples merely because they have separate role names.",
+      "alternative_explanations": "Common priors, prompt framing and cooperative behavior can account for agreement.",
+      "claim_ceiling": "Agreement does not promote a claim above its evidence; model-family anecdotes are not comparative benchmarks.",
+      "next_discriminator": "Log shared dependencies and disconfirmers; use independent evidence paths where the claim actually requires independence.",
+      "novelty_status": "Project workflow doctrine; established epistemic concern.",
+      "related_existing_ids": [
+        "F-20",
+        "F-21",
+        "A-03",
+        "U-03"
+      ],
+      "retention_requirement": "Human acceptance requires challenge and uncertainty, not agreement-count voting. Show shared artifacts among reviewers.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Log shared dependencies and disconfirmers; use independent evidence paths where the claim actually requires independence.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R39",
+      "title": "Prospective forecasts and incomplete contextual observations",
+      "epistemic_status": "Public abstraction of historical unscored conjectures",
+      "signal_state": "weak_contextual_observation",
+      "observation": "Historical conjectures concerned access/cost stratification, resource constraints, information disorder, and marking/guardrails. They lacked prospective resolution criteria and a scored baseline. A separate personal-contact anecdote did not substantiate the assistant-suggested NDA or gated-lab explanation; neither silence nor speculation established hidden intent. Personal circumstances remain abstracted.",
+      "assumptions": "Timestamps, fixed endpoints, probabilities, scoring rules and a measured baseline are needed before assigning predictive or causal credit.",
+      "alternative_explanations": "Ordinary changes in conditions, incomplete observation and selective recall can explain an apparent pattern.",
+      "claim_ceiling": "Retain the methodological lesson; do not claim retrospective prediction success or hidden intent.",
+      "next_discriminator": "Log future forecasts with timestamps, resolution criteria, probabilities and disconfirmers before outcomes; require evidence for a proposed causal explanation.",
+      "novelty_status": "Contextual conjectures, not established scientific findings.",
+      "related_existing_ids": [
+        "F-20",
+        "F-24"
+      ],
+      "retention_requirement": "Preserve prospective logging and scoring as method. Personal context is deliberately abstracted; no causal or predictive success is asserted.",
+      "source_ids": [
+        "S-HISTORY",
+        "S-EARLY-DIALOGUE"
+      ],
+      "main_section_id": "S02",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Personal and adjacent project details abstracted; research meaning and limitations retained.",
+      "reopening_condition": "Log future forecasts with timestamps, resolution criteria, probabilities and disconfirmers before outcomes; require evidence for a proposed causal explanation.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R40",
+      "title": "Governance, local custody and operational constraints",
+      "epistemic_status": "operator-stated motivation and long-term ideas",
+      "signal_state": "design_values_and_hypotheses",
+      "observation": "Transparency, consent, inspectable local measurement, portable owned records and bounded operation on constrained devices motivated the work. Adjacent memory, bias-evaluation and architecture proposals remain separate.",
+      "assumptions": "A value, device capability claim or architecture idea is not itself measured provenance efficacy.",
+      "alternative_explanations": "Operational constraints can explain design choices without implying any specific provider intent.",
+      "claim_ceiling": "These are design motivations and future ideas; no accelerator use, new architecture, legal conclusion, provider misconduct or qualified deployment is established by them.",
+      "next_discriminator": "Select a separate scoped claim before undertaking device or architecture experiments; keep provenance, usability and governance evidence distinct.",
+      "novelty_status": "Project motivations and proposals, not all experimentally tested.",
+      "related_existing_ids": [
+        "F-19",
+        "F-23"
+      ],
+      "retention_requirement": "Preserve custody, portability, consent and bounded operation as motivations, separate from scientific capability and provider conduct.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S01",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Personal and adjacent project details abstracted; research meaning and limitations retained.",
+      "reopening_condition": "Select a separate scoped claim before undertaking device or architecture experiments; keep provenance, usability and governance evidence distinct.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R41",
+      "title": "Workflow stop gates and file proliferation",
+      "epistemic_status": "operator-reported process friction",
+      "signal_state": "weak_operational_observation",
+      "observation": "Needless pause gates, continuity/export losses and repeated directories were reported; collection and synthesis were explicitly distinguished.",
+      "assumptions": "These anecdotes are not a quantified productivity study or blanket permission for unrelated actions.",
+      "alternative_explanations": "Tool limitations, stale context and ambiguous authority can contribute to the same friction.",
+      "claim_ceiling": "Preserve a stable scoped handoff and finite stopping rule; do not turn unknowns into endless mandatory gates.",
+      "next_discriminator": "Use one companion, preserve immutable incoming bytes and link current status; reopen only for a concrete error or selected new question.",
+      "novelty_status": "Project process lessons.",
+      "related_existing_ids": [
+        "F-20",
+        "F-24"
+      ],
+      "retention_requirement": "Do not turn every uncertainty into a new mandatory lane. Respect intake, research, analytics, synthesis and publication stages.",
+      "source_ids": [
+        "S-HISTORY"
+      ],
+      "main_section_id": "S01",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Use one companion, preserve immutable incoming bytes and link current status; reopen only for a concrete error or selected new question.",
+      "new_execution_selected": false
+    },
+    {
+      "id": "R42",
+      "title": "Advanced math and assurance frontier",
+      "epistemic_status": "existing preserved future questions",
+      "signal_state": "unmeasured_method_agenda",
+      "observation": "Temporal/dependence-aware statistics, adversarial assurance and formal methods remain in the original question/gate register beyond the bounded implemented diagnostics.",
+      "assumptions": "A named method or mathematical sketch does not supply a validated detector or current-policy proof.",
+      "alternative_explanations": "Simpler sampling/profile errors may explain anomalies before more elaborate machinery is useful.",
+      "claim_ceiling": "Do not drop the frontier, but do not promote mathematical ambition into implemented or measured capability.",
+      "next_discriminator": "Select the estimand or failure mode first, then one method with a falsifiable control and finite scope; retain the original 64 gates by reference.",
+      "novelty_status": "Research agenda; individual novelty unassessed.",
+      "related_existing_ids": [
+        "F-14",
+        "F-15",
+        "F-20"
+      ],
+      "retention_requirement": "Advanced math, temporal models, memristors and broader assurance remain inspirations/open extensions, not implemented product claims.",
+      "source_ids": [
+        "S-QUESTIONS",
+        "S-HISTORY"
+      ],
+      "main_section_id": "S07",
+      "full_record_section_id": "A01",
+      "source_availability": "See each source_id in data/source-map.public.json. A retained source summary is not an independently rerun experiment.",
+      "public_abstraction": "Operational identities and private source locators omitted; scientific fields retained or explicitly clarified.",
+      "reopening_condition": "Select the estimand or failure mode first, then one method with a falsifiable control and finite scope; retain the original 64 gates by reference.",
+      "new_execution_selected": false
+    }
+  ]
+}

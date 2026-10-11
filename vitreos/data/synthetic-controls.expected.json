@@ -1,0 +1,165 @@
+{
+  "repetition": {
+    "scope": "synthetic null over frozen public keys, NOT empirical FPR over natural text",
+    "predeclared_trials": 4096,
+    "native_trace_keys_tested": false,
+    "key_search": false,
+    "fixtures": [
+      {
+        "fixture": "unique_1028",
+        "scorable_positions": 1024,
+        "unique_contexts": 1024,
+        "unique_context_token_windows": 1024,
+        "repeated_context_fraction": 0.0,
+        "repeated_window_fraction": 0.0,
+        "context_multiplicity_histogram": {
+          "1": 1024
+        },
+        "window_multiplicity_histogram": {
+          "1": 1024
+        },
+        "max_context_multiplicity": 1,
+        "sum_squared_window_weights": 1024,
+        "duplicate_only_design_effect": 1.0,
+        "duplicate_only_weighted_n": 1024.0,
+        "weighted_n_assumption": "independent equal-variance distinct-window indicators; NOT an independence claim or calibrated effective sample size",
+        "fixed_public_key_trials": 4096,
+        "z_mean": -0.03696535842162582,
+        "z_sd": 1.014735117972403,
+        "raw_ge4_count": 0,
+        "raw_ge4_fraction": 0.0,
+        "raw_ge6_count": 0,
+        "dedup_ge4_count": 0,
+        "dedup_z_sd": 1.014735117972403
+      },
+      {
+        "fixture": "cycle16_68",
+        "scorable_positions": 64,
+        "unique_contexts": 16,
+        "unique_context_token_windows": 16,
+        "repeated_context_fraction": 0.75,
+        "repeated_window_fraction": 0.75,
+        "context_multiplicity_histogram": {
+          "4": 16
+        },
+        "window_multiplicity_histogram": {
+          "4": 16
+        },
+        "max_context_multiplicity": 4,
+        "sum_squared_window_weights": 256,
+        "duplicate_only_design_effect": 4.0,
+        "duplicate_only_weighted_n": 16.0,
+        "weighted_n_assumption": "independent equal-variance distinct-window indicators; NOT an independence claim or calibrated effective sample size",
+        "fixed_public_key_trials": 4096,
+        "z_mean": -0.0022552744890219785,
+        "z_sd": 2.0072302661810735,
+        "raw_ge4_count": 116,
+        "raw_ge4_fraction": 0.0283203125,
+        "raw_ge6_count": 5,
+        "dedup_ge4_count": 1,
+        "dedup_z_sd": 1.0036151330905367
+      },
+      {
+        "fixture": "cycle16_260",
+        "scorable_positions": 256,
+        "unique_contexts": 16,
+        "unique_context_token_windows": 16,
+        "repeated_context_fraction": 0.9375,
+        "repeated_window_fraction": 0.9375,
+        "context_multiplicity_histogram": {
+          "16": 16
+        },
+        "window_multiplicity_histogram": {
+          "16": 16
+        },
+        "max_context_multiplicity": 16,
+        "sum_squared_window_weights": 4096,
+        "duplicate_only_design_effect": 16.0,
+        "duplicate_only_weighted_n": 16.0,
+        "weighted_n_assumption": "independent equal-variance distinct-window indicators; NOT an independence claim or calibrated effective sample size",
+        "fixed_public_key_trials": 4096,
+        "z_mean": -0.004510548978043957,
+        "z_sd": 4.014460532362147,
+        "raw_ge4_count": 795,
+        "raw_ge4_fraction": 0.194091796875,
+        "raw_ge6_count": 338,
+        "dedup_ge4_count": 1,
+        "dedup_z_sd": 1.0036151330905367
+      },
+      {
+        "fixture": "cycle16_1028",
+        "scorable_positions": 1024,
+        "unique_contexts": 16,
+        "unique_context_token_windows": 16,
+        "repeated_context_fraction": 0.984375,
+        "repeated_window_fraction": 0.984375,
+        "context_multiplicity_histogram": {
+          "64": 16
+        },
+        "window_multiplicity_histogram": {
+          "64": 16
+        },
+        "max_context_multiplicity": 64,
+        "sum_squared_window_weights": 65536,
+        "duplicate_only_design_effect": 64.0,
+        "duplicate_only_weighted_n": 16.0,
+        "weighted_n_assumption": "independent equal-variance distinct-window indicators; NOT an independence claim or calibrated effective sample size",
+        "fixed_public_key_trials": 4096,
+        "z_mean": -0.009021097956087914,
+        "z_sd": 8.028921064724294,
+        "raw_ge4_count": 1502,
+        "raw_ge4_fraction": 0.36669921875,
+        "raw_ge6_count": 795,
+        "dedup_ge4_count": 1,
+        "dedup_z_sd": 1.0036151330905367
+      }
+    ]
+  },
+  "tokenizer_relabeling": {
+    "permutations_checked": 24,
+    "decoded_probability_mass_identical": true,
+    "segmentation_example": {
+      "id_sequences": [
+        [
+          1,
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "decoded_texts": [
+        "watermark",
+        "watermark"
+      ],
+      "identical_bytes": true
+    },
+    "conclusion": "Consistent bijective ID relabeling alone leaves decoded probabilities unchanged; latent segmentation alone need not survive decoding.",
+    "not_tested": [
+      "tokenizer choices that alter emitted-text distribution",
+      "custom non-bijective keyed encoders coupled to generation",
+      "private provider mechanisms",
+      "novelty claim"
+    ]
+  },
+  "finite_sample": {
+    "scope": "exact binomial zero-success bounds assuming independent fixed-threshold held-out negatives",
+    "zero_false_positives_one_sided_95_upper": {
+      "30": 0.09503385285530419,
+      "60": 0.04870291331009746,
+      "100": 0.029513049607039932,
+      "299": 0.009969146792899286,
+      "300": 0.00993608194445772
+    },
+    "negatives_required_zero_fp_upper_at_most_one_percent": 299,
+    "calibration_30_empirical_nonzero_step": 0.03333333333333333,
+    "continuous_exchangeable_split_conformal_30_min_p": 0.03225806451612903,
+    "base_rate_example": {
+      "sensitivity": 0.9,
+      "specificity": 0.99,
+      "prevalence": 0.01,
+      "positive_predictive_value": 0.4761904761904762
+    },
+    "not_permission_to_expand_pilot": true
+  }
+}

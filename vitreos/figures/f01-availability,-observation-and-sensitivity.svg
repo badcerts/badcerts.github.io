@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="391pt" viewBox="0 0 468 391" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9+dfsg1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 391 
+L 468 391 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 7 58 
+L 461 58 
+L 461 114 
+L 7 114 
+z
+" clip-path="url(#p918eb48765)" style="fill: #f4f5ef"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 7 172 
+L 461 172 
+L 461 228 
+L 7 228 
+z
+" clip-path="url(#p918eb48765)" style="fill: #f4f5ef"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 7 286 
+L 461 286 
+L 461 342 
+L 7 342 
+z
+" clip-path="url(#p918eb48765)" style="fill: #f4f5ef"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 7 29 
+L 461 29 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #007c83; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 7 113 
+L 461 113 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 7 170 
+L 461 170 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 7 227 
+L 461 227 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 7 284 
+L 461 284 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 7 341 
+L 461 341 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 7 351 
+L 461 351 
+" clip-path="url(#p918eb48765)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="7" y="15.358281" transform="rotate(-0 7 15.358281)">F01  /  Availability, observation and sensitivity</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="7" y="46.838594" transform="rotate(-0 7 46.838594)">Evidence family</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="123" y="46.838594" transform="rotate(-0 123 46.838594)">Material / custody</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="242" y="46.838594" transform="rotate(-0 242 46.838594)">Observed result</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="355" y="46.838594" transform="rotate(-0 355 46.838594)">Sensitivity / limit</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 68.838594)">17-file byte audit</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 79.942414)">R05</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 68.838594)">Audit output recovered;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 79.942414)">original 17 inputs</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 91.046234)">unavailable</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 68.838594)">Scanned anomalous</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 79.942414)">classes absent</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 68.838594)">Restricted features;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 79.942414)">ordinary-space</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 91.046234)">patterns not excluded</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 125.838594)">Six summaries</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 136.942414)">R06</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 125.838594)">Six retained copies</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 136.942414)">and audit material</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 148.046234)">recovered privately</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 125.838594)">Anomalous bytes</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 136.942414)">absent; text</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 148.046234)">differences reported</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 125.838594)">Collection error;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 136.942414)">no randomized or</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 148.046234)">calibrated test</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 182.838594)">Native pair</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 193.942414)">R18 / R33</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 182.838594)">One retained pair;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 193.942414)">public token traces</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 205.046234)">and result rows</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 182.838594)">Marked primary:</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 193.942414)">60/93 distinct</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 205.046234)">window hits</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 182.838594)">Nominal statistic;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 193.942414)">population error</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 205.046234)">unqualified</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 239.838594)">Historical field</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 250.942414)">R27 / R28 / R32</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 239.838594)">Historical rows kept;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 250.942414)">clean exporter</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 262.046234)">unavailable</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 239.838594)">Resource measures</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 250.942414)">reported; usefulness</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 262.046234)">not measured</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 239.838594)">No causal performance</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 250.942414)">or clean-producer</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 262.046234)">qualification</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 296.838594)">Keyless observer</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 307.942414)">R31</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 296.838594)">Return retained;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 307.942414)">execution and device</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(123 319.046234)">peer-reported</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 296.838594)">Counts/arithmetic</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 307.942414)">match supplied</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(242 319.046234)">expected output</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 296.838594)">No independent</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 307.942414)">key-membership</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(355 319.046234)">measurement</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(7 365.838594)">Literal states, not a strength scale. Missing material, tested absence and</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(7 376.942414)">unmeasured quantities retain different meanings.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p918eb48765">
+   <rect x="0" y="0" width="468" height="391"/>
+  </clipPath>
+ </defs>
+</svg>

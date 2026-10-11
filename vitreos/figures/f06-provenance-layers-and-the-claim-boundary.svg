@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="408pt" viewBox="0 0 468 408" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9+dfsg1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 408 
+L 468 408 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 7 29 
+L 461 29 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #007c83; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 50 67 
+L 50 291 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke-dasharray: 1.4,2.1; stroke-dashoffset: 0; stroke: #d1dcd7; stroke-width: 0.7"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 209 67 
+L 209 291 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke-dasharray: 1.4,2.1; stroke-dashoffset: 0; stroke: #d1dcd7; stroke-width: 0.7"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 12 105 
+L 12 329 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke-dasharray: 1.4,2.1; stroke-dashoffset: 0; stroke: #d1dcd7; stroke-width: 0.7"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 171 105 
+L 171 329 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke-dasharray: 1.4,2.1; stroke-dashoffset: 0; stroke: #d1dcd7; stroke-width: 0.7"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 50 67 
+L 209 67 
+L 171 105 
+L 12 105 
+z
+" clip-path="url(#p35c3dc3e00)" style="fill: #f4f5ef; stroke: #52666a; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 12 105 
+L 171 105 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #52666a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 209 67 
+L 220 67 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #52666a; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 50 123 
+L 209 123 
+L 171 161 
+L 12 161 
+z
+" clip-path="url(#p35c3dc3e00)" style="fill: #f4f5ef; stroke: #52666a; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 12 161 
+L 171 161 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #176da5; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 209 123 
+L 220 123 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #176da5; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 50 179 
+L 209 179 
+L 171 217 
+L 12 217 
+z
+" clip-path="url(#p35c3dc3e00)" style="fill: #f4f5ef; stroke: #52666a; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_10">
+    <path d="M 12 217 
+L 171 217 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #68568d; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_11">
+    <path d="M 209 179 
+L 220 179 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #68568d; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 50 235 
+L 209 235 
+L 171 273 
+L 12 273 
+z
+" clip-path="url(#p35c3dc3e00)" style="fill: #f4f5ef; stroke: #52666a; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 12 273 
+L 171 273 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #007c83; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_13">
+    <path d="M 209 235 
+L 220 235 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #007c83; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 50 291 
+L 209 291 
+L 171 329 
+L 12 329 
+z
+" clip-path="url(#p35c3dc3e00)" style="fill: #f4f5ef; stroke: #52666a; stroke-width: 0.7; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_14">
+    <path d="M 12 329 
+L 171 329 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #98611a; stroke-width: 1.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_15">
+    <path d="M 209 291 
+L 220 291 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #98611a; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 7 350 
+L 461 350 
+" clip-path="url(#p35c3dc3e00)" style="fill: none; stroke: #98611a; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="7" y="15.358281" transform="rotate(-0 7 15.358281)">F06  /  Provenance layers and the claim boundary</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="47.838594" transform="rotate(-0 7 47.838594)">At which layer was a property observed, absent or left untested?</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #163336" x="110.5" y="88.483437" transform="rotate(-0 110.5 88.483437)">SOURCE BYTES</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="226" y="69.838594" transform="rotate(-0 226 69.838594)">What bytes were retained?</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 83.838594)">R05: audit output recovered;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 94.942414)">original 17 inputs unavailable.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 106.046234)">S-EARLY-AUDITS</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #163336" x="110.5" y="144.483437" transform="rotate(-0 110.5 144.483437)">EXPORT / CONTAINER</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #176da5" x="226" y="125.838594" transform="rotate(-0 226 125.838594)">Which export route?</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 139.838594)">R12: inspected structures absent.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 150.942414)">R13: word-preserving exports ≠ new samples.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 162.046234)">S-COMPARATIVE / S-CONTRACTS</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #163336" x="110.5" y="200.483438" transform="rotate(-0 110.5 200.483438)">TOKENIZER / PROFILE</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #68568d" x="226" y="181.838594" transform="rotate(-0 226 181.838594)">What defines the observation unit?</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 195.838594)">R17/R18: four-token context + target;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 206.942414)">retained known-key scheme/profile.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 218.046234)">S-ENGINEERING / S-RESULTS</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #163336" x="110.5" y="256.483438" transform="rotate(-0 110.5 256.483438)">VERIFIER / CHECK</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007c83" x="226" y="237.838594" transform="rotate(-0 226 237.838594)">Which operation was performed?</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 251.838594)">R18: keyed hits; R31: keyless counts.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 262.942414)">Expected output supplied to observer.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 274.046234)">S-RESULTS / S-OBSERVER</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #163336" x="110.5" y="312.483437" transform="rotate(-0 110.5 312.483437)">PERMITTED CLAIM</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #98611a" x="226" y="293.838594" transform="rotate(-0 226 293.838594)">What may be concluded?</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 307.838594)">R18/R35: bounded scheme evidence;</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 318.942414)">old specimen activation unresolved.</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(226 330.046234)">S-RESULTS / S-HISTORY</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #98611a" x="7" y="366.838594" transform="rotate(-0 7 366.838594)">CLAIM BOUNDARY</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="111" y="366.838594" transform="rotate(-0 111 366.838594)">No generic authorship, identity, ownership or truth claim.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(7 388.838594)">Planes and dotted guides separate questions; depth and spacing encode</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #52666a" transform="translate(7 399.942414)">no confidence, physical assembly order or universal causal pipeline.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p35c3dc3e00">
+   <rect x="0" y="0" width="468" height="408"/>
+  </clipPath>
+ </defs>
+</svg>

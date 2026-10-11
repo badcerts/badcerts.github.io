@@ -1,0 +1,2158 @@
+{
+  "schema": "axispl.public-design-questions.v1",
+  "as_of": "2026-10-09",
+  "rule": "Read effective_disposition first. Historical pending language is retained for history, never a new assignment.",
+  "questions_and_probes": [
+    {
+      "id": "F-01",
+      "kind": "questions",
+      "question_or_probe": "Does Anthropic use green-list biasing, a Gumbel-family method, another sampling construction, or a different/combined carrier on each surface?",
+      "related_research_records": [
+        "R02",
+        "R04",
+        "R06",
+        "R08",
+        "R09",
+        "R10",
+        "R17",
+        "R35"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-01",
+            "category": "Provider mechanism",
+            "question": "Does Anthropic use green-list biasing, a Gumbel-family method, another sampling construction, or a different/combined carrier on each surface?",
+            "epistemic_state": "unresolved",
+            "current_boundary": "provider_method_unidentified",
+            "next_discriminating_test_or_decision": "A supported official verifier/specification or controlled positive acquisition with documented applicability.",
+            "prohibited_inference": "Do not name a private vendor algorithm from local-lab behavior or chatbot self-description.",
+            "reopen_trigger": "Current exact surface documentation or an official verifier becomes usable."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-01",
+            "question": "Does Anthropic use green-list biasing, a Gumbel-family method, another sampling construction, or a different/combined carrier on each surface?",
+            "prior_epistemic_state": "unresolved",
+            "analytics_state": "provider_documentation_refreshed_mechanism_open",
+            "new_observation": "Opus5 current support and detector private-preview documented; August applicability and private scheme not established.",
+            "next_discriminating_test_or_decision": "A supported official verifier/specification or controlled positive acquisition with documented applicability.",
+            "reopen_trigger": "Current exact surface documentation or an official verifier becomes usable."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "partially_resolved_provider_declaration",
+            "observation": "Anthropic publicly identifies the SynthID-Text family. Proprietary details, historic specimen applicability and operator detector access remain unresolved.",
+            "next_step": "Correct the paper and retain an exact-surface/historical verification trigger.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Primary source rechecked: SynthID-Text family publicly declared; exact private profile, historic applicability and access remain unresolved. Contrary statement in new research report rejected."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Primary source rechecked: SynthID-Text family publicly declared; exact private profile, historic applicability and access remain unresolved. Contrary statement in new research report rejected."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-02",
+      "kind": "questions",
+      "question_or_probe": "What do the original negative byte scans actually exclude, and what ordinary-format or exporter-induced signals were not tested?",
+      "related_research_records": [
+        "R01",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-02",
+            "category": "Whitespace and Unicode",
+            "question": "What do the original negative byte scans actually exclude, and what ordinary-format or exporter-induced signals were not tested?",
+            "epistemic_state": "bounded_negative_historical",
+            "current_boundary": "historical_scan_not_universal_falsification",
+            "next_discriminating_test_or_decision": "Re-run exact original-byte scans with synthetic positive controls; separate exotic characters, ordinary whitespace choices, parsing and export transforms.",
+            "prohibited_inference": "Do not claim every whitespace watermark is impossible merely because no exotic whitespace was found.",
+            "reopen_trigger": "A specified new carrier or raw export comparison is proposed."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-02",
+            "question": "What do the original negative byte scans actually exclude, and what ordinary-format or exporter-induced signals were not tested?",
+            "prior_epistemic_state": "bounded_negative_historical",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Re-run exact original-byte scans with synthetic positive controls; separate exotic characters, ordinary whitespace choices, parsing and export transforms.",
+            "reopen_trigger": "A specified new carrier or raw export comparison is proposed."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "bounded_absence_preserved",
+            "observation": "Negative byte scans constrain the checked files and features only; ordinary formatting and other carriers were not universally excluded.",
+            "next_step": "Retain original scan/control scope; reopen for a specified new feature or export comparison.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "bounded_absence_preserved",
+          "observation": "Negative byte scans constrain the checked files and features only; ordinary formatting and other carriers were not universally excluded.",
+          "next_step": "Retain original scan/control scope; reopen for a specified new feature or export comparison.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true,
+      "publication_custody_update": "Six retained summary copies and early audit outputs/scripts are recovered and hash-matched where a historical ledger exists. The 17 original audit inputs remain unavailable in the reviewed material. No carrier audit was rerun by recovery."
+    },
+    {
+      "id": "F-03",
+      "kind": "questions",
+      "question_or_probe": "Could keyed/custom segmentation, tokenizer behavior or token-boundary conventions carry or change an observable provenance signal?",
+      "related_research_records": [
+        "R03",
+        "R04",
+        "R11",
+        "R21",
+        "R22"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-03",
+            "category": "Tokenizer hypothesis",
+            "question": "Could keyed/custom segmentation, tokenizer behavior or token-boundary conventions carry or change an observable provenance signal?",
+            "epistemic_state": "untested",
+            "current_boundary": "hypothesis_only",
+            "next_discriminating_test_or_decision": "Owned known-key lab with explicit tokenizer behavior/profile identities and fixed raw text/export controls; distinguish segmentation from output-token selection.",
+            "prohibited_inference": "No inference that vendor tokenizers are keyed or have been recovered.",
+            "reopen_trigger": "A concrete owned tokenizer experiment is separately approved."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-03",
+            "question": "Could keyed/custom segmentation, tokenizer behavior or token-boundary conventions carry or change an observable provenance signal?",
+            "prior_epistemic_state": "untested",
+            "analytics_state": "minimal_subhypothesis_tested_broader_question_open",
+            "new_observation": "All24 consistent ID relabelings preserve decoded distribution; two segmentations collapse to one text. Coupled generation remains untested.",
+            "next_discriminating_test_or_decision": "Owned known-key lab with explicit tokenizer behavior/profile identities and fixed raw text/export controls; distinguish segmentation from output-token selection.",
+            "reopen_trigger": "A concrete owned tokenizer experiment is separately approved."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "simple_relabeling_null_confirmed_broader_coupling_open",
+            "observation": "All 24 consistent toy relabelings preserve decoded distributions. Output-changing coupling remains untested and novelty unestablished.",
+            "next_step": "Optional bounded constructive toy study after essential receipts; broader model integration belongs to V2.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "simple_relabeling_null_confirmed_broader_coupling_open",
+          "observation": "All 24 consistent toy relabelings preserve decoded distributions. Output-changing coupling remains untested and novelty unestablished.",
+          "next_step": "Optional bounded constructive toy study after essential receipts; broader model integration belongs to V2.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-04",
+      "kind": "questions",
+      "question_or_probe": "Are keys/contexts scoped per request, account, model, workspace, time or nonce, and how would each affect reproducibility?",
+      "related_research_records": [
+        "R08",
+        "R09",
+        "R11",
+        "R17",
+        "R35"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-04",
+            "category": "Key and context scope",
+            "question": "Are keys/contexts scoped per request, account, model, workspace, time or nonce, and how would each affect reproducibility?",
+            "epistemic_state": "untested",
+            "current_boundary": "candidate_explanations_not_vendor_facts",
+            "next_discriminating_test_or_decision": "A consented matched acquisition protocol with fixed prompts, exact identities and independently logged context; no secret-key search.",
+            "prohibited_inference": "Same/different wording across two accounts does not identify key scope.",
+            "reopen_trigger": "Verifier scope or a controlled account comparison provides a discriminating test."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-04",
+            "question": "Are keys/contexts scoped per request, account, model, workspace, time or nonce, and how would each affect reproducibility?",
+            "prior_epistemic_state": "untested",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "A consented matched acquisition protocol with fixed prompts, exact identities and independently logged context; no secret-key search.",
+            "reopen_trigger": "Verifier scope or a controlled account comparison provides a discriminating test."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "partially_documented_scope_open",
+            "observation": "Provider documentation says the mark is not an embedded user/chat identifier; this does not disclose every key-management scope.",
+            "next_step": "Retain exact key/nonce scope as an unresolved implementation question.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "partially_documented_scope_open",
+          "observation": "Provider documentation says the mark is not an embedded user/chat identifier; this does not disclose every key-management scope.",
+          "next_step": "Retain exact key/nonce scope as an unresolved implementation question.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-05",
+      "kind": "questions",
+      "question_or_probe": "Which observed bytes originate in generation, browser/API export, PDF construction, copying, or credential attachment?",
+      "related_research_records": [
+        "R05",
+        "R12",
+        "R13",
+        "R15",
+        "R35",
+        "R36"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-05",
+            "category": "Export path and container",
+            "question": "Which observed bytes originate in generation, browser/API export, PDF construction, copying, or credential attachment?",
+            "epistemic_state": "unresolved",
+            "current_boundary": "export_path_specific",
+            "next_discriminating_test_or_decision": "Preserve paired actual downloads from one completion; hash container-source and exported bytes separately; validate credentials only under applicable scope.",
+            "prohibited_inference": "A clean Markdown scan does not explain PDF/media metadata or every export path.",
+            "reopen_trigger": "One supported paired-export/control route is selected."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-05",
+            "question": "Which observed bytes originate in generation, browser/API export, PDF construction, copying, or credential attachment?",
+            "prior_epistemic_state": "unresolved",
+            "analytics_state": "current_export_path_documented_not_acquired",
+            "new_observation": "Current FilesAPI signing is on downloaded supported media; PDF/text exclusions matter for selected controls. Historical artifacts were not recreated.",
+            "next_discriminating_test_or_decision": "Preserve paired actual downloads from one completion; hash container-source and exported bytes separately; validate credentials only under applicable scope.",
+            "reopen_trigger": "One supported paired-export/control route is selected."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "export_stage_distinction_documented",
+            "observation": "Current documented media signing can occur at download, separate from generation/container bytes. Historic artifacts remain scoped to their actual route.",
+            "next_step": "Record original/download/derivative hashes if a new acquisition is admitted.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "export_stage_distinction_documented",
+          "observation": "Current documented media signing can occur at download, separate from generation/container bytes. Historic artifacts remain scoped to their actual route.",
+          "next_step": "Record original/download/derivative hashes if a new acquisition is admitted.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-06",
+      "kind": "questions",
+      "question_or_probe": "Under which known detector/profile/key and sample-length conditions could one sufficiently long artifact support a result?",
+      "related_research_records": [
+        "R01",
+        "R06",
+        "R09",
+        "R33"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-06",
+            "category": "Single-file detection",
+            "question": "Under which known detector/profile/key and sample-length conditions could one sufficiently long artifact support a result?",
+            "epistemic_state": "unresolved",
+            "current_boundary": "no_validated_unknown_provider_detector",
+            "next_discriminating_test_or_decision": "Known-positive/negative samples with applicable detector and calibration; report length/domain/abstention and specificity.",
+            "prohibited_inference": "Do not repeat the blanket assertion that a single Markdown file is inherently undetectable.",
+            "reopen_trigger": "An applicable detector and declared decision scope exist."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-06",
+            "question": "Under which known detector/profile/key and sample-length conditions could one sufficiently long artifact support a result?",
+            "prior_epistemic_state": "unresolved",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Known-positive/negative samples with applicable detector and calibration; report length/domain/abstention and specificity.",
+            "reopen_trigger": "An applicable detector and declared decision scope exist."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "claim_specific_unresolved",
+            "observation": "One sufficiently long specimen can carry a profile-specific signal; available local evidence does not give a calibrated universal authorship verdict.",
+            "next_step": "Define scheme, detector, key, eligibility and calibration before any single-artifact inference.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "claim_specific_unresolved",
+          "observation": "One sufficiently long specimen can carry a profile-specific signal; available local evidence does not give a calibrated universal authorship verdict.",
+          "next_step": "Define scheme, detector, key, eligibility and calibration before any single-artifact inference.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-07",
+      "kind": "questions",
+      "question_or_probe": "What causes the marked repetition and incomplete task fulfillment: watermark, prompt formatting, sampling, model behavior or interaction?",
+      "related_research_records": [
+        "R19"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-07",
+            "category": "Sampling/quality interaction",
+            "question": "What causes the marked repetition and incomplete task fulfillment: watermark, prompt formatting, sampling, model behavior or interaction?",
+            "epistemic_state": "observed_adverse_cause_untested",
+            "current_boundary": "one_pair_not_causal",
+            "next_discriminating_test_or_decision": "Methods chooses retain/change/stop; at most one approved bounded new development comparison with other factors fixed.",
+            "prohibited_inference": "Do not infer causation from one paired seed or delete the adverse sample.",
+            "reopen_trigger": "Immediate methods decision; new data only after a frozen approved plan."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-07",
+            "question": "What causes the marked repetition and incomplete task fulfillment: watermark, prompt formatting, sampling, model behavior or interaction?",
+            "prior_epistemic_state": "observed_adverse_cause_untested",
+            "analytics_state": "adverse_pair_characterized_cause_open",
+            "new_observation": "Both outputs cap-reached withoutEOS; marked repeated paragraph; no causal attribution from one pair.",
+            "next_discriminating_test_or_decision": "Methods chooses retain/change/stop; at most one approved bounded new development comparison with other factors fixed.",
+            "reopen_trigger": "Immediate methods decision; new data only after a frozen approved plan."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "quality_problem_confirmed_cause_open",
+            "observation": "Both native outputs have task-quality issues; marked repetition is substantial. A single pair does not identify cause.",
+            "next_step": "Existing-trace rescore first; then at most one 12-attempt formatting diagnostic if useful.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Quality and causal question remain open; no new native generations were needed for this rescore."
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Optional at-most-12-generation single-factor diagnostic deferred; no pre-freeze execution needed."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Optional at-most-12-generation single-factor diagnostic deferred; no pre-freeze execution needed."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-08",
+      "kind": "questions",
+      "question_or_probe": "How should repeated context and repeated context/token windows affect diagnostics, eligible denominator and inferential scoring?",
+      "related_research_records": [
+        "R13",
+        "R18",
+        "R20"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-08",
+            "category": "Dependence and scoring",
+            "question": "How should repeated context and repeated context/token windows affect diagnostics, eligible denominator and inferential scoring?",
+            "epistemic_state": "observed_dependence_unqualified_inference",
+            "current_boundary": "counts_replayed_not_calibrated",
+            "next_discriminating_test_or_decision": "Define exact deduplication unit; preserve raw endpoint; new inferential profile requires new calibration and independent replay.",
+            "prohibited_inference": "Deduplication is not an automatic proof of independence or calibrated probability.",
+            "reopen_trigger": "Immediate endpoint decision."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-08",
+            "question": "How should repeated context and repeated context/token windows affect diagnostics, eligible denominator and inferential scoring?",
+            "prior_epistemic_state": "observed_dependence_unqualified_inference",
+            "analytics_state": "new_partial_identification_and_synthetic_evidence",
+            "new_observation": "Distinct marked windows93; unique hits39..75 compatible with aggregate168. Synthetic duplicate windows inflate nominal z. Actual native unique hits unknown.",
+            "next_discriminating_test_or_decision": "Define exact deduplication unit; preserve raw endpoint; new inferential profile requires new calibration and independent replay.",
+            "reopen_trigger": "Immediate endpoint decision."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "dependence_confirmed_endpoint_decision_required",
+            "observation": "Context and context-plus-target units differ. Exact repeated-window counts and 39–75 feasible hits independently checked; actual keyed distinct hits still missing.",
+            "next_step": "Highest-priority local existing-key rescore, reporting raw and both distinct units without retroactive calibration.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Actual membership measured: marked primary 60/93 distinct contexts/windows, clean primary 53/249 contexts and 53/251 windows. All six raw results and independent scalar implementation agree. Calibration remains open."
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Measured membership and repeated-unit diagnostics retained; no calibration promotion."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Measured membership and repeated-unit diagnostics retained; no calibration promotion."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-09",
+      "kind": "questions",
+      "question_or_probe": "What performance/uncertainty claim does the experiment actually have enough independent data to assess?",
+      "related_research_records": [
+        "R09",
+        "R11",
+        "R18",
+        "R20",
+        "R33"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-09",
+            "category": "Calibration and rare false positives",
+            "question": "What performance/uncertainty claim does the experiment actually have enough independent data to assess?",
+            "epistemic_state": "unexecuted_study",
+            "current_boundary": "pilot_not_1_percent_guarantee",
+            "next_discriminating_test_or_decision": "Freeze claim before sample size; prompt/pair unit, eligibility, threshold and multiplicity; report empirical uncertainty including zero-error bounds.",
+            "prohibited_inference": "Two wrong keys and 360 measurements are not 360 independent negatives or familywise control.",
+            "reopen_trigger": "A stronger performance claim is explicitly requested."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-09",
+            "question": "What performance/uncertainty claim does the experiment actually have enough independent data to assess?",
+            "prior_epistemic_state": "unexecuted_study",
+            "analytics_state": "finite_sample_limit_calculated_calibration_unrun",
+            "new_observation": "Zero/30 gives95% upper9.5034% under independent fixed-threshold negatives; no inferred1%FPR.",
+            "next_discriminating_test_or_decision": "Freeze claim before sample size; prompt/pair unit, eligibility, threshold and multiplicity; report empirical uncertainty including zero-error bounds.",
+            "reopen_trigger": "A stronger performance claim is explicitly requested."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "descriptive_scope_selected_for_recommendation",
+            "observation": "The existing pair and 30/30 draft cannot support broad low-FPR performance claims. Weak evidence remains useful when labeled.",
+            "next_step": "Keep V1 descriptive; enlarge a study only under a new claim-sized prospective decision.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "descriptive_scope_selected_for_recommendation",
+          "observation": "The existing pair and 30/30 draft cannot support broad low-FPR performance claims. Weak evidence remains useful when labeled.",
+          "next_step": "Keep V1 descriptive; enlarge a study only under a new claim-sized prospective decision.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-10",
+      "kind": "questions",
+      "question_or_probe": "How do normalization, copy/paste, extraction, formatting and other owned deterministic transformations affect the registered signal?",
+      "related_research_records": [
+        "R14",
+        "R25",
+        "R34"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-10",
+            "category": "Transform survival",
+            "question": "How do normalization, copy/paste, extraction, formatting and other owned deterministic transformations affect the registered signal?",
+            "epistemic_state": "tooling_exists_campaign_untested",
+            "current_boundary": "no_robustness_acceptance",
+            "next_discriminating_test_or_decision": "Finite frozen transform matrix, parent-child hashes and same applicable detector/profile, matched controls and failures.",
+            "prohibited_inference": "No intent or deliberate-removal conclusion from signal loss.",
+            "reopen_trigger": "Transform robustness becomes an included claim."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-10",
+            "question": "How do normalization, copy/paste, extraction, formatting and other owned deterministic transformations affect the registered signal?",
+            "prior_epistemic_state": "tooling_exists_campaign_untested",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Finite frozen transform matrix, parent-child hashes and same applicable detector/profile, matched controls and failures.",
+            "reopen_trigger": "Transform robustness becomes an included claim."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "bounded_followon_optional",
+            "observation": "Synthetic repetition is measured; real owned transform survival remains unmeasured here.",
+            "next_step": "Optional fixed small matrix with parent-child hashes and identity control; no universal robustness claim.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "bounded_followon_optional",
+          "observation": "Synthetic repetition is measured; real owned transform survival remains unmeasured here.",
+          "next_step": "Optional fixed small matrix with parent-child hashes and identity control; no universal robustness claim.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-11",
+      "kind": "questions",
+      "question_or_probe": "Can a passive/stylometric tool help inspect code without confusing generator style with correctness or sloppiness?",
+      "related_research_records": [
+        "R07",
+        "R10",
+        "R23",
+        "R24"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-11",
+            "category": "Passive detection and code quality",
+            "question": "Can a passive/stylometric tool help inspect code without confusing generator style with correctness or sloppiness?",
+            "epistemic_state": "untested",
+            "current_boundary": "not_a_validated_detector",
+            "next_discriminating_test_or_decision": "Matched content/format/domain baselines, unseen-generator split, measured operational false positives and independent code-quality ground truth.",
+            "prohibited_inference": "AI origin is neither a code defect nor attribution to a malicious actor.",
+            "reopen_trigger": "An explicit passive-detector product claim is proposed."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-11",
+            "question": "Can a passive/stylometric tool help inspect code without confusing generator style with correctness or sloppiness?",
+            "prior_epistemic_state": "untested",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Matched content/format/domain baselines, unseen-generator split, measured operational false positives and independent code-quality ground truth.",
+            "reopen_trigger": "An explicit passive-detector product claim is proposed."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "future_protocol_preserved",
+            "observation": "Passive and emergent interaction fingerprints are research ideas, not current attribution capability.",
+            "next_step": "Keep mirror-agent factorial protocol in V2, with shared-context and cross-model controls.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "future_protocol_preserved",
+          "observation": "Passive and emergent interaction fingerprints are research ideas, not current attribution capability.",
+          "next_step": "Keep mirror-agent factorial protocol in V2, with shared-context and cross-model controls.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-12",
+      "kind": "questions",
+      "question_or_probe": "What evidence can link an artifact to a system/workflow versus to a person, organization, or threat actor?",
+      "related_research_records": [
+        "R02",
+        "R07",
+        "R14",
+        "R23",
+        "R24",
+        "R25",
+        "R34"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-12",
+            "category": "Attribution scope",
+            "question": "What evidence can link an artifact to a system/workflow versus to a person, organization, or threat actor?",
+            "epistemic_state": "unresolved",
+            "current_boundary": "provenance_not_identity_or_intent",
+            "next_discriminating_test_or_decision": "Multiple independent applicable evidence sources with explicit alternatives, access records and claim boundaries.",
+            "prohibited_inference": "No human identity, ownership, intent or APT attribution from a watermark alone.",
+            "reopen_trigger": "A separately scoped defensive-attribution case exists."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-12",
+            "question": "What evidence can link an artifact to a system/workflow versus to a person, organization, or threat actor?",
+            "prior_epistemic_state": "unresolved",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Multiple independent applicable evidence sources with explicit alternatives, access records and claim boundaries.",
+            "reopen_trigger": "A separately scoped defensive-attribution case exists."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "attribution_ceiling_retained",
+            "observation": "Known-key compatibility, provider declaration and file provenance do not identify a person, intent, ownership or truth.",
+            "next_step": "Apply the ceiling to paper tables/cards; reopen only with separate corroborating evidence.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "attribution_ceiling_retained",
+          "observation": "Known-key compatibility, provider declaration and file provenance do not identify a person, intent, ownership or truth.",
+          "next_step": "Apply the ceiling to paper tables/cards; reopen only with separate corroborating evidence.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-13",
+      "kind": "questions",
+      "question_or_probe": "Do actual native validators correctly classify signed trusted/untrusted, tampered, unsigned, derivative and malformed artifacts?",
+      "related_research_records": [
+        "R12",
+        "R35"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-13",
+            "category": "C2PA trust and files",
+            "question": "Do actual native validators correctly classify signed trusted/untrusted, tampered, unsigned, derivative and malformed artifacts?",
+            "epistemic_state": "qualification_absent_in_selected_record",
+            "current_boundary": "synthetic_tests_only",
+            "next_discriminating_test_or_decision": "Pinned official backend and trust snapshot, authorized owned/official controls, isolated worker and raw validation receipts.",
+            "prohibited_inference": "A synthetic pass or valid signature does not prove semantic truth or ownership.",
+            "reopen_trigger": "C2PA capability is included in a release or a control campaign is approved."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-13",
+            "question": "Do actual native validators correctly classify signed trusted/untrusted, tampered, unsigned, derivative and malformed artifacts?",
+            "prior_epistemic_state": "qualification_absent_in_selected_record",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Pinned official backend and trust snapshot, authorized owned/official controls, isolated worker and raw validation receipts.",
+            "reopen_trigger": "C2PA capability is included in a release or a control campaign is approved."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "deferred_unqualified",
+            "observation": "Synthetic policy tests are not native trusted/untrusted/tampered C2PA qualification.",
+            "next_step": "Exclude a native C2PA capability claim from V1 unless all actual controls are acquired and validated.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "deferred_unqualified",
+          "observation": "Synthetic policy tests are not native trusted/untrusted/tampered C2PA qualification.",
+          "next_step": "Exclude a native C2PA capability claim from V1 unless all actual controls are acquired and validated.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-14",
+      "kind": "questions",
+      "question_or_probe": "Can the actual current Python claim policy be aligned, built and bound to a small Lean certificate and cross-language vectors?",
+      "related_research_records": [
+        "R16",
+        "R26",
+        "R42"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-14",
+            "category": "Formal policy",
+            "question": "Can the actual current Python claim policy be aligned, built and bound to a small Lean certificate and cross-language vectors?",
+            "epistemic_state": "source_mismatch_observed",
+            "current_boundary": "not_formally_certified",
+            "next_discriminating_test_or_decision": "Resolve insufficient-length counterexample, pin toolchain/policy/evidence, build and independently replay.",
+            "prohibited_inference": "A proof seed or successful policy theorem does not prove empirical detector accuracy.",
+            "reopen_trigger": "Formal capability is claimed or its work package is approved."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-14",
+            "question": "Can the actual current Python claim policy be aligned, built and bound to a small Lean certificate and cross-language vectors?",
+            "prior_epistemic_state": "source_mismatch_observed",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Resolve insufficient-length counterexample, pin toolchain/policy/evidence, build and independently replay.",
+            "reopen_trigger": "Formal capability is claimed or its work package is approved."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "source_mismatch_supported_formal_claim_deferred",
+            "observation": "One source-level policy mismatch is documented. The transcript claim of seven cases lacks an inspected final case inventory; no current Lean build was performed.",
+            "next_step": "Use one bounded finding; request cases only if the seven-case claim is retained. Defer certification.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "source_mismatch_supported_formal_claim_deferred",
+          "observation": "One source-level policy mismatch is documented. The transcript claim of seven cases lacks an inspected final case inventory; no current Lean build was performed.",
+          "next_step": "Use one bounded finding; request cases only if the seven-case claim is retained. Defer certification.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-15",
+      "kind": "questions",
+      "question_or_probe": "Which broader statistical, temporal, adversarial and operational properties remain outside the first claim-policy kernel?",
+      "related_research_records": [
+        "R26",
+        "R42"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-15",
+            "category": "Advanced verification",
+            "question": "Which broader statistical, temporal, adversarial and operational properties remain outside the first claim-policy kernel?",
+            "epistemic_state": "untested",
+            "current_boundary": "future_certification_scope",
+            "next_discriminating_test_or_decision": "Choose one property/assumption boundary at a time; pair formal derivations with empirical evidence where required.",
+            "prohibited_inference": "Do not use Lean as a generic accuracy or security certificate.",
+            "reopen_trigger": "A concrete property beyond the first kernel is scoped."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-15",
+            "question": "Which broader statistical, temporal, adversarial and operational properties remain outside the first claim-policy kernel?",
+            "prior_epistemic_state": "untested",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Choose one property/assumption boundary at a time; pair formal derivations with empirical evidence where required.",
+            "reopen_trigger": "A concrete property beyond the first kernel is scoped."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "future_scope_preserved",
+            "observation": "Broader formal/statistical/temporal/adversarial assurance is outside this case study.",
+            "next_step": "Keep explicit future scope and reopen on a defined property and bounded proof/test plan.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "future_scope_preserved",
+          "observation": "Broader formal/statistical/temporal/adversarial assurance is outside this case study.",
+          "next_step": "Keep explicit future scope and reopen on a defined property and bounded proof/test plan.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-16",
+      "kind": "questions",
+      "question_or_probe": "Can the field rows be reproduced from a clean exporter/content-addressed snapshot while retaining true acquisition time?",
+      "related_research_records": [
+        "R27",
+        "R28",
+        "R31",
+        "R32"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-16",
+            "category": "field node clean lineage",
+            "question": "Can the field rows be reproduced from a clean exporter/content-addressed snapshot while retaining true acquisition time?",
+            "epistemic_state": "missing_required_receipt",
+            "current_boundary": "dirty_manifests_present",
+            "next_discriminating_test_or_decision": "One clean re-export per included family with IDs, source/input hashes, validation and independent acceptance; otherwise explicit exclusion.",
+            "prohibited_inference": "Flipping source_dirty to false or reusing old timestamps is not a repair.",
+            "reopen_trigger": "Immediate if the field families remain in the finite milestone."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-16",
+            "question": "Can the field rows be reproduced from a clean exporter/content-addressed snapshot while retaining true acquisition time?",
+            "prior_epistemic_state": "missing_required_receipt",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "One clean re-export per included family with IDs, source/input hashes, validation and independent acceptance; otherwise explicit exclusion.",
+            "reopen_trigger": "Immediate if the field families remain in the finite milestone."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "conditional_v1_field_gate",
+            "observation": "Clean/content-addressed exporter evidence remains distinct from installed-wheel import acceptance.",
+            "next_step": "field node supplies honest source-bound re-exports for included families or the paper narrows field-reproducibility claims.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Exporter source provenance is the next field request; stronger field claims remain pending."
+        },
+        {
+          "layer": "field_return_updates",
+          "value": {
+            "state": "unavailable_excluded_from_stronger_v1_claims",
+            "observation": "One historical model row and one radio row verify at file/canonical-row level, with source_dirty=true and no new export or complete exporter snapshot. Task B response accepted as unavailable.",
+            "reopen_trigger": "Select these families for a stronger reproducible field-performance/clean-exporter claim, or receive a new complete source-bound export.",
+            "future_execution_authorized": false
+          }
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Unavailable exporter disposition closes response obligation; stronger clean-producer claim excluded, future question open."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Unavailable exporter disposition closes response obligation; stronger clean-producer claim excluded, future question open."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-17",
+      "kind": "questions",
+      "question_or_probe": "Should fresh qwen-stdin-prompt.v1 receipts be supported by a versioned minimal adapter or explicitly deferred?",
+      "related_research_records": [
+        "R30"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-17",
+            "category": "Compact runtime schema",
+            "question": "Should fresh qwen-stdin-prompt.v1 receipts be supported by a versioned minimal adapter or explicitly deferred?",
+            "epistemic_state": "unsupported_current_dispatch",
+            "current_boundary": "decision_needed",
+            "next_discriminating_test_or_decision": "Real sanitized positive, malformed and hash-mismatch fixtures; declare producer versus verifier claims.",
+            "prohibited_inference": "Do not rename schema to an older supported value.",
+            "reopen_trigger": "Immediate support-matrix decision; implementation only when in scope."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-17",
+            "question": "Should fresh qwen-stdin-prompt.v1 receipts be supported by a versioned minimal adapter or explicitly deferred?",
+            "prior_epistemic_state": "unsupported_current_dispatch",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Real sanitized positive, malformed and hash-mismatch fixtures; declare producer versus verifier claims.",
+            "reopen_trigger": "Immediate support-matrix decision; implementation only when in scope."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "defer_by_default",
+            "observation": "Fresh qwen-stdin-prompt.v1 support is not implied by accepted qwen-fast-contract import.",
+            "next_step": "Add a versioned adapter only if that fresh compact receipt is selected for accepted ingestion.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "field_return_updates",
+          "value": {
+            "state": "deferred_not_needed_for_selected_case_study",
+            "observation": "No new qwen-stdin-prompt.v1 adapter or fresh compact receipt selected."
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "field_return_updates",
+        "value": {
+          "state": "deferred_not_needed_for_selected_case_study",
+          "observation": "No new qwen-stdin-prompt.v1 adapter or fresh compact receipt selected."
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-18",
+      "kind": "questions",
+      "question_or_probe": "Can candidate radio mappings be validated against controlled differences and independent operator authority?",
+      "related_research_records": [
+        "R29"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-18",
+            "category": "Radio authority and semantics",
+            "question": "Can candidate radio mappings be validated against controlled differences and independent operator authority?",
+            "epistemic_state": "candidate_only",
+            "current_boundary": "not_semantic_acceptance",
+            "next_discriminating_test_or_decision": "Separate operator authority receipt; known controlled-difference experiment only under the radio lane scope.",
+            "prohibited_inference": "Repeated identical images do not validate channel semantics; models cannot self-promote them.",
+            "reopen_trigger": "Separate radio experiment or verified-semantics claim is approved."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-18",
+            "question": "Can candidate radio mappings be validated against controlled differences and independent operator authority?",
+            "prior_epistemic_state": "candidate_only",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Separate operator authority receipt; known controlled-difference experiment only under the radio lane scope.",
+            "reopen_trigger": "Separate radio experiment or verified-semantics claim is approved."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "independent_authority_open",
+            "observation": "Producer self-declared operator verification checks consistency, not independent radio semantics.",
+            "next_step": "Defer stronger mappings until a separate operator/control receipt supports them.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "independent_authority_open",
+          "observation": "Producer self-declared operator verification checks consistency, not independent radio semantics.",
+          "next_step": "Defer stronger mappings until a separate operator/control receipt supports them.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-19",
+      "kind": "questions",
+      "question_or_probe": "Which native and external runtimes are actually supported on constrained or second-architecture devices, and under which evidence, input and thermal conditions?",
+      "related_research_records": [
+        "R27",
+        "R28",
+        "R31",
+        "R40"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-19",
+            "category": "Hardware and portability",
+            "question": "What actually runs on field device, mobile device, particular accelerators, and under which evidence/prompt/thermal budget?",
+            "epistemic_state": "profile_limited_observations",
+            "current_boundary": "no_general_accelerator_or_pixel_proof",
+            "next_discriminating_test_or_decision": "Exact-device/model/backend input-budget controls and execution-path receipts. Preserve local host native and field node external-runtime results separately.",
+            "prohibited_inference": "Hardware availability or a device node does not establish accelerator use.",
+            "reopen_trigger": "A new supported device/backend is expressly in scope."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-19",
+            "question": "What actually runs on field device, mobile device, particular accelerators, and under which evidence/prompt/thermal budget?",
+            "prior_epistemic_state": "profile_limited_observations",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Exact-device/model/backend input-budget controls and execution-path receipts. Preserve local host native and field node external-runtime results separately.",
+            "reopen_trigger": "A new supported device/backend is expressly in scope."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "bounded_device_replay_recommended",
+            "observation": "Current evidence does not establish same-native-profile equivalence between local host and field device.",
+            "next_step": "Obtain a standard-library observer portability receipt; keep native backend/model porting as a separate proposal.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Self-contained stdlib observer packet rehearsed on local host; actual field node execution pending."
+        },
+        {
+          "layer": "field_return_updates",
+          "value": {
+            "state": "bounded_observer_portability_accepted_broader_hardware_question_open",
+            "observation": "field node/second-architecture standard-library observer output matches expected bytes; 251 clean and 93 marked distinct windows. No new native model/backend, mobile device or accelerator result.",
+            "future_execution_authorized": false
+          }
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Bounded field node observer return accepted as peer-reported execution with exact nonsecret counts/arithmetic; broader native/accelerator claims remain open."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Bounded field node observer return accepted as peer-reported execution with exact nonsecret counts/arithmetic; broader native/accelerator claims remain open."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-20",
+      "kind": "questions",
+      "question_or_probe": "Can the runner reliably stop, resume, preserve failures and release held-out work without losing attempts or exceeding authority?",
+      "related_research_records": [
+        "R10",
+        "R13",
+        "R14",
+        "R33",
+        "R36",
+        "R38",
+        "R39",
+        "R41",
+        "R42"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-20",
+            "category": "Experiment lifecycle",
+            "question": "Can the runner reliably stop, resume, preserve failures and release held-out work without losing attempts or exceeding authority?",
+            "epistemic_state": "one_pair_harness_not_campaign_runner",
+            "current_boundary": "implementation_pending_method",
+            "next_discriminating_test_or_decision": "Finite ledger/admission/cleanup regression matrix; explicit restart/attempt semantics; no uncontrolled loop.",
+            "prohibited_inference": "Looping a one-pair harness is not a qualified campaign.",
+            "reopen_trigger": "Pilot continuation is selected after methods reconciliation."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-20",
+            "question": "Can the runner reliably stop, resume, preserve failures and release held-out work without losing attempts or exceeding authority?",
+            "prior_epistemic_state": "one_pair_harness_not_campaign_runner",
+            "analytics_state": "lifecycle_contract_specified_not_implemented",
+            "new_observation": "Finite transition/journal/threshold/resume tests specified; no new campaign runner or native execution.",
+            "next_discriminating_test_or_decision": "Finite ledger/admission/cleanup regression matrix; explicit restart/attempt semantics; no uncontrolled loop.",
+            "reopen_trigger": "Pilot continuation is selected after methods reconciliation."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "conditional_runner_work",
+            "observation": "The one-pair harness is not a full campaign runner. Browser offline replay also has timeout and exact-float portability issues.",
+            "next_step": "Repair offline replay now; implement attempted/failure/resource controls for any admitted native diagnostic, full phase machinery only for a real campaign.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Amended offline replay passes with a declared deadline and narrow relative float tolerance. No larger native campaign admitted."
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Final bounded analytics reproduction passes; test-layout repair verified; historical full runner explicitly needs original workspace."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Final bounded analytics reproduction passes; test-layout repair verified; historical full runner explicitly needs original workspace."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-21",
+      "kind": "questions",
+      "question_or_probe": "Can the application show nominal scores, uncertainty, absence and conflict without converting them into a misleading accuracy percentage?",
+      "related_research_records": [
+        "R01",
+        "R15",
+        "R17",
+        "R24",
+        "R30",
+        "R38"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-21",
+            "category": "Evidence-card semantics",
+            "question": "Can the application show nominal scores, uncertainty, absence and conflict without converting them into a misleading accuracy percentage?",
+            "epistemic_state": "acceptance_not_complete",
+            "current_boundary": "presentation_only",
+            "next_discriminating_test_or_decision": "Six canonical fixture states, visible claim ceiling and prohibitions, accessibility/errors, local target verification.",
+            "prohibited_inference": "A confidence slider cannot manufacture calibration or origin certainty.",
+            "reopen_trigger": "Canonical fixtures accepted; UI implementation then reviewed."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-21",
+            "question": "Can the application show nominal scores, uncertainty, absence and conflict without converting them into a misleading accuracy percentage?",
+            "prior_epistemic_state": "acceptance_not_complete",
+            "analytics_state": "presentation_contract_amended",
+            "new_observation": "Raw score must be separated from unique counts, completion flags and calibration state; no authorship slider fromz.",
+            "next_discriminating_test_or_decision": "Six canonical fixture states, visible claim ceiling and prohibitions, accessibility/errors, local target verification.",
+            "reopen_trigger": "Canonical fixtures accepted; UI implementation then reviewed."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "paper_representation_now_product_ui_deferred",
+            "observation": "Nominal and weak evidence need clear fields, abstention and limits; full browser UI acceptance remains separate.",
+            "next_step": "Use receipt-bound tables/figures/illustrative cards now; no percentage-of-AI conversion.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "paper_representation_now_product_ui_deferred",
+          "observation": "Nominal and weak evidence need clear fields, abstention and limits; full browser UI acceptance remains separate.",
+          "next_step": "Use receipt-bound tables/figures/illustrative cards now; no percentage-of-AI conversion.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-22",
+      "kind": "questions",
+      "question_or_probe": "What remains untested before real dropped-file, LAN/public or cross-origin operation?",
+      "related_research_records": [
+        "R15",
+        "R16",
+        "R30"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-22",
+            "category": "Service and parser boundary",
+            "question": "What remains untested before real dropped-file, LAN/public or cross-origin operation?",
+            "epistemic_state": "outside_current_scope",
+            "current_boundary": "not_service_ready",
+            "next_discriminating_test_or_decision": "Separate authenticated/origin/CSRF/file-boundary/resource and target-host qualification with explicit release decision.",
+            "prohibited_inference": "Static cards or loopback smoke tests do not establish safe public ingestion.",
+            "reopen_trigger": "A network or live-ingestion release is actually requested."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-22",
+            "question": "What remains untested before real dropped-file, LAN/public or cross-origin operation?",
+            "prior_epistemic_state": "outside_current_scope",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Separate authenticated/origin/CSRF/file-boundary/resource and target-host qualification with explicit release decision.",
+            "reopen_trigger": "A network or live-ingestion release is actually requested."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "direct_api_patch_qualified_in_copy_public_surface_open",
+            "observation": "Scalar-validation patch passes the complete canonical suite in an isolated copy; no canonical merge or public-ingress exploitation established.",
+            "next_step": "Adopt bounded validation with regressions in the next source-writing task; public/LAN/dropped-file qualification remains deferred.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Strict scalar validation and additive diagnostics implemented on local branch; 597 core tests pass, 2 skip. No release, public endpoint or deployment claim."
+        },
+        {
+          "layer": "freeze_updates",
+          "value": "Implemented branch diagnostics remain unchanged; no further merge or deployment required."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "freeze_updates",
+        "value": "Implemented branch diagnostics remain unchanged; no further merge or deployment required."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-23",
+      "kind": "questions",
+      "question_or_probe": "How could owned memory/state, bias-evaluation methods or future local-model architectures extend this assurance work?",
+      "related_research_records": [
+        "R40"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-23",
+            "category": "Local sovereignty / learning extensions",
+            "question": "How could owned memory/state, owned bias-evaluation bias tests or future local-model architectures extend this assurance work?",
+            "epistemic_state": "unscoped_future_work",
+            "current_boundary": "not_current_acceptance_requirement",
+            "next_discriminating_test_or_decision": "Open a separately scoped property or local-model experiment with preserved source and falsifiable evaluation.",
+            "prohibited_inference": "Do not turn memristor speculation, cognitive-bias ontology or broad agent autonomy into this release blocker.",
+            "reopen_trigger": "A specific follow-on question is deliberately selected."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-23",
+            "question": "How could owned memory/state, owned bias-evaluation bias tests or future local-model architectures extend this assurance work?",
+            "prior_epistemic_state": "unscoped_future_work",
+            "analytics_state": "preserved_open_no_new_empirical_test",
+            "new_observation": "No new empirical resolution in this pass; original question, test and reopening trigger retained.",
+            "next_discriminating_test_or_decision": "Open a separately scoped property or local-model experiment with preserved source and falsifiable evaluation.",
+            "reopen_trigger": "A specific follow-on question is deliberately selected."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "future_project_preserved",
+            "observation": "Owned memory/state, owned bias-evaluation tests and architectures remain distinct projects.",
+            "next_step": "Preserve hypotheses and require a scoped new proposal to reopen.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "future_project_preserved",
+          "observation": "Owned memory/state, owned bias-evaluation tests and architectures remain distinct projects.",
+          "next_step": "Preserve hypotheses and require a scoped new proposal to reopen.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "F-24",
+      "kind": "questions",
+      "question_or_probe": "Could omitted archives, inaccessible peer receipts or stale summaries conceal a relevant result or contradiction?",
+      "related_research_records": [
+        "R01",
+        "R04",
+        "R05",
+        "R06",
+        "R10",
+        "R28",
+        "R32",
+        "R36",
+        "R37",
+        "R39",
+        "R41"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "F-24",
+            "category": "Missing or inaccessible evidence",
+            "question": "Could omitted archives, inaccessible peer receipts or stale summaries conceal a relevant result or contradiction?",
+            "epistemic_state": "coverage_limited",
+            "current_boundary": "absence_in_selection_not_global_absence",
+            "next_discriminating_test_or_decision": "Keep searched/packaged scope, missing inputs and trusted acquisition times explicit; reconcile a newly supplied result by identity.",
+            "prohibited_inference": "Not present in this packet does not mean never existed or never tested anywhere.",
+            "reopen_trigger": "A concrete new artifact, contradiction or support-matrix change arrives."
+          }
+        },
+        {
+          "stage": "analytics_update",
+          "historical_only": true,
+          "record": {
+            "id": "F-24",
+            "question": "Could omitted archives, inaccessible peer receipts or stale summaries conceal a relevant result or contradiction?",
+            "prior_epistemic_state": "coverage_limited",
+            "analytics_state": "completed_research_artifact_not_accessible",
+            "new_observation": "Do not infer launch request is finished report or substitute prior intake; attach exact report and reconcile when available.",
+            "next_discriminating_test_or_decision": "Keep searched/packaged scope, missing inputs and trusted acquisition times explicit; reconcile a newly supplied result by identity.",
+            "reopen_trigger": "A concrete new artifact, contradiction or support-matrix change arrives."
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": {
+            "state": "research_artifact_received_reconciliation_complete",
+            "observation": "The completed research report is now local and reconciled with Analytics; missing sandbox-linked artifacts and opaque citations remain publication repairs.",
+            "next_step": "Repair only references/artifacts used in the final paper; retain an intake trigger for genuinely new contradictory receipts.",
+            "next_step_execution_performed_by_this_review": false
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": {
+          "state": "research_artifact_received_reconciliation_complete",
+          "observation": "The completed research report is now local and reconciled with Analytics; missing sandbox-linked artifacts and opaque citations remain publication repairs.",
+          "next_step": "Repair only references/artifacts used in the final paper; retain an intake trigger for genuinely new contradictory receipts.",
+          "next_step_execution_performed_by_this_review": false
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true,
+      "publication_custody_update": "Six retained summary copies and early audit outputs/scripts are recovered and hash-matched where a historical ledger exists. The 17 original audit inputs remain unavailable in the reviewed material. No carrier audit was rerun by recovery."
+    },
+    {
+      "id": "A-01",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Do prospective unique-window hit counts/calibration agree between host and independently run observer?",
+      "related_research_records": [
+        "R18",
+        "R31"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-01",
+            "parents": [
+              "F-08"
+            ],
+            "question": "Do prospective unique-window hit counts/calibration agree between host and independently run observer?",
+            "state": "native membership missing",
+            "test": "existing-key local rescore; separate independent receipt",
+            "claim_limit": "aggregate bounds are not actual dedup scores"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "Actual keyed distinct hits remain the next local measurement; aggregate bounds are reproduced."
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Native membership gap resolved locally; separate field node observer portability return pending."
+        },
+        {
+          "layer": "field_return_updates",
+          "value": {
+            "state": "trace_arithmetic_device_replay_accepted_keyed_and_calibration_limits_preserved",
+            "observation": "Actual keyed distinct hits remain the October 7 local host rescore. October 8 field node confirms trace counts and reported-score arithmetic without keys; it does not independently measure those hits or calibrate them."
+          }
+        }
+      ],
+      "effective_disposition": {
+        "layer": "field_return_updates",
+        "value": {
+          "state": "trace_arithmetic_device_replay_accepted_keyed_and_calibration_limits_preserved",
+          "observation": "Actual keyed distinct hits remain the October 7 local host rescore. October 8 field node confirms trace counts and reported-score arithmetic without keys; it does not independently measure those hits or calibrate them."
+        }
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true,
+      "computation_date": "2026-10-07T23:26:27.485292Z",
+      "return_review_date": "2026-10-08"
+    },
+    {
+      "id": "A-02",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Can a keyed tokenizer-generation coupling change decoded outputs in a detectable, calibrated and quality-preserving way?",
+      "related_research_records": [
+        "R21",
+        "R22"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-02",
+            "parents": [
+              "F-03"
+            ],
+            "question": "Can a keyed tokenizer-generation coupling change decoded outputs in a detectable, calibrated and quality-preserving way?",
+            "state": "untested",
+            "test": "future tiny owned controlled generator with identity-only negative and explicitly output-changing positive; frozen correct/wrong controls",
+            "claim_limit": "no novelty/provider-mechanism conclusion"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "Optional bounded constructive toy extension; identity-only control already reproduced; native coupling remains future work."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": "Optional bounded constructive toy extension; identity-only control already reproduced; native coupling remains future work."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "A-03",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Does apparent same-model agreement survive independent role, context and provenance controls?",
+      "related_research_records": [
+        "R23",
+        "R38"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-03",
+            "parents": [
+              "F-11",
+              "F-12"
+            ],
+            "question": "Does apparent same-model agreement survive independent role, context and provenance controls?",
+            "state": "conversation hypothesis, not tested",
+            "test": "future blind factorial same/different-model and shared/separate-context comparison",
+            "claim_limit": "shared style/agreement is not subconscious recognition, intent or intentional watermark"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "Preserve controlled V2 protocol; no agent experiment launched."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": "Preserve controlled V2 protocol; no agent experiment launched."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "A-04",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Does a single predeclared prompt-format change improve suitability without changing other generation factors?",
+      "related_research_records": [
+        "R19"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-04",
+            "parents": [
+              "F-07"
+            ],
+            "question": "Does a single predeclared prompt-format change improve suitability without changing other generation factors?",
+            "state": "prospective bounded diagnostic",
+            "test": "at most12 separately authorized generations once; all attempts retained",
+            "claim_limit": "three prompts are a development diagnostic, not general efficacy"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "One conditional formatting diagnostic, at most 12 attempts; no new native run in this review."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": "One conditional formatting diagnostic, at most 12 attempts; no new native run in this review."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "A-05",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Are invalid scalar values reachable in real callers of the watermark module?",
+      "related_research_records": [
+        "R16"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-05",
+            "parents": [
+              "F-22"
+            ],
+            "question": "Are invalid scalar values reachable in real callers of the watermark module?",
+            "state": "direct API accepts shown cases; canonical reachability untested",
+            "test": "local caller/full-suite review and optional hash-bound validation patch",
+            "claim_limit": "not evidence of a current public exploitable endpoint"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "Patch source identity and full-suite compatibility now locally checked in an isolated copy; public-ingress reachability remains open."
+        },
+        {
+          "layer": "continuation_updates",
+          "value": "Bounded API validation change implemented and tested; broader public-ingress reachability remains outside scope."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "continuation_updates",
+        "value": "Bounded API validation change implemented and tested; broader public-ingress reachability remains outside scope."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "A-06",
+      "kind": "analytics_subquestions",
+      "question_or_probe": "Which watermark-removal or disclosure obligations apply to a specific actor, artifact and jurisdiction?",
+      "related_research_records": [
+        "R34"
+      ],
+      "historical_records": [
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "A-06",
+            "parents": [
+              "F-10",
+              "F-12"
+            ],
+            "question": "Which watermark-removal or disclosure obligations apply to a specific actor, artifact and jurisdiction?",
+            "state": "legal analysis not performed",
+            "test": "primary-law/terms review by actual research return with qualified counsel as needed",
+            "claim_limit": "technical possibility/public method is not legal clearance"
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_reconciliation",
+          "value": "Primary legal background now checked; application to specific facts/jurisdiction remains unresolved."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_reconciliation",
+        "value": "Primary legal background now checked; application to specific facts/jurisdiction remains unresolved."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true,
+      "publication_scope_note": "Historical source review is background only. This design packet supplies no fact-specific legal advice or clearance; final legal assertions would need their own appropriate source check."
+    },
+    {
+      "id": "U-01",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "What variable is absent from the current protocol/profile fingerprint but can change token or export behavior?",
+      "related_research_records": [
+        "R37"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-01",
+            "probe": "What variable is absent from the current protocol/profile fingerprint but can change token or export behavior?",
+            "trigger": "Equal declared profiles produce irreconcilable behavior.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-01",
+            "probe": "What variable is absent from the current protocol/profile fingerprint but can change token or export behavior?",
+            "trigger": "Equal declared profiles produce irreconcilable behavior.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [],
+      "effective_disposition": {
+        "layer": "baseline/analytics",
+        "value": "Preserved unchanged; probe is not a finding."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "U-02",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "What negative control should have produced a signal if the verifier/acquisition path were functioning?",
+      "related_research_records": [
+        "R37"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-02",
+            "probe": "What negative control should have produced a signal if the verifier/acquisition path were functioning?",
+            "trigger": "Expected positive control fails or negative control unexpectedly matches.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-02",
+            "probe": "What negative control should have produced a signal if the verifier/acquisition path were functioning?",
+            "trigger": "Expected positive control fails or negative control unexpectedly matches.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [
+        {
+          "layer": "local_editorial_clarification",
+          "value": "The baseline says negative control should have produced a signal. Preserve that historical wording, but use positive control expected to signal / negative control expected not to signal when implementing the probe."
+        }
+      ],
+      "effective_disposition": {
+        "layer": "local_editorial_clarification",
+        "value": "The baseline says negative control should have produced a signal. Preserve that historical wording, but use positive control expected to signal / negative control expected not to signal when implementing the probe."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "U-03",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "Where might the same failure be selected out in both producer and verifier paths?",
+      "related_research_records": [
+        "R23",
+        "R37",
+        "R38"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-03",
+            "probe": "Where might the same failure be selected out in both producer and verifier paths?",
+            "trigger": "Attempt/denominator mismatch, missing records or shared implementation assumptions.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-03",
+            "probe": "Where might the same failure be selected out in both producer and verifier paths?",
+            "trigger": "Attempt/denominator mismatch, missing records or shared implementation assumptions.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [],
+      "effective_disposition": {
+        "layer": "baseline/analytics",
+        "value": "Preserved unchanged; probe is not a finding."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "U-04",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "Could source timestamps, export paths, dependency upgrades or metadata change explain an apparent mechanism change?",
+      "related_research_records": [
+        "R37"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-04",
+            "probe": "Could source timestamps, export paths, dependency upgrades or metadata change explain an apparent mechanism change?",
+            "trigger": "New version/surface or provenance mismatch.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-04",
+            "probe": "Could source timestamps, export paths, dependency upgrades or metadata change explain an apparent mechanism change?",
+            "trigger": "New version/surface or provenance mismatch.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [],
+      "effective_disposition": {
+        "layer": "baseline/analytics",
+        "value": "Preserved unchanged; probe is not a finding."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "U-05",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "What unsupported conclusion could a downstream reader still infer from the current UI or certificate wording?",
+      "related_research_records": [
+        "R37"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-05",
+            "probe": "What unsupported conclusion could a downstream reader still infer from the current UI or certificate wording?",
+            "trigger": "A reviewed card or report implies identity, intent, accuracy or safety beyond its receipts.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-05",
+            "probe": "What unsupported conclusion could a downstream reader still infer from the current UI or certificate wording?",
+            "trigger": "A reviewed card or report implies identity, intent, accuracy or safety beyond its receipts.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [],
+      "effective_disposition": {
+        "layer": "baseline/analytics",
+        "value": "Preserved unchanged; probe is not a finding."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    },
+    {
+      "id": "U-06",
+      "kind": "residual_unknown_unknown_probes",
+      "question_or_probe": "What genuinely new observation fails to fit every registered explanation?",
+      "related_research_records": [
+        "R37"
+      ],
+      "historical_records": [
+        {
+          "stage": "baseline_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-06",
+            "probe": "What genuinely new observation fails to fit every registered explanation?",
+            "trigger": "A concrete anomaly with retained bytes/trace and failed reproduction of expected behavior.",
+            "not_a_finding": true
+          }
+        },
+        {
+          "stage": "analytics_record",
+          "historical_only": true,
+          "record": {
+            "id": "U-06",
+            "probe": "What genuinely new observation fails to fit every registered explanation?",
+            "trigger": "A concrete anomaly with retained bytes/trace and failed reproduction of expected behavior.",
+            "not_a_finding": true
+          }
+        }
+      ],
+      "additive_status_history": [],
+      "effective_disposition": {
+        "layer": "baseline/analytics",
+        "value": "Preserved unchanged; probe is not a finding."
+      },
+      "source_ids": [
+        "S-QUESTIONS"
+      ],
+      "section_id": "A02",
+      "execution_selected": false,
+      "historical_pending_text_is_not_current_assignment": true
+    }
+  ]
+}

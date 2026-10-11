@@ -1,0 +1,3078 @@
+{
+  "schema": "axispl.public-design-observation-tracks.v1",
+  "meaning": "Position and recurrence only; never secret-key membership, elapsed time or proof of independent observations.",
+  "rows": [
+    {
+      "sample": "clean",
+      "position_zero_based": 0,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 1,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 2,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 3,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 4,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 5,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 6,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 7,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 8,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 9,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 10,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 11,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 12,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 13,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 14,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 15,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 16,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 17,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 18,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 19,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 20,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 21,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 22,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 23,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 24,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 25,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 26,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 27,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 28,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 29,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 30,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 31,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 32,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 33,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 34,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 35,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 36,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 37,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 38,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 39,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 40,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 41,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 42,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 43,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 44,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 45,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 46,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 47,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 48,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 49,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 50,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 51,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 52,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 53,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 54,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 55,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 56,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 57,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 58,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 59,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 60,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 61,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 62,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 63,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 64,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 65,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 66,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 67,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 68,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 69,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 70,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 71,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 72,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 73,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 74,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 75,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 76,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 77,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 78,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 79,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 80,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 81,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 82,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 83,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 84,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 85,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 86,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 87,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 88,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 89,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 90,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 91,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 92,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 93,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 94,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 95,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 96,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 97,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 98,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 99,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 100,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 101,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 102,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 103,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 104,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 105,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 106,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 107,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 108,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 109,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 110,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 111,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 112,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 113,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 114,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 115,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 116,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 117,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 118,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 119,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 120,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 121,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 122,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 123,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 124,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 125,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 126,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 127,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 128,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 129,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 130,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 131,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 132,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 133,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 134,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 135,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 136,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 137,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 138,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 139,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 140,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 141,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 142,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 143,
+      "window_class": "first_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 144,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 145,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 146,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 147,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 148,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 149,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 150,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 151,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 152,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 153,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 154,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 155,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 156,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 157,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 158,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 159,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 160,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 161,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 162,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 163,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 164,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 165,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 166,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 167,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 168,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 169,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 170,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 171,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 172,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 173,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 174,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 175,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 176,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 177,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 178,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 179,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 180,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 181,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 182,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 183,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 184,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 185,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 186,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 187,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 188,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 189,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 190,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 191,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 192,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 193,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 194,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 195,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 196,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 197,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 198,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 199,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 200,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 201,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 202,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 203,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 204,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 205,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 206,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 207,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 208,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 209,
+      "window_class": "first_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 210,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 211,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 212,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 213,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 214,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 215,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 216,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 217,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 218,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 219,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 220,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 221,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 222,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 223,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 224,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 225,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 226,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 227,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 228,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 229,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 230,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 231,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 232,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 233,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 234,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 235,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 236,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 237,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 238,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 239,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 240,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 241,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 242,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 243,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 244,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 245,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 246,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 247,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 248,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 249,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 250,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 251,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 252,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 253,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 254,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "clean",
+      "position_zero_based": 255,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 0,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 1,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 2,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 3,
+      "window_class": "unscored_prefix",
+      "context_class": "unscored_prefix"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 4,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 5,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 6,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 7,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 8,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 9,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 10,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 11,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 12,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 13,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 14,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 15,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 16,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 17,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 18,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 19,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 20,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 21,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 22,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 23,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 24,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 25,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 26,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 27,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 28,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 29,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 30,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 31,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 32,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 33,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 34,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 35,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 36,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 37,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 38,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 39,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 40,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 41,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 42,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 43,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 44,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 45,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 46,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 47,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 48,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 49,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 50,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 51,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 52,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 53,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 54,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 55,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 56,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 57,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 58,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 59,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 60,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 61,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 62,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 63,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 64,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 65,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 66,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 67,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 68,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 69,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 70,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 71,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 72,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 73,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 74,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 75,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 76,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 77,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 78,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 79,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 80,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 81,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 82,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 83,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 84,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 85,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 86,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 87,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 88,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 89,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 90,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 91,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 92,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 93,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 94,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 95,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 96,
+      "window_class": "first_window",
+      "context_class": "first_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 97,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 98,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 99,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 100,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 101,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 102,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 103,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 104,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 105,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 106,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 107,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 108,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 109,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 110,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 111,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 112,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 113,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 114,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 115,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 116,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 117,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 118,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 119,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 120,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 121,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 122,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 123,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 124,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 125,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 126,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 127,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 128,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 129,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 130,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 131,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 132,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 133,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 134,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 135,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 136,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 137,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 138,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 139,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 140,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 141,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 142,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 143,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 144,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 145,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 146,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 147,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 148,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 149,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 150,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 151,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 152,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 153,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 154,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 155,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 156,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 157,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 158,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 159,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 160,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 161,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 162,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 163,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 164,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 165,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 166,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 167,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 168,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 169,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 170,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 171,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 172,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 173,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 174,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 175,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 176,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 177,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 178,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 179,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 180,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 181,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 182,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 183,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 184,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 185,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 186,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 187,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 188,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 189,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 190,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 191,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 192,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 193,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 194,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 195,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 196,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 197,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 198,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 199,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 200,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 201,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 202,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 203,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 204,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 205,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 206,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 207,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 208,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 209,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 210,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 211,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 212,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 213,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 214,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 215,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 216,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 217,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 218,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 219,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 220,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 221,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 222,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 223,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 224,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 225,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 226,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 227,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 228,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 229,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 230,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 231,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 232,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 233,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 234,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 235,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 236,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 237,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 238,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 239,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 240,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 241,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 242,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 243,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 244,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 245,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 246,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 247,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 248,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 249,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 250,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 251,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 252,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 253,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 254,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    },
+    {
+      "sample": "marked",
+      "position_zero_based": 255,
+      "window_class": "repeated_window",
+      "context_class": "repeated_context"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="468pt" height="411pt" viewBox="0 0 468 411" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9+dfsg1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 411 
+L 468 411 
+L 468 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 7 29 
+L 461 29 
+" clip-path="url(#pd89f5b2756)" style="fill: none; stroke: #007c83; stroke-width: 1.1; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 7 154 
+L 461 154 
+" clip-path="url(#pd89f5b2756)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 7 245 
+L 461 245 
+" clip-path="url(#pd89f5b2756)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 7 336 
+L 461 336 
+" clip-path="url(#pd89f5b2756)" style="fill: none; stroke: #d1dcd7; stroke-width: 0.7; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="7" y="15.358281" transform="rotate(-0 7 15.358281)">F10  /  From source field to bounded interpretation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="47.838594" transform="rotate(-0 7 47.838594)">Three evidence routes; source meaning and interpretation remain separate.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007c83" x="7" y="80.838594" transform="rotate(-0 7 80.838594)">R05  /  S-EARLY-AUDITS</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="98.838594" transform="rotate(-0 7 98.838594)">SOURCE</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="98.838594" transform="rotate(-0 75 98.838594)">17 files; specified anomalous-byte classes absent.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="118.838594" transform="rotate(-0 7 118.838594)">READING</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="118.838594" transform="rotate(-0 75 118.838594)">A historical negative scan of particular uploaded copies.</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="138.838594" transform="rotate(-0 7 138.838594)">CEILING</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="138.838594" transform="rotate(-0 75 138.838594)">Ordinary-space encoding and unavailable original inputs remain distinct.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007c83" x="7" y="171.838594" transform="rotate(-0 7 171.838594)">R28  /  S-FIELD-HISTORY</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="189.838594" transform="rotate(-0 7 189.838594)">SOURCE</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="189.838594" transform="rotate(-0 75 189.838594)">Task usefulness is null in both historical groups.</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="209.838594" transform="rotate(-0 7 209.838594)">READING</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="209.838594" transform="rotate(-0 75 209.838594)">No usefulness score was supplied.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="229.838594" transform="rotate(-0 7 229.838594)">CEILING</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="229.838594" transform="rotate(-0 75 229.838594)">Null does not mean zero utility or confirmed useful output.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #007c83" x="7" y="262.838594" transform="rotate(-0 7 262.838594)">R31  /  S-OBSERVER</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="280.838594" transform="rotate(-0 7 280.838594)">SOURCE</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="280.838594" transform="rotate(-0 75 280.838594)">Returned output exactly matches supplied expected output.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="300.838594" transform="rotate(-0 7 300.838594)">READING</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="300.838594" transform="rotate(-0 75 300.838594)">Counts and reported-score arithmetic agree on shared fixtures.</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #52666a" x="7" y="320.838594" transform="rotate(-0 7 320.838594)">CEILING</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="75" y="320.838594" transform="rotate(-0 75 320.838594)">No independent measurement of 60 keyed hits or authenticated execution.</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #163336" x="7" y="365.838594" transform="rotate(-0 7 365.838594)">Correction discipline</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 382.838594)">Recovering a record changes custody. It does not enlarge a historical</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #163336" transform="translate(7 393.942414)">scan's feature scope, supply a missing measurement or authenticate a device.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd89f5b2756">
+   <rect x="0" y="0" width="468" height="411"/>
+  </clipPath>
+ </defs>
+</svg>

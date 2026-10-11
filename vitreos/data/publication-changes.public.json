@@ -1,0 +1,520 @@
+{
+  "schema": "axispl.publication-changes.v1",
+  "date": "2026-10-11",
+  "baseline": "20261010_format_cards_v2",
+  "changes": [
+    {
+      "id": "CHANGE-R39",
+      "record": "R39",
+      "field": "observation",
+      "old": "Peripheral forecasts and informal observations motivated discussion, but lacked prospective resolution criteria and sufficient evidence for a causal interpretation. Personal circumstances are omitted from this public abstraction.",
+      "new": "Historical conjectures concerned access/cost stratification, resource constraints, information disorder, and marking/guardrails. They lacked prospective resolution criteria and a scored baseline. A separate personal-contact anecdote did not substantiate the assistant-suggested NDA or gated-lab explanation; neither silence nor speculation established hidden intent. Personal circumstances remain abstracted.",
+      "source": "Historical research register R39; source family S-HISTORY / S-EARLY-DIALOGUE.",
+      "reason": "Restore nonpersonal forecast topics and the failed causal inference obscured by the prior abstraction.",
+      "claim_impact": "No predictive success or causal claim added; historical unscored status preserved."
+    }
+  ],
+  "source_map_updates": [
+    {
+      "source": "S-HISTORY",
+      "old": {
+        "id": "S-HISTORY",
+        "title": "Full investigation history and operator methodological requests",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-HISTORY",
+        "title": "Full investigation history and operator methodological requests",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-EARLY-DIALOGUE",
+      "old": {
+        "id": "S-EARLY-DIALOGUE",
+        "title": "Early exploratory model dialogue",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-EARLY-DIALOGUE",
+        "title": "Early exploratory model dialogue",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-INFORMAL-LEADS",
+      "old": {
+        "id": "S-INFORMAL-LEADS",
+        "title": "Informal third-party mechanism hypotheses",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-INFORMAL-LEADS",
+        "title": "Informal third-party mechanism hypotheses",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-COMPARATIVE",
+      "old": {
+        "id": "S-COMPARATIVE",
+        "title": "Historical paired-corpus, arbitrary-key and container analyses",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-COMPARATIVE",
+        "title": "Historical paired-corpus, arbitrary-key and container analyses",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Numerical corpus/null and container projections are public; original corpora remain privately retained.",
+        "included_derivatives": [
+          "data/research-register.public.json",
+          "data/comparative-observations.public.json",
+          "data/comparative-observations.public.csv"
+        ],
+        "verification_ceiling": "Selected aggregates can be recomputed from public rows; original-input and pooled-ngram analyses cannot be rerun from this projection."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-CONTRACTS",
+      "old": {
+        "id": "S-CONTRACTS",
+        "title": "Historical cross-format and contract analyses",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-CONTRACTS",
+        "title": "Historical cross-format and contract analyses",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Cross-format counts, code/schema discrepancies and extractor findings are public projections; original fixture bundles remain private.",
+        "included_derivatives": [
+          "data/research-register.public.json",
+          "data/comparative-observations.public.json"
+        ],
+        "verification_ceiling": "Passing implementation tests did not establish schema equivalence. Raw PDF byte matches do not establish parsed actions."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-ENGINEERING",
+      "old": {
+        "id": "S-ENGINEERING",
+        "title": "Frozen bounded engineering case study and accepted receipts",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-ENGINEERING",
+        "title": "Frozen bounded engineering case study and accepted receipts",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Public methods and exact toy fixtures/source/expected results are included. Native runtime and secret keys remain private.",
+        "included_derivatives": [
+          "data/research-register.public.json",
+          "data/native-methods.public.json",
+          "data/synthetic-controls.expected.json",
+          "fixtures/synthetic-controls.public.json",
+          "scripts/reproduce_controls.py",
+          "sources/controls/membership.py"
+        ],
+        "verification_ceiling": "Toy controls and planning arithmetic are reproducible. This does not reproduce native membership or perform calibration."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-QUESTIONS",
+      "old": {
+        "id": "S-QUESTIONS",
+        "title": "Original questions, probes and additive current dispositions",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/future-work.public.json",
+          "data/original-gates.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-QUESTIONS",
+        "title": "Original questions, probes and additive current dispositions",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+        "included_derivatives": [
+          "data/future-work.public.json",
+          "data/original-gates.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-FIELD-HISTORY",
+      "old": {
+        "id": "S-FIELD-HISTORY",
+        "title": "Historical field-runtime and adjacent radio reports",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-FIELD-HISTORY",
+        "title": "Historical field-runtime and adjacent radio reports",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Seven numerical field rows and dated contribution receipts are projected publicly. Complete clean historical exporter source is unavailable; raw operational logs remain private.",
+        "included_derivatives": [
+          "data/research-register.public.json",
+          "data/field-observations.public.json",
+          "data/field-observations.public.csv",
+          "data/field-contributions.public.json"
+        ],
+        "verification_ceiling": "Row summaries are reproducible. Historical execution, utility, accelerator use and radio semantics are not established by this projection."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-EARLY-AUDITS",
+      "old": {
+        "id": "S-EARLY-AUDITS",
+        "title": "Recovered early audit material and six retained summaries",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Six retained copies and audit material recovered privately; the 17 original audit inputs remain unavailable in the reviewed material.",
+        "included_derivatives": [
+          "data/research-register.public.json"
+        ],
+        "verification_ceiling": "A summary route is not independent evidence or source authentication."
+      },
+      "new": {
+        "id": "S-EARLY-AUDITS",
+        "title": "Recovered early audit material and six retained summaries",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Public measurements include 17 audit rows and six summary records. Six source copies were recovered privately; the 17 original audit inputs remain unavailable.",
+        "included_derivatives": [
+          "data/research-register.public.json",
+          "data/historical-audits.public.json"
+        ],
+        "verification_ceiling": "Totals and pairwise reported values are inspectable; this is not a fresh original-input byte audit."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-RESULTS",
+      "old": {
+        "id": "S-RESULTS",
+        "title": "Retained-pair key-holder aggregate results and disclosed trace projection",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/results.public.json",
+          "fixtures/profile.public.json",
+          "fixtures/clean-completion.public.json",
+          "fixtures/marked-completion.public.json",
+          "data/observation-tracks.public.json"
+        ],
+        "verification_ceiling": "Included completion IDs support exact counts. Included aggregate hits support arithmetic only; no secret-key membership reconstruction."
+      },
+      "new": {
+        "id": "S-RESULTS",
+        "title": "Retained-pair key-holder aggregate results and disclosed trace projection",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "Exact owned prompt/completion text, completion arrays, scientific settings and aggregate results are public. Original receipts are held privately.",
+        "included_derivatives": [
+          "data/results.public.json",
+          "fixtures/profile.public.json",
+          "fixtures/clean-completion.public.json",
+          "fixtures/marked-completion.public.json",
+          "data/observation-tracks.public.json",
+          "data/native-methods.public.json",
+          "fixtures/native-prompt.public.txt",
+          "fixtures/native-clean.public.txt",
+          "fixtures/native-marked.public.txt",
+          "data/results.public.csv"
+        ],
+        "verification_ceiling": "Included arrays support exact recurrence counts; aggregate hits support arithmetic. Native secret-key membership cannot be recomputed publicly."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    },
+    {
+      "source": "S-OBSERVER",
+      "old": {
+        "id": "S-OBSERVER",
+        "title": "Accepted peer-reported keyless execution and exact output agreement",
+        "origin": "Historical source summarized into an explicitly labeled public derivative",
+        "availability": "Underlying original retained privately; not an open raw-data route in this design packet.",
+        "included_derivatives": [
+          "data/observer-receipt.public.json",
+          "data/keyless-check.expected.json"
+        ],
+        "verification_ceiling": "Peer-reported historical execution; supplied expected output and fixed input; local public derivative does not authenticate the event."
+      },
+      "new": {
+        "id": "S-OBSERVER",
+        "title": "Accepted peer-reported keyless execution and exact output agreement",
+        "origin": "Retained historical source represented by identified public derivatives",
+        "availability": "The public observer receipt and expected counts are included; the original operational return is retained privately.",
+        "included_derivatives": [
+          "data/observer-receipt.public.json",
+          "data/keyless-check.expected.json",
+          "data/field-contributions.public.json"
+        ],
+        "verification_ceiling": "Peer-reported execution with shared inputs and supplied expected output; the public projection does not authenticate the device event."
+      },
+      "reason": "Replace coarse availability with actual public artifact routes and retain the limits of the original."
+    }
+  ],
+  "additions": [
+    "Exact native prompt/completion text and nonsecret generation conditions",
+    "Seven historical field rows, means/ranges and contribution chronology",
+    "17-file audit, six-summary and comparative measurement projections",
+    "Exact frozen toy fixtures, source and expected results",
+    "Artifact-level availability catalog, data dictionary and reproduction guide",
+    "Static evidence and PDF views; full existing records and figures retained"
+  ],
+  "claim_availability_updates": [
+    {
+      "claim": "L-01",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Count and arithmetic route supplied; secret-key membership unavailable."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Exact completion arrays support 93 distinct-window counts; supplied aggregate hits support nominal arithmetic. Native membership remains unavailable."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-02",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Count and arithmetic route supplied; secret-key membership unavailable."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "All 18 public supplied-hit score calculations are checkable. The separate historical keyed implementation receipt remains a private-source report."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-03",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Count and arithmetic route supplied; secret-key membership unavailable."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Public recurrence rows and nominal score tables make the unit change inspectable; native membership and causal repetition mechanisms are not independently reproduced."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-04",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Exact public fixtures, public-key derivation, source and frozen expected output are included; run scripts/reproduce_controls.py."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-05",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "All 24 toy relabelings and the segmentation example are reproducible with scripts/reproduce_controls.py."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-06",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Historical core-test receipt summary; the full original core test environment is not distributed in this atlas."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-07",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Historical analytical replay receipt summary; distinct from the local browser checks of this publication site."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-08",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Historical AxisPL wheel/sdist and smoke-test receipts; the original wheel/runtime is not redistributed in this atlas."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-09",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Public observer receipt, expected counts and contribution chronology are included; supplied-output equality does not authenticate the field event."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-10",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Seven public numerical rows and summaries are included. The stronger complete clean historical exporter-source claim remains unavailable."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-11",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Dated primary-source bibliography and preserved review history are included; declarations are background, not activation evidence for earlier specimens."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-12",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "The discrepancy and missing current compiled certificate remain documented; no public proof artifact establishes the excluded claim."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-13",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "Toy controls and finite-sample planning calculations are public; neither supplies generic authorship calibration or person attribution."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    },
+    {
+      "claim": "L-14",
+      "old": {
+        "status_scope": "Status of the preserved engineering result; not a test newly performed for this design packet.",
+        "public_reproduction": "Historical receipt summary; underlying private receipt is not distributed in this design packet."
+      },
+      "new": {
+        "status_scope": "Status of the preserved engineering result. This publication revision adds public evidence and calculation routes; it performs no new native or field experiment.",
+        "public_reproduction": "The observer projection preserves the original self-hash defect and separate receiver correction; it does not recreate the private original return archive."
+      },
+      "reason": "Identify the actual current public reproduction route while preserving the scientific claim, limit, status and reopening condition."
+    }
+  ],
+  "narrative_availability_updates": [
+    {
+      "section": "S05",
+      "old": "The preserved engineering freeze reproduced the fixed-fixture analysis; this public atlas carries its receipt summary and does not claim to rerun the undistributed underlying experiment.",
+      "new": "The preserved engineering freeze reproduced the fixed-fixture analysis. This edition publishes the exact fixtures, public-key derivation, focused source and expected output; its bounded replay matches that receipt. The control remains separate from the native pair and population calibration.",
+      "reason": "The current edition ships and has replayed the frozen public controls; the old unavailable-experiment wording was stale.",
+      "claim_impact": "No new sampled text, native generation or calibration added."
+    }
+  ],
+  "context_revision": {
+    "candidate": "Vitreos_AxisPL_Evidence_Atlas_20261011_purpose_context",
+    "baseline": "Vitreos_AxisPL_Evidence_Atlas_20261011_local_candidate",
+    "reason": "The opening explained evidence limits and closeout before stating the watermarking problem, affected readers, original motivation and reasons to follow up.",
+    "changes": [
+      "Name AI watermarking, counter-watermarking, attribution and provenance on the cover and in reader metadata.",
+      "Restore the mid-August origins, educational and source-evidence motivation, and the local/AxisPL/AgentHRIM/Corax/browser contribution roles in S01.",
+      "Add five dated primary-source developments and education guidance, distinguish report dates from incident periods, and state how they motivate selected open questions.",
+      "Update S02 source-review wording, A05 dated bibliography and the S01 navigation label."
+    ],
+    "experimental_record_through": "2026-10-09",
+    "external_context_checked": "2026-10-11",
+    "claim_impact": "No experimental data, scientific record field, specimen, result, figure, claim limit or hypothesis status changed. External reports are context; no new native, field, detector or adversarial experiment is claimed.",
+    "source_routes": [
+      "S-EARLY-DIALOGUE",
+      "S-HISTORY",
+      "manuscript/background-sources.md"
+    ],
+    "limits": "Selected examples are not a prevalence estimate, a complete incident history, commercial-tool validation or a forecast. Reported incidents are not Vitreos-tested artifacts."
+  }
+}

@@ -1,0 +1,19 @@
+sample,key_role,unit,hits,denominator,gamma,nominal_z,membership_origin,source_id
+clean,primary,raw_positions,53,252,0.25,-1.454785934906616,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,primary,first_context,53,249,0.25,-1.3537592065395143,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,primary,first_window,53,251,0.25,-1.421239008304057,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_1,raw_positions,64,252,0.25,0.14547859349066158,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_1,first_context,63,249,0.25,0.10976425998969035,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_1,first_window,64,251,0.25,0.1822101292697509,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_2,raw_positions,77,252,0.25,2.0367003088692623,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_2,first_context,75,249,0.25,1.865992419824736,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+clean,wrong_key_2,first_window,76,251,0.25,1.9314273702593594,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,primary,raw_positions,168,252,0.25,15.275252316519467,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,primary,first_context,60,93,0.25,8.800659799311969,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,primary,first_window,60,93,0.25,8.800659799311969,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_1,raw_positions,60,252,0.25,-0.4364357804719847,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_1,first_context,20,93,0.25,-0.7782896421160245,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_1,first_window,20,93,0.25,-0.7782896421160245,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_2,raw_positions,49,252,0.25,-2.0367003088692623,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_2,first_context,17,93,0.25,-1.4967108502231241,reported original-key local rescore; not measured by this keyless packet,S-RESULTS
+marked,wrong_key_2,first_window,17,93,0.25,-1.4967108502231241,reported original-key local rescore; not measured by this keyless packet,S-RESULTS

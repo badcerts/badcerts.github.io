@@ -1,0 +1,14 @@
+{
+  "context_width": 4,
+  "vocabulary_size": 151936,
+  "excluded_target_ids": [
+    151643,
+    151646
+  ],
+  "gamma": 0.25,
+  "historical_minimum_scorable_tokens": 100,
+  "minimum_rule_note": "Historical minimum is retained as profile information, not newly qualified for a distinct-unit inference rule.",
+  "selection": "first eligible occurrence in original completion order",
+  "identity": "exact integer tuple, never a hashed seed",
+  "scope": "Retained completion-token projection; no retokenization or new generation."
+}

@@ -1,0 +1,140 @@
+{
+  "schema": "axispl.public-design-source-map.v1",
+  "rule": "Paths refer to this publication payload. Artifact-level availability, checks and hashes are in data/artifact-catalog.public.json. PUBLIC_MANIFEST.json binds generated outputs. Private originals, public derivatives and unavailable inputs are distinct states.",
+  "sources": [
+    {
+      "id": "S-HISTORY",
+      "title": "Full investigation history and operator methodological requests",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+      "included_derivatives": [
+        "data/research-register.public.json"
+      ],
+      "verification_ceiling": "A summary route is not independent evidence or source authentication."
+    },
+    {
+      "id": "S-EARLY-DIALOGUE",
+      "title": "Early exploratory model dialogue",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+      "included_derivatives": [
+        "data/research-register.public.json"
+      ],
+      "verification_ceiling": "A summary route is not independent evidence or source authentication."
+    },
+    {
+      "id": "S-INFORMAL-LEADS",
+      "title": "Informal third-party mechanism hypotheses",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+      "included_derivatives": [
+        "data/research-register.public.json"
+      ],
+      "verification_ceiling": "A summary route is not independent evidence or source authentication."
+    },
+    {
+      "id": "S-COMPARATIVE",
+      "title": "Historical paired-corpus, arbitrary-key and container analyses",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Numerical corpus/null and container projections are public; original corpora remain privately retained.",
+      "included_derivatives": [
+        "data/research-register.public.json",
+        "data/comparative-observations.public.json",
+        "data/comparative-observations.public.csv"
+      ],
+      "verification_ceiling": "Selected aggregates can be recomputed from public rows; original-input and pooled-ngram analyses cannot be rerun from this projection."
+    },
+    {
+      "id": "S-CONTRACTS",
+      "title": "Historical cross-format and contract analyses",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Cross-format counts, code/schema discrepancies and extractor findings are public projections; original fixture bundles remain private.",
+      "included_derivatives": [
+        "data/research-register.public.json",
+        "data/comparative-observations.public.json"
+      ],
+      "verification_ceiling": "Passing implementation tests did not establish schema equivalence. Raw PDF byte matches do not establish parsed actions."
+    },
+    {
+      "id": "S-ENGINEERING",
+      "title": "Frozen bounded engineering case study and accepted receipts",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Public methods and exact toy fixtures/source/expected results are included. Native runtime and secret keys remain private.",
+      "included_derivatives": [
+        "data/research-register.public.json",
+        "data/native-methods.public.json",
+        "data/synthetic-controls.expected.json",
+        "fixtures/synthetic-controls.public.json",
+        "scripts/reproduce_controls.py",
+        "sources/controls/membership.py"
+      ],
+      "verification_ceiling": "Toy controls and planning arithmetic are reproducible. This does not reproduce native membership or perform calibration."
+    },
+    {
+      "id": "S-QUESTIONS",
+      "title": "Original questions, probes and additive current dispositions",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Underlying original retained privately; not an open raw-data route in this publication payload.",
+      "included_derivatives": [
+        "data/future-work.public.json",
+        "data/original-gates.public.json"
+      ],
+      "verification_ceiling": "A summary route is not independent evidence or source authentication."
+    },
+    {
+      "id": "S-FIELD-HISTORY",
+      "title": "Historical field-runtime and adjacent radio reports",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Seven numerical field rows and dated contribution receipts are projected publicly. Complete clean historical exporter source is unavailable; raw operational logs remain private.",
+      "included_derivatives": [
+        "data/research-register.public.json",
+        "data/field-observations.public.json",
+        "data/field-observations.public.csv",
+        "data/field-contributions.public.json"
+      ],
+      "verification_ceiling": "Row summaries are reproducible. Historical execution, utility, accelerator use and radio semantics are not established by this projection."
+    },
+    {
+      "id": "S-EARLY-AUDITS",
+      "title": "Recovered early audit material and six retained summaries",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Public measurements include 17 audit rows and six summary records. Six source copies were recovered privately; the 17 original audit inputs remain unavailable.",
+      "included_derivatives": [
+        "data/research-register.public.json",
+        "data/historical-audits.public.json"
+      ],
+      "verification_ceiling": "Totals and pairwise reported values are inspectable; this is not a fresh original-input byte audit."
+    },
+    {
+      "id": "S-RESULTS",
+      "title": "Retained-pair key-holder aggregate results and disclosed trace projection",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "Exact owned prompt/completion text, completion arrays, scientific settings and aggregate results are public. Original receipts are held privately.",
+      "included_derivatives": [
+        "data/results.public.json",
+        "fixtures/profile.public.json",
+        "fixtures/clean-completion.public.json",
+        "fixtures/marked-completion.public.json",
+        "data/observation-tracks.public.json",
+        "data/native-methods.public.json",
+        "fixtures/native-prompt.public.txt",
+        "fixtures/native-clean.public.txt",
+        "fixtures/native-marked.public.txt",
+        "data/results.public.csv"
+      ],
+      "verification_ceiling": "Included arrays support exact recurrence counts; aggregate hits support arithmetic. Native secret-key membership cannot be recomputed publicly."
+    },
+    {
+      "id": "S-OBSERVER",
+      "title": "Accepted peer-reported keyless execution and exact output agreement",
+      "origin": "Retained historical source represented by identified public derivatives",
+      "availability": "The public observer receipt and expected counts are included; the original operational return is retained privately.",
+      "included_derivatives": [
+        "data/observer-receipt.public.json",
+        "data/keyless-check.expected.json",
+        "data/field-contributions.public.json"
+      ],
+      "verification_ceiling": "Peer-reported execution with shared inputs and supplied expected output; the public projection does not authenticate the device event."
+    }
+  ]
+}

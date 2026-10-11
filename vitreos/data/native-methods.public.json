@@ -1,0 +1,101 @@
+{
+  "schema": "axispl.public-native-methods.v1",
+  "experiment": "E-TOK-01; one owned clean/marked pair, generated 12 September 2026",
+  "origin": "Selected fields from retained generation receipts and qualification sources; no new model execution.",
+  "model": {
+    "repository_identifier": "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    "class": "Qwen2ForCausalLM",
+    "device": "cpu",
+    "parameter_dtype": "torch.bfloat16",
+    "weights_sha256": "58858233513d76b8703e72eed6ce16807b523328188e13329257fb9594462945"
+  },
+  "implementation": {
+    "axispl_version": "0.1.4",
+    "commit": "7f09d34ca6fef346312907f5647bcab7f28a8d45",
+    "qualification_checkout": "a083897",
+    "harness_source_sha256": "41457cf12eeceb17fa7d7edad536f7bbb8767a590c336d1d74b8bb78709e5ef5"
+  },
+  "tokenizer": {
+    "class": "Qwen2Tokenizer",
+    "fingerprint_v2": "099db59b593cbd9d86803f35f3b7be28ac406a17c24dad7cab118951d1a49391",
+    "base_vocab_size": 151643,
+    "tokenizer_length": 151665,
+    "model_output_vocab_size": 151936,
+    "pad_eos_id": 151643,
+    "excluded_target_ids": [
+      151643,
+      151646
+    ]
+  },
+  "runtime": {
+    "python": "3.13.14",
+    "transformers": "5.17.0",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "reported_run_seconds": 310.12,
+    "memory_limit_gib": 8,
+    "scheduled_cpus": 1,
+    "interpretation": "Historical resource conditions, not a comparative speed benchmark."
+  },
+  "prompt": {
+    "file": "fixtures/native-prompt.public.txt",
+    "sha256": "f2bc1d97b2062b6176aca5554436ed6ff845e79b66fbdb46598453c8d772f613",
+    "format": "Raw completion input; no chat template; prompt excluded from returned text."
+  },
+  "sampling": {
+    "do_sample": true,
+    "seed": 1337,
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "max_new_tokens": 256,
+    "retries": 0,
+    "note": "Explicit overrides; not a complete dump of library defaults."
+  },
+  "historical_watermark_profile": {
+    "scheme": "hmac-sha256-splitmix64-greenlist-v1",
+    "gamma": 0.25,
+    "delta": 2.0,
+    "context_width": 4,
+    "min_tokens": 100,
+    "candidate_z": 4.0,
+    "strong_z": 6.0,
+    "scope": "Historical raw-position settings; not empirical calibration or a newly adopted distinct-window threshold."
+  },
+  "samples": [
+    {
+      "sample": "clean",
+      "text_file": "fixtures/native-clean.public.txt",
+      "text_bytes": 1204,
+      "text_sha256": "a6c31343ee0d472428a70c28510a7342919c9cb10b6070486070647a38f9f1a6",
+      "generated_at": "2026-09-12T13:41:54Z",
+      "prompt_tokens": 28,
+      "completion_tokens": 256,
+      "seed": 1337,
+      "generation": {
+        "max_new_tokens": 256,
+        "temperature": 0.8,
+        "top_p": 0.95
+      },
+      "watermark_enabled": false
+    },
+    {
+      "sample": "marked",
+      "text_file": "fixtures/native-marked.public.txt",
+      "text_bytes": 1185,
+      "text_sha256": "c413778e6517b670fada26777c701342cb83ceb996da153edc13640812f404a4",
+      "generated_at": "2026-09-12T13:44:09Z",
+      "prompt_tokens": 28,
+      "completion_tokens": 256,
+      "seed": 1337,
+      "generation": {
+        "max_new_tokens": 256,
+        "temperature": 0.8,
+        "top_p": 0.95
+      },
+      "watermark_enabled": true
+    }
+  ],
+  "quality_observation": "Both retained outputs reached the 256-token cap without EOS. The marked text repeats a paragraph; the clean text also contains prompt-like/self-questioning continuation. This pair does not identify the cause of the quality difference.",
+  "roundtrip_status": "Original receipt reports generated and re-encoded IDs equal. This publication checks retained bytes and arrays; it does not retokenize.",
+  "reproduction_limit": "Prompt, text, identities and settings are public. Native keys, position-level native membership, model weights and the complete original runtime are not redistributed. Public counts and arithmetic do not verify secret-key membership."
+}

@@ -1,0 +1,300 @@
+[
+  {
+    "id": "F01",
+    "candidate_ids": [
+      "C01"
+    ],
+    "title": "Availability, observation and sensitivity",
+    "svg": "f01-availability,-observation-and-sensitivity.svg",
+    "png": "f01-availability,-observation-and-sensitivity.png",
+    "source_ids": [
+      "S-EARLY-AUDITS",
+      "S-ENGINEERING",
+      "S-FIELD-HISTORY",
+      "S-HISTORY",
+      "S-OBSERVER",
+      "S-QUESTIONS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R01",
+      "R05",
+      "R06",
+      "R18",
+      "R27",
+      "R28",
+      "R31",
+      "R32",
+      "R33"
+    ],
+    "observation_unit": "Named evidence families; public custody differs from private recovery",
+    "description": "Availability does not certify a claim. The audit output and six summaries were recovered privately; the 17 original audit inputs remain unavailable. Each row states what was observed and the scope in which absence is informative.",
+    "caption": "Availability does not certify a claim. The audit output and six summaries were recovered privately; the 17 original audit inputs remain unavailable. Each row states what was observed and the scope in which absence is informative.",
+    "limits": "Categorical editorial summary of the specified records; no confidence score, sensitivity estimate or population conclusion."
+  },
+  {
+    "id": "F02",
+    "candidate_ids": [
+      "C02",
+      "C12",
+      "C16"
+    ],
+    "title": "Hypothesis episodes and revisions",
+    "svg": "f02-hypothesis-episodes-and-revisions.svg",
+    "png": "f02-hypothesis-episodes-and-revisions.png",
+    "source_ids": [
+      "S-EARLY-AUDITS",
+      "S-ENGINEERING",
+      "S-FIELD-HISTORY",
+      "S-HISTORY",
+      "S-INFORMAL-LEADS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R03",
+      "R05",
+      "R18",
+      "R21",
+      "R22",
+      "R23",
+      "R27",
+      "R32",
+      "R38"
+    ],
+    "observation_unit": "Five categorical hypothesis lanes; labeled events and within-history correction arcs",
+    "description": "Hypothesis lanes preserve proposals, tests, corrections and retained endpoints. Labeled arcs narrow the byte-scan claim while retaining ordinary-space alternatives, and connect the earlier 39-75 feasible bound to the measured 60/93 keyed count. Shapes identify event types; open and excluded endpoints remain distinct.",
+    "caption": "Hypothesis lanes preserve proposals, tests, corrections and retained endpoints. Labeled arcs narrow the byte-scan claim while retaining ordinary-space alternatives, and connect the earlier 39-75 feasible bound to the measured 60/93 keyed count. Shapes identify event types; open and excluded endpoints remain distinct.",
+    "limits": "Positions and lane lengths are ordinal layout only, not duration, credibility, probability or statistical survival. Arcs document interpretive relationships, not independent evidence. Open endpoints do not initiate experiments."
+  },
+  {
+    "id": "F03",
+    "candidate_ids": [
+      "C03"
+    ],
+    "title": "Two arguments with visible limits",
+    "svg": "f03-two-arguments-with-visible-limits.svg",
+    "png": "f03-two-arguments-with-visible-limits.png",
+    "source_ids": [
+      "S-EARLY-AUDITS",
+      "S-ENGINEERING",
+      "S-HISTORY",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R05",
+      "R18",
+      "R20",
+      "R33"
+    ],
+    "observation_unit": "Two documented Toulmin arguments; data, warrant, bounded claim, qualifier and rebuttal",
+    "description": "Each argument connects data to a bounded claim horizontally. A separate warrant enters that inference from below; custody qualifications attach to the observation and rebuttals limit the claim. The negative byte audit and positive keyed excess therefore receive the same explicit inferential treatment. Neither warrants generic authorship attribution.",
+    "caption": "Each argument connects data to a bounded claim horizontally. A separate warrant enters that inference from below; custody qualifications attach to the observation and rebuttals limit the claim. The negative byte audit and positive keyed excess therefore receive the same explicit inferential treatment. Neither warrants generic authorship attribution.",
+    "limits": "Solid arrows express documented reasoning and dotted links its scope conditions, not proof of premises or source authentication. Spatial position and box area are categorical, with no numerical evidence-strength scale."
+  },
+  {
+    "id": "F04",
+    "candidate_ids": [
+      "C04"
+    ],
+    "title": "Recurrence at every completion position",
+    "svg": "f04-recurrence-at-every-completion-position.svg",
+    "png": "f04-recurrence-at-every-completion-position.png",
+    "source_ids": [
+      "S-CONTRACTS",
+      "S-EARLY-DIALOGUE",
+      "S-ENGINEERING",
+      "S-HISTORY",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R13",
+      "R14",
+      "R18",
+      "R20"
+    ],
+    "observation_unit": "512 source rows; exact completion position; separate four-token context and context-plus-target units",
+    "description": "Every source position is represented in two aligned annotation tracks per specimen. Clean has 251 first windows and 249 first contexts; marked has 93 of each. All remaining eligible positions are repeats. The initial four positions are unscored.",
+    "caption": "Every source position is represented in two aligned annotation tracks per specimen. Clean has 251 first windows and 249 first contexts; marked has 93 of each. All remaining eligible positions are repeats. The initial four positions are unscored.",
+    "limits": "Tracks show recurrence only, never secret-key membership. Deduplicating exact units does not establish independence, and position is not elapsed time. Counts are derived directly from observation-tracks.public.json."
+  },
+  {
+    "id": "F05",
+    "candidate_ids": [
+      "C06",
+      "C07",
+      "C19"
+    ],
+    "title": "Shared inputs, different operations",
+    "svg": "f05-shared-inputs,-different-operations.svg",
+    "png": "f05-shared-inputs,-different-operations.png",
+    "source_ids": [
+      "S-ENGINEERING",
+      "S-FIELD-HISTORY",
+      "S-HISTORY",
+      "S-OBSERVER",
+      "S-QUESTIONS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R18",
+      "R27",
+      "R31",
+      "R32",
+      "R38"
+    ],
+    "observation_unit": "Categorical artifact nodes, analysis-event vertices and labeled exchange/reuse edges",
+    "description": "In the main component, four artifact nodes and three analysis-event vertices expose which materials are exchanged and reused. Dashed connections identify the shared fixed IDs/profile; solid arrows carry keys, measured aggregates or supplied observer code and expected output. A separate historical field component prevents the older inference evidence from being conflated with the October keyless observer.",
+    "caption": "Boxes are artifacts; diamonds are analysis events. Dashed bonds expose reuse of one pair; solid arrows label exchanges. Only the key holder measures membership. Observer code and expected output are supplied to the keyless observer, whose execution is peer-reported. The disconnected branch preserves earlier field work.",
+    "limits": "Categorical geometry only: no time scale, amplitudes, tensor operation, edge weights or measured covariance. A line crossing is not an event. Shared inputs do not add independent samples or authenticate execution."
+  },
+  {
+    "id": "F06",
+    "candidate_ids": [
+      "C08"
+    ],
+    "title": "Provenance layers and the claim boundary",
+    "svg": "f06-provenance-layers-and-the-claim-boundary.svg",
+    "png": "f06-provenance-layers-and-the-claim-boundary.png",
+    "source_ids": [
+      "S-COMPARATIVE",
+      "S-CONTRACTS",
+      "S-EARLY-AUDITS",
+      "S-EARLY-DIALOGUE",
+      "S-ENGINEERING",
+      "S-HISTORY",
+      "S-INFORMAL-LEADS",
+      "S-OBSERVER",
+      "S-QUESTIONS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R03",
+      "R05",
+      "R12",
+      "R13",
+      "R14",
+      "R17",
+      "R18",
+      "R31",
+      "R35"
+    ],
+    "observation_unit": "Conceptual provenance questions",
+    "description": "Five equal perspective planes are separated by visible gaps and aligned by dotted, non-directional guides. Each has a short leader to a provenance question and named research/source records. Source bytes: R05 audit output recovered, original 17 inputs unavailable. Export/container: R12 inspected metadata structures absent; R13 word-preserving exports do not add independent samples. Model rewriting is a separate case retained by R14. Tokenizer/profile: R17/R18 retained known-key scheme and four-token context plus target. Verifier/check: R18 keyed membership versus R31 keyless counts with expected output supplied. Permitted claim: R18/R35 bounded scheme evidence with old specimen activation unresolved.",
+    "caption": "Five conceptual planes separate retained bytes, export/container, tokenizer/profile, verification and permitted claim. Source-linked callouts keep unavailable inputs, inspected absence and supplied expectations distinct. R14 separately treats model rewriting as a possible marking event.",
+    "limits": "Planes and guides show conceptual layers, not confidence, physical assembly order or a universal causal pipeline. Export copies add no independent samples."
+  },
+  {
+    "id": "F07",
+    "candidate_ids": [
+      "C09"
+    ],
+    "title": "Primary-key numerical comparisons",
+    "svg": "f07-primary-key-numerical-comparisons.svg",
+    "png": "f07-primary-key-numerical-comparisons.png",
+    "source_ids": [
+      "S-RESULTS",
+      "S-ENGINEERING",
+      "S-HISTORY"
+    ],
+    "record_ids": [
+      "R18",
+      "R19",
+      "R20",
+      "R33"
+    ],
+    "observation_unit": "Primary-key hit counts by sample and observation unit",
+    "description": "Primary-key rows from the 18-row preserved result table. Raw marked 168/252 (z=15.2753) becomes 60/93 (z=8.8007) for first contexts and first windows. Clean denominators are 252, 249 and 251. Full-precision scores remain in results.public.json/CSV.",
+    "caption": "Primary-key rows from the 18-row preserved result table. Raw marked 168/252 (z=15.2753) becomes 60/93 (z=8.8007) for first contexts and first windows. Clean denominators are 252, 249 and 251. Full-precision scores remain in results.public.json/CSV.",
+    "limits": "No calibrated p-value, confidence interval, false-positive rate or authorship probability is supplied. Rows reuse one pair; raw and deduplicated units are different. Nominal z plotted at four decimal places."
+  },
+  {
+    "id": "F08",
+    "candidate_ids": [
+      "C10"
+    ],
+    "title": "Claim conditions and explicit exclusions",
+    "svg": "f08-claim-conditions-and-explicit-exclusions.svg",
+    "png": "f08-claim-conditions-and-explicit-exclusions.png",
+    "source_ids": [
+      "S-ENGINEERING",
+      "S-FIELD-HISTORY",
+      "S-OBSERVER",
+      "S-QUESTIONS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R18",
+      "R31",
+      "R32",
+      "R33",
+      "R42"
+    ],
+    "observation_unit": "Five selected ledger claims, with explicit conditions and exclusions",
+    "description": "The crosswalk summarizes explicit limits attached to L-01, L-09, L-10, L-12 and L-13. Excluded statements are shown only with their excluded status and unmet condition; the full ledger supplies all 14 claim entries.",
+    "caption": "The crosswalk summarizes explicit limits attached to L-01, L-09, L-10, L-12 and L-13. Excluded statements are shown only with their excluded status and unmet condition; the full ledger supplies all 14 claim entries.",
+    "limits": "This is a selected claim-condition table, not an inferred claim-to-gate graph or overall pass rate. No unsupported relationship among L, F, A or U identifiers is created."
+  },
+  {
+    "id": "F09",
+    "candidate_ids": [
+      "C14",
+      "C15"
+    ],
+    "title": "Continuation states and finite stopping",
+    "svg": "f09-continuation-states-and-finite-stopping.svg",
+    "png": "f09-continuation-states-and-finite-stopping.png",
+    "source_ids": [
+      "S-CONTRACTS",
+      "S-ENGINEERING",
+      "S-HISTORY",
+      "S-INFORMAL-LEADS",
+      "S-OBSERVER",
+      "S-QUESTIONS",
+      "S-RESULTS"
+    ],
+    "record_ids": [
+      "R18",
+      "R22",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R35",
+      "R36",
+      "R37",
+      "R42"
+    ],
+    "observation_unit": "Conceptual continuation states and explicitly preserved discovery probes",
+    "description": "Closed obligations, unavailable sources, known unknowns, overlooked existing knowledge and discovery probes remain distinct. Future protocols become work only after a specific claim is selected; this map does not initiate experiments.",
+    "caption": "Closed obligations, unavailable sources, known unknowns, overlooked existing knowledge and discovery probes remain distinct. Future protocols become work only after a specific claim is selected; this map does not initiate experiments.",
+    "limits": "A conceptual process map, not a formal state machine or reachability proof. Rows do not partition all records or rank expected information gain."
+  },
+  {
+    "id": "F10",
+    "candidate_ids": [
+      "C05",
+      "C12"
+    ],
+    "title": "From source field to bounded interpretation",
+    "svg": "f10-from-source-field-to-bounded-interpretation.svg",
+    "png": "f10-from-source-field-to-bounded-interpretation.png",
+    "source_ids": [
+      "S-EARLY-AUDITS",
+      "S-ENGINEERING",
+      "S-FIELD-HISTORY",
+      "S-HISTORY",
+      "S-OBSERVER",
+      "S-QUESTIONS"
+    ],
+    "record_ids": [
+      "R05",
+      "R28",
+      "R31",
+      "R32"
+    ],
+    "observation_unit": "Three distinct source-to-interpretation routes",
+    "description": "Each route binds a source field to its technical reading and a permitted claim. The layout is an interpretive gloss; it does not imply that unrelated observations are equivalent or that an inference is literal translation.",
+    "caption": "Each route binds a source field to its technical reading and a permitted claim. The layout is an interpretive gloss; it does not imply that unrelated observations are equivalent or that an inference is literal translation.",
+    "limits": "Retained summaries and public derivatives preserve specific claims; they do not provide independent source authentication or recover unavailable original measurements."
+  }
+]

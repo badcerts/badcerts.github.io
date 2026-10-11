@@ -1,0 +1,4 @@
+WeasyPrint==69.0
+Markdown==3.10.3
+matplotlib==3.10.9
+Pillow==12.3.0
