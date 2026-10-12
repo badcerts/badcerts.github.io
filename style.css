@@ -1,35 +1,3 @@
-@font-face {
-  font-family: "Audiowide";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url("fonts/audiowide-latin-400-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Syncopate";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url("fonts/syncopate-latin-400-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Syncopate";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 700;
-  src: url("fonts/syncopate-latin-700-normal.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Share Tech Mono";
-  font-style: normal;
-  font-display: swap;
-  font-weight: 400;
-  src: url("fonts/share-tech-mono-latin-400-normal.woff2") format("woff2");
-}
-
 :root {
   color-scheme: dark;
   --bg: #011313;
@@ -53,7 +21,7 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   line-height: 1.5;
   text-align: center;
 }
@@ -78,13 +46,13 @@ h2 {
 }
 
 h1 {
-  font-family: "Audiowide", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   font-size: clamp(1.2rem, 5.5vw, 1.7rem);
   overflow-wrap: anywhere;
 }
 
 h2 {
-  font-family: "Syncopate", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   margin: 0 0 0.9rem;
   color: var(--muted);
   font-size: 0.9rem;
@@ -113,7 +81,7 @@ p {
 }
 
 a {
-  font-family: "Share Tech Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
   color: var(--link);
   text-decoration: underline;
   text-underline-offset: 0.18em;
