@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Experiments in AI watermarking, attribution and provenance: methods, results, negative controls and open questions.">
+<title>Vitreos: AI Watermarking, Attribution and Provenance</title><link rel="stylesheet" href="assets/atlas.css"><script defer src="assets/atlas.js"></script></head>
+<body class="reader"><a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html">Vitreos</a><nav aria-label="Publication"><a href="index.html" aria-current="page">Read</a><a href="report/report.html">Paper</a><a href="evidence.html">Evidence</a><a href="supplement.html">Supplement</a><a href="pdf.html">PDF</a><a href="../technical/index.html">Full research</a><a href="supplement.html#glossary">Glossary</a></nav>
+<label class="theme-control" for="theme" hidden>Appearance <select id="theme"><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></label></header>
+<main id="main" tabindex="-1"><header class="title"><h1>Vitreos</h1><p class="subtitle">AI watermarking, attribution and provenance</p><p class="edition">Research, August-October 2026</p></header><span id="S01" class="fragment"></span><h2 id="why">What can a mark actually tell us?</h2>
+<p>A convincing document can have a fabricated origin. A genuine document can be
+falsely accused of being generated. And a person can spend weeks on a piece of
+work, use a model for one small edit, and discover that a detector's label has
+swallowed the distinction.</p>
+<p>Vitreos investigates the evidence behind those labels. It began with inspections
+of model outputs and exported files, then moved to controlled local generation,
+repetition tests and a small RISC-V computer. The question throughout is practical:
+<strong>what can we measure about a document's origin, and how far does that evidence go?</strong></p>
+<p>There is a useful result here. A locally generated marked passage retained a
+key-related signal after repeated token windows were counted only once. There
+are equally useful negatives: changing token IDs alone did not change decoded
+text distributions, several searches could not resolve their original question,
+and some apparent anomalies came from the inspection tools.</p>
+<p>This is a case study with reproducible calculations, not a universal detector.
+It offers a way to examine provenance claims, challenge unsupported accusations,
+and design better tests without surrendering the evidence to an opaque score.</p>
+<span id="S04" class="fragment"></span><h2 id="technologies">Four technologies, four different questions</h2>
+<p><strong>A statistical text watermark</strong> is introduced while a model generates text.
+A key influences choices among possible next tokens. A compatible detector
+later tests for the resulting relationship. The evidence lives in the sequence
+of choices; it need not involve invisible characters or a hidden field in a file.</p>
+<p><strong>An AI-text classifier</strong> estimates whether writing resembles examples from its
+training data. It can operate without a watermark key. Its answer depends on
+its training, test population and threshold; polished grammar or a familiar
+phrase is not a cryptographic signature.</p>
+<p><strong>File metadata</strong> can record software, dates and editing information. Ordinary
+metadata may be changed or lost. A text passage copied out of a PDF does not
+carry every property of the original container with it.</p>
+<p><strong>Signed content credentials</strong>, such as C2PA, bind provenance assertions to an
+asset and a signing identity. Validation checks that binding and the relevant
+trust conditions. It does not decide whether the depicted event happened or
+whether the author's account is honest. See the <a href="report/report.html#mechanisms">technical explanation</a>.</p>
+<p>These approaches can complement one another. Confusing them makes a weak test
+look decisive: finding no unusual Unicode says little about keyed token
+selection, and finding no embedded credential says little about text that was
+copied through an export path that did not carry one.</p>
+<h3 id="what-the-providers-disclose">What the providers disclose</h3>
+<p>As of 11 October 2026, Anthropic describes a SynthID-Text variant; Google publishes
+a research implementation of SynthID Text; OpenAI describes textGrain and a
+limited initial rollout. Their keys, implementations and access conditions are
+not interchangeable. The <a href="report/report.html#providers">provider comparison</a>
+links the dated primary sources and explains the mechanisms.</p>
+<p>Vitreos did not recover those providers' keys or defeat their production systems.
+Its local greenlist experiment tests a specified method under conditions the
+research could inspect. Earlier provider-output observations remain separate.</p>
+<span id="S02" class="fragment"></span><span id="S03" class="fragment"></span><span id="S05" class="fragment"></span><span id="S06" class="fragment"></span><h2 id="experiments">The experiments and what they found</h2>
+<h3 id="a-local-watermark-survived-the-repetition-check">A local watermark survived the repetition check</h3>
+<p>A 1.5-billion-parameter DeepSeek model produced one unmarked and one marked
+completion from the same prompt and sampling seed. The marked run used a keyed
+greenlist from the project's experimental software, Axis Provenance Lab (AxisPL):
+a context-dependent subset of possible tokens received a sampling bias. Each completion reached 256 tokens.</p>
+<p>In the supplied key-holder scoring, the marked text had 168 hits among 252
+eligible positions. But the passage repeated itself. Counting each exact
+four-token context plus its following token only once left 93 windows and
+60 hits. The clean completion had 53 hits among 251 distinct windows.</p>
+<figure id="figure-native"><a href="figures/native.png" aria-label="Open full-size figure: One generated pair, two ways of counting"><img src="figures/native.png" alt="One generated pair, two ways of counting" width="1440" height="800"></a><figcaption><strong>One generated pair, two ways of counting.</strong> Registered-key hits as a share of eligible positions or distinct windows. The dashed line is the nominal green fraction, not a calibrated detection threshold. Source: data/results.public.json. <a class="screen-only" href="figures/native.png">Full-size figure</a></figcaption></figure>
+<p>The excess did not disappear when exact repetitions were removed. That is a
+specific result about this pair. It does not supply a calibrated error rate,
+measure writing quality, or establish that a private provider used this method.
+The public files let anyone check the token counts and score arithmetic;
+the original secret-key memberships are supplied evidence.
+<a href="report/report.html#native">Methods and all scores</a>; <a href="supplement.html#R18">record R18</a>.</p>
+<h3 id="repetition-can-make-a-statistic-look-much-stronger">Repetition can make a statistic look much stronger</h3>
+<p>The next test used synthetic sequences and 4,096 fixed public test keys. A
+short motif repeated many times could cross a nominal score threshold even
+though it contained little new structure. For the 16-window motif repeated
+64 times, 1,502 key trials crossed nominal z = 4; one did when exact duplicate
+windows were counted once. The distinct-window fixture had no raw crossings.</p>
+<p>These are results for constructed sequences, not a false-positive rate for
+human writing. They demonstrate why counting positions as independent evidence
+can fail. Deduplication repairs that particular source of inflation, but does
+not automatically make all remaining observations independent. OpenAI's
+<a href="https://cdn.openai.com/pdf/e9508624-d767-41b6-a26d-e34ca798ada6/textgrain-entropy-calibrated-watermarking-for-language-model-text.pdf">textGrain technical report</a> gives its own detector the same rule:
+score only the first occurrence of each distinct context window.
+<a href="report/report.html#repetition">Control and reproducible code</a>.</p>
+<h3 id="a-negative-search-only-answers-the-question-it-could-detect">A negative search only answers the question it could detect</h3>
+<p>A retained audit summary covers 17 Markdown files. It found no hits for the
+specified anomalous character classes. Two lines contained ordinary trailing
+spaces. That result does not exclude a watermark expressed through otherwise
+ordinary token choices or separator positions. The original files are not in
+the public package, so the audit itself cannot be rerun from these summaries.</p>
+<p>Comparisons of nine prose pairs and 32 constrained completion pairs found no
+exact pair matches. A separate scan using 64 arbitrary keys and a surrogate
+tokenization did not cross its nominal threshold. Without the provider's
+actual profile, that scan cannot exclude a provider watermark. It is a record
+of what that particular detector failed to see.
+<a href="report/report.html#early-observations">Early observations</a>.</p>
+<h3 id="the-container-and-the-instrument-can-mislead">The container and the instrument can mislead</h3>
+<p>Five image/export fixtures lacked the inspected embedded credential structures.
+Separately, all five inspected HTML segments and all nine PDF segments retained
+their source word sequences. Converting one passage into several files did not
+create several independent generations.</p>
+<p>Two apparent signals were inspection errors: a raw PDF byte search mistook a
+substring inside compressed data for an action entry, and one extractor turned
+ten bullets into a control character. Parsing the format and comparing extraction
+paths changed the interpretation. <a href="report/report.html#containers">File and parser observations</a>.</p>
+<h3 id="what-ran-on-the-orange-pi-rv2">What ran on the Orange Pi RV2</h3>
+<p>The field device was an Orange Pi RV2 RISC-V board. Historical records identify
+a Ky X1 CPU; the October observer receipt reports eight logical CPUs, Linux
+6.6.63-ky and Python 3.12.3. It successfully reran the small, offline trace and
+arithmetic observer against supplied data. It did not load the language model
+or recover a watermark key.</p>
+<p>The practical tool chain was Orange Pi RV2 RISC-V/Ky X1 hardware, KY-ORT 1.2.2
+/ K1 for historical optimized ONNX Runtime import, a vendor Qwen2 INT4 0.5B
+ONNX-format model for the compact rows, AxisPL 0.1.4 qualification checks,
+and a Python keyless observer.</p>
+<p>Earlier local-inference records also compare four compact-context runs with
+three broad-context runs. Mean time to first token was 12.45 versus 63.00 seconds.
+Those are useful resource observations, but the historical runs were not a
+randomized experiment. They do not prove a causal speedup or NPU acceleration.
+The native marked/unmarked pair described above was generated separately, on
+an ordinary x86-64 computer. <a href="report/report.html#field">Equipment, workloads and limits</a>.</p>
+<figure id="figure-field"><a href="figures/field.png" aria-label="Open full-size figure: Orange Pi RV2 field runs by context size"><img src="figures/field.png" alt="Orange Pi RV2 field runs by context size" width="1440" height="800"></a><figcaption><strong>Orange Pi RV2 field runs by context size.</strong> Group means (bars) and individual runs (dots). Compact runs: 437-token prompt, Qwen2 INT4 0.5B under KY-ORT 1.2.2. Broad runs: 1,749-token prompt, model variant not recovered. Historical, nonrandom runs; not a controlled benchmark or evidence of per-run accelerator use. Source: data/field-observations.public.json. <a class="screen-only" href="figures/field.png">Full-size figure</a></figcaption></figure>
+<span id="S07" class="fragment"></span><span id="A02" class="fragment"></span><span id="F-03" class="fragment"></span><span id="A-02" class="fragment"></span><span id="R21" class="fragment"></span><span id="R22" class="fragment"></span><h2 id="tokenizer">The strongest next question: can tokenization carry a keyed signal?</h2>
+<p>Tokenizers turn text into units a model can process. Changing those units seems
+like an attractive place to investigate a watermark: could a custom tokenizer,
+coupled to a key and a generation rule, leave a relationship that a matching
+detector can recognize in the finished text?</p>
+<p>One simple version has already been ruled out in a toy control. All 24 ways of
+renaming a four-token vocabulary produced the same visible-text distributions
+when probabilities and decoding were renamed consistently. Giving the same
+choices new numbers changes the labels, not the language. Likewise, two token
+segmentations can decode to exactly the same bytes.</p>
+<p>The broader question remains open. <strong>A key coupled to segmentation or generation
+choices might leave an observable relationship between the output and that key.</strong>
+The test must specify what operation changes the output, and how the detector
+uses the corresponding profile. An average distribution across keys can stay
+the same while a known key remains informative; a generic style classifier
+need not see the same relationship.</p>
+<figure id="figure-tokenizer"><a href="figures/tokenizer.png" aria-label="Open full-size figure: Representation and observable output"><img src="figures/tokenizer.png" alt="Representation and observable output" width="1440" height="800"></a><figcaption><strong>Representation and observable output.</strong> Conceptual distinction: the identity-only control is complete; the broader tokenizer/generation construction has not been tested. Sources: R21 and R22. <a class="screen-only" href="figures/tokenizer.png">Full-size figure</a></figcaption></figure>
+<p>The next useful prototype would use owned generation and public test keys,
+with a detector fixed before testing. Correct-key, wrong-key, wrong-profile,
+clean-text and identity-only controls would distinguish an actual effect from
+relabeling. Held-out prompts, quality checks and declared editing tests would
+show whether the effect is useful. It also needs comparison with existing
+keyed sampling methods before anyone claims a new method family.</p>
+<p>This proposal is <strong>untested</strong>. No current result establishes concealment from
+generic detectors, robustness after editing or superiority to provider methods.
+Its value is that it names a precise, testable next step.
+<a href="supplement.html#R22">Proposal R22</a>; <a href="supplement.html#R21">negative control R21</a>.</p>
+<p>Other worthwhile tests concern ordinary separator positions, false marking and
+transplantation, mixed human/model passages, and calibration on held-out natural
+text. The <a href="report/report.html#next-tests">research priorities</a> explain the next
+observation that would distinguish each idea from its alternatives.</p>
+<span id="A04" class="fragment"></span><h2 id="practice">Attribution without false certainty</h2>
+<p>Defending provenance means resisting both concealed machine involvement and
+false implication. A purported anti-watermarking tool may claim success against
+a detector that never worked on its input. A purported detector may condemn an
+ordinary document because its threshold was tested on the wrong population.
+Both claims need controlled comparisons.</p>
+<p>For editors, researchers and people protecting their own work, the practical
+procedure starts before the detector:</p>
+<ol>
+<li><strong>Keep the original.</strong> Preserve original bytes, a hash, the acquisition route
+   and an editing history. Retain the original privately when public release
+   would expose personal material.</li>
+<li><strong>Name the test.</strong> Record its model/profile, key access, input requirements,
+   threshold and compatible positive control. An incompatible test does not
+   become informative merely because it produces a number.</li>
+<li><strong>Track the unit.</strong> Distinguish a generation from its copies, a sentence from
+   its repeated occurrences, and the content from its container. Test extracted
+   text and original files according to the evidence each can carry.</li>
+<li><strong>Inspect ordinary alternatives.</strong> Compare parsers, template effects, quoting,
+   repetition and editing before attributing an anomaly to a hidden system.</li>
+<li><strong>State the narrow finding.</strong> A detected relationship can support involvement
+   under a particular profile. It does not identify the user, measure human
+   effort, settle ownership or verify the truth of a story.</li>
+</ol>
+<p>Local, inspectable tooling helps preserve this chain. Sovereignty here means
+being able to keep and question the evidence, including a provider's claim
+and the local detector's own limitations. It does not mean assuming either
+one is infallible. The same discipline matters when provenance is used to
+assess deceptive media, although these text experiments do not measure image,
+audio or video watermark robustness.</p>
+<span id="M01" class="fragment"></span><span id="A01" class="fragment"></span><span id="A03" class="fragment"></span><span id="A05" class="fragment"></span><span id="A06" class="fragment"></span><span id="A07" class="fragment"></span><span id="A08" class="fragment"></span><h2 id="read-more">Read, reproduce, challenge</h2>
+<p>The <a href="report/report.html">technical paper</a> gives the methods, parameters, tables,
+limitations and references. Its <a href="report/Vitreos.pdf">PDF</a> is intended for reading
+and printing. The <a href="evidence.html">evidence page</a> leads directly to specimens,
+machine-readable data and offline reproduction commands.</p>
+<p>The <a href="supplement.html">full supplement</a> preserves all 42 research records and
+their open questions, including weak observations and unsuccessful approaches.
+The <a href="../technical/index.html">complete technical edition</a> and its
+<a href="../technical/report/Vitreos_Evidence_Atlas.pdf">252-page PDF</a> are included in
+this working package: the long-form narrative, methods, casebooks, twelve
+figures and complete evidence tables.
+The <a href="#offline-evidence">package map</a> locates both reports, the supplement, public
+data and editable build sources. Native specimen bytes and
+token arrays are preserved; editorial derivatives and unavailable originals
+are identified in the <a href="#offline-evidence">publication note</a>.</p>
+<p>This edition reorganizes the existing evidence. It reports no new provider
+test, device generation or validated tokenizer-coupled watermark.</p><details class="legacy-index"><summary>Research record index</summary><ul><li id="R01"><a href="supplement.html#R01">R01: Absence and the noise-floor doctrine</a></li><li id="R02"><a href="supplement.html#R02">R02: Model agreement and mechanism guesses</a></li><li id="R03"><a href="supplement.html#R03">R03: Ordinary separator positions remain a distinct question</a></li><li id="R04"><a href="supplement.html#R04">R04: Inherited source marks and quotation-policy story</a></li><li id="R05"><a href="supplement.html#R05">R05: 17-file negative byte audit</a></li><li id="R06"><a href="supplement.html#R06">R06: Six-summary comparison and collection mistake</a></li><li id="R07"><a href="supplement.html#R07">R07: Effort-associated source/heading formatting</a></li><li id="R08"><a href="supplement.html#R08">R08: Conditional deterministic-sampling inference</a></li><li id="R09"><a href="supplement.html#R09">R09: Single-file observability and activation uncertainty</a></li><li id="R10"><a href="supplement.html#R10">R10: Matching-prompt A/B corpora and overlap</a></li><li id="R11"><a href="supplement.html#R11">R11: 64 arbitrary-key null scan</a></li><li id="R12"><a href="supplement.html#R12">R12: Image/container provenance negatives</a></li><li id="R13"><a href="supplement.html#R13">R13: Conversions do not multiply linguistic evidence</a></li><li id="R14"><a href="supplement.html#R14">R14: Provenance unit and generation-path confounds</a></li><li id="R15"><a href="supplement.html#R15">R15: Instrument-generated weak signals</a></li><li id="R16"><a href="supplement.html#R16">R16: Passing tests versus contract equivalence</a></li><li id="R17"><a href="supplement.html#R17">R17: Local known-key observer as a change of question</a></li><li id="R18"><a href="supplement.html#R18">R18: Native keyed excess after deduplication</a></li><li id="R19"><a href="supplement.html#R19">R19: Native output suitability and repetition cause</a></li><li id="R20"><a href="supplement.html#R20">R20: Synthetic dependence counterexample</a></li><li><a href="supplement.html#R21">R21: Identity-only tokenizer permutation null</a></li><li><a href="supplement.html#R22">R22: Keyed tokenizer and generation coupling</a></li><li id="R23"><a href="supplement.html#R23">R23: Passive same-model interaction fingerprint</a></li><li id="R24"><a href="supplement.html#R24">R24: Passive code/style triage and quality association</a></li><li id="R25"><a href="supplement.html#R25">R25: False marking, transplantation and false implication</a></li><li id="R26"><a href="supplement.html#R26">R26: Current-policy formal assurance remains separate</a></li><li id="R27"><a href="supplement.html#R27">R27: Historical field context-cost observation</a></li><li id="R28"><a href="supplement.html#R28">R28: Utility, log and acceleration missingness</a></li><li id="R29"><a href="supplement.html#R29">R29: Radio repeatability without semantics</a></li><li id="R30"><a href="supplement.html#R30">R30: Historical importer repair and concurrency findings</a></li><li id="R31"><a href="supplement.html#R31">R31: October keyless observer and its limit</a></li><li id="R32"><a href="supplement.html#R32">R32: Unavailable clean exporter source</a></li><li id="R33"><a href="supplement.html#R33">R33: Calibration and finite stopping</a></li><li id="R34"><a href="supplement.html#R34">R34: Transformation and disclosure studies</a></li><li id="R35"><a href="supplement.html#R35">R35: Provider and credential knowledge changed over time</a></li><li id="R36"><a href="supplement.html#R36">R36: Unknown knowns: retrieval and integration loss</a></li><li id="R37"><a href="supplement.html#R37">R37: Unknown unknowns: preserve discovery capacity</a></li><li id="R38"><a href="supplement.html#R38">R38: Agreement quality and human acceptance of AI-assisted findings</a></li><li id="R39"><a href="supplement.html#R39">R39: Prospective forecasts and incomplete contextual observations</a></li><li id="R40"><a href="supplement.html#R40">R40: Governance, local custody and operational constraints</a></li><li id="R41"><a href="supplement.html#R41">R41: Research-process losses: unnecessary stops and file proliferation</a></li><li id="R42"><a href="supplement.html#R42">R42: Advanced math and assurance frontier</a></li></ul></details><section id="offline-evidence" class="chapter"><h2>Evidence Availability</h2><p>The browser edition keeps the rendered article, figures, and PDFs. Machine-readable source bundles and build records are held outside this public web tree for separate review.</p></section></main><footer><a href="https://badcerts.github.io/">badcerts.github.io</a><span>12 October 2026</span><a href="#offline-evidence">Publication note</a></footer></body></html>
